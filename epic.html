@@ -1,87 +1,10 @@
 <!DOCTYPE html>
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-<style>
-* {
-  box-sizing: border-box;
-}
-/* Hey there, bud. Welcome ( ° ͜ʖ ͡°) -Cuyoya */
-
-body {
-  background-color: #f1f1f1;
-}
-
-#regForm {
-  background-color: #ff5e91;
-  margin: 100px auto;
-  font-family: Lobster;
-  padding: 40px;
-  width: 70%;
-  min-width: 300px;
-}
-
-h1 {
-  text-align: center;
-}
-
-input {
-  padding: 10px;
-  width: 100%;
-  font-size: 17px;
-  font-family: Lobster;
-  border: 1px solid #aaaaaa;
-}
-
-/* Mark input boxes that gets an error on validation: */
-input.invalid {
-  background-color: #ffdddd;
-}
-
-/* Hide all steps by default: */
-.tab {
-  display: none;
-}
-
-button {
-  background-color: #ff0000;
-  color: #ffffff;
-  border: none;
-  padding: 10px 20px;
-  font-size: 17px;
-  font-family: Lobster;
-  cursor: pointer;
-}
-
-button:hover {
-  opacity: 0.8;
-}
-
-#prevBtn {
-  background-color: #bbbbbb;
-}
-
-/* Make circles that indicate the steps of the form: */
-.step {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #ff9fff;
-  border: none;
-  border-radius: 50%;
-  display: inline-block;
-  opacity: 0.5;
-}
-
-.step.active {
-  opacity: 1;
-}
-
-/* Mark the steps that are finished and valid: */
-.step.finish {
-  background-color: #d1005e;
-}
-</style>
+<head>
+  <link rel="stylesheet" href="epic.css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+</head>
 <body>
 
 <form id="regForm" action="/action_page.php">
