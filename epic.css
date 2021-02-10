@@ -14,14 +14,14 @@ body {
   letter-spacing: -1px;
   font-family: cooper-black-std, serif;
   padding: 6vw;
-  width: 50vw;
-  height: 28.125vw;
+  width: 50%;
+  height: 40%;
   min-width: 300px;
   font-size: 18px;
   font-weight: 1600;
   background-image:url('https://i.imgur.com/PFb6Klo.png');
   background-repeat:no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
 }
 
@@ -68,6 +68,7 @@ button {
 
 button:hover {
   opacity: 0.8;
+  background-color: #880001;
 }
 
 #prevBtn {
