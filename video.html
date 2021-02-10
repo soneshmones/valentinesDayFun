@@ -5,11 +5,16 @@
       console.log("hello world")
       var currentLocation = window.location;
       var query = currentLocation.search;
-      document.getElementById("query").innerHTML = query;
+      var searchParams = new URLSearchParams(query);
+      var videoIDValues = searchParams.values();
+      for(var value of videoIDValues) {
+        console.log(value);
+      }
+      document.getElementById("query").innerHTML = videoIDValues;
     }
   </script>
 </head>
 <body onload="parseURL()">
-  <h3>"The query is: " <span id="query"></span></h3>
+  <p>"Check the inspect console output to see youtube video IDs " <span id="query"></span></p>
 </body>
 </html>
