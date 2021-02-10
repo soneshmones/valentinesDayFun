@@ -10,22 +10,29 @@ body {
 #regForm {
   background-color: #ff5e91;
   text-shadow: 3px 3px 5px black;
-  margin: 100px auto;
+  margin: 10px auto;
   letter-spacing: -1px;
   font-family: cooper-black-std, serif;
-  padding: 40px;
-  width: 50%;
+  padding: 6vw;
+  width: 50vw;
+  height: 28.125vw;
   min-width: 300px;
-  font-size: 12px;
+  font-size: 18px;
   font-weight: 1600;
+  background-image:url('https://i.imgur.com/PFb6Klo.png');
+  background-repeat:no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 #regForm select {
-width:100px; }
+  width:100px;}
 
 #regForm select:focus {
 width:auto;
 }
+
+optgroup { font-size:40px; }
 
 h1 {
   text-align: center;
@@ -34,7 +41,7 @@ h1 {
 input {
   padding: 10px;
   width: 100%;
-  font-size: 17px;
+  font-size: 24px;
   font-family: Lobster;
   border: 1px solid #aaaaaa;
 }
@@ -54,7 +61,7 @@ button {
   color: #ffffff;
   border: none;
   padding: 10px 20px;
-  font-size: 17px;
+  font-size: 28px;
   font-family: Lobster;
   cursor: pointer;
 }
@@ -102,6 +109,6 @@ font-display:auto;font-style:bold;font-weight:1600;
 .tk-cooper-black-std { font-family: "cooper-black-std",serif; }
 
 #textContainer .outline {
-    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #000000;
 }
