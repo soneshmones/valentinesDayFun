@@ -9,11 +9,22 @@ body {
 
 #regForm {
   background-color: #ff5e91;
+  text-shadow: 3px 3px 5px black;
   margin: 100px auto;
-  font-family: Lobster;
+  letter-spacing: -1px;
+  font-family: cooper-black-std, serif;
   padding: 40px;
-  width: 70%;
+  width: 50%;
   min-width: 300px;
+  font-size: 18px;
+  font-weight: 1600;
+}
+
+#regForm select {
+width:100px; }
+
+#regForm select:focus {
+width:auto;
 }
 
 h1 {
@@ -61,6 +72,9 @@ button:hover {
   height: 15px;
   width: 15px;
   margin: 0 2px;
+  top:15px;
+  right:0;
+  bottom:15px;
   background-color: #ff9fff;
   border: none;
   border-radius: 50%;
@@ -75,4 +89,25 @@ button:hover {
 /* Mark the steps that are finished and valid: */
 .step.finish {
   background-color: #d1005e;
+}
+
+@import url("https://p.typekit.net/p.css?s=1&k=zga7vyy&ht=tk&f=6839.6840&a=34288673&app=typekit&e=css");
+
+@font-face {
+font-family:"cooper-black-std";
+src:url("https://use.typekit.net/af/9044bf/000000000000000000013102/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/9044bf/000000000000000000013102/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/9044bf/000000000000000000013102/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:1600;
+}
+
+@font-face {
+font-family:"cooper-black-std";
+src:url("https://use.typekit.net/af/4e1b68/000000000000000000013101/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/4e1b68/000000000000000000013101/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/4e1b68/000000000000000000013101/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:bold;font-weight:1600;
+}
+
+.tk-cooper-black-std { font-family: "cooper-black-std",serif; }
+
+#textContainer .outline {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000000;
 }
