@@ -7,6 +7,22 @@
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link rel="stylesheet" href="video.css">
     <script src="https://www.youtube.com/iframe_api"></script>
+    <script>
+      function myFunction() {
+        /* Get the text field */
+        var copyText = document.getElementById("myInput");
+
+        /* Select the text field */
+        copyText.select();
+        copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+        /* Copy the text inside the text field */
+        document.execCommand("copy");
+
+        /* Alert the copied text */
+        alert("Copied the text: " + copyText.value);
+      }
+    </script>
   </head>
 <body style="background-color:#FFAEC9;">
   <center><img id="logo" src="https://i.imgur.com/FPym7qh.png"></center>
@@ -57,6 +73,7 @@
     }
 </script>
 </div></center>
-<button onclick="CopyLink()">Click me</button>
+<input type="text" value="Hello World" id="myInput">
+<button onclick="myFunction()">Copy text</button>
 
 </html>
