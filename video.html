@@ -25,24 +25,39 @@
 <script src="https://www.youtube.com/iframe_api"></script>
 
 <script>
-    /**
-     * Put your video IDs in this array
-     */
-    // var videoIDs = [
-    //     'vFU6GlqPOAQ',
-    //     'HuLqYdKyYlE',
-    //     'wMt4yiXxb1k',
-    //     'dJsmj8dtZJs'
-    // ];
-
     var currentLocation = window.location;
     var query = currentLocation.search;
     var searchParams = new URLSearchParams(query);
-    var videoIDValues = searchParams.values();
-    var videoIDs = Array.from(videoIDValues);
-    for(var value of videoIDValues) {
-      console.log(value);
-    }
+
+    //get info
+    var name = searchParams.get('names');
+    var relation = searchParams.get('relations');
+    var meeting = searchParams.get('meeting');
+    var activity = searchParams.get('activity');
+    var thing = searchParams.get('thing');
+    var catchphrase = searchParams.get('catchphrase');
+    var morethan = searchParams.get('morethan');
+
+    // Make array
+    // let videoIDs = [];
+    // videoIDs.push('vFU6GlqPOAQ');
+    // videoIDs.push(name);
+    // videoIDs.push('wMt4yiXxb1k');
+    // videoIDs.push(relation);
+    // videoIDs.push('pHQjEt-MWuk')
+    // videoIDs.push(meeting);
+    // videoIDs.push('e9AiEZ6wMDg');
+    // videoIDs.push(activity);
+    // videoIDs.push('WZy-3wkqdAw');
+    // videoIDs.push(thing);
+    // videoIDs.push('xfgWZHIjJ5I')
+    // videoIDs.push(catchphrase);
+    // videoIDs.push('XESN8-cd7uE')
+    // videoIDs.push(morethan);
+    // videoIDs.push('qVEG8lNSxmo')
+    // videoIDs.push(name);
+
+    let videoIDs = ['vFU6GlqPOAQ', name, 'wMt4yiXxb1k', relation, 'pHQjEt-MWuk', meeting, 'e9AiEZ6wMDg', activity, 'WZy-3wkqdAw', thing, 'xfgWZHIjJ5I', catchphrase, 'XESN8-cd7uE', morethan, 'qVEG8lNSxmo', name];
 
     var player, currentVideoId = 0;
 
