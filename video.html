@@ -1,5 +1,15 @@
 <html>
-<script>
-console.log("hello world")
-</script>
+<head>
+  <script>
+    function parseURL() {
+      console.log("hello world")
+      var currentLocation = window.location;
+      var query = currentLocation.search;
+      document.getElementById("query").innerHTML = query;
+    }
+  </script>
+</head>
+<body onload="parseURL()">
+  <h3>"The query is: " <span id="query"></span></h3>
+</body>
 </html>
