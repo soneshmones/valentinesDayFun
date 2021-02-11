@@ -1,11 +1,8 @@
-body {
-  background-image: url('https://i.imgur.com/oUtZ8Qm.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-}
-
 @media only screen and (max-device-width : 640px) {
+
+#logo {
+  width: 100%;
+}
 
 #player {
   width: 95%;
@@ -36,6 +33,13 @@ body {
 }
 
 @media only screen and (min-device-width: 641px) {
+
+  body {
+    background-image: url('https://i.imgur.com/oUtZ8Qm.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
 
   .module-border-wrap {
     padding: 2px;

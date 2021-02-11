@@ -3,6 +3,18 @@
 }
 /* Hey there, bud. Welcome ( ° ͜ʖ ͡°) -Cuyoya */
 
+
+@media only screen and (min-device-width: 641px) {
+
+  body {
+    background-image: url('https://i.imgur.com/oUtZ8Qm.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
+}
+
 body {
   background-color: #f1f1f1;
 }
@@ -14,6 +26,7 @@ body {
   letter-spacing: -1px;
   font-family: cooper-black-std, serif;
   padding: 6vw;
+  padding-top: 7vw;
   width: 50%;
   min-width: 300px;
   font-size: 16px;
