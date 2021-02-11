@@ -6,6 +6,13 @@ html {
 
 @media only screen and (max-device-width : 640px) {
 
+body {
+  background-image: url('https://i.imgur.com/oUtZ8Qm.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 #logo {
   width: 100%;
 }
