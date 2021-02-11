@@ -64,6 +64,54 @@ textarea {
   height: 132px;
 }
 
+#bazinga{
+  position: relative;
+  text-align: center;
+  font-family: cooper-black-std, serif;
+  font-size: 34px;
+  text-shadow: 4px 4px 5px black;
+  bottom: 0px;
+  width: 100%;
+  padding-top: 60px;
+  justify-content: center;
+  align-items: center;
+  line-height: 0.5;
+}
+
+#bazingo{
+  position: relative;
+  text-align: center;
+  font-family: cooper-black-std, serif;
+  font-size: 34px;
+  text-shadow: 4px 4px 5px black;
+  bottom: 15px;
+  width: 100%;
+  padding-top: 45px;
+  justify-content: center;
+  align-items: center;
+  line-height: 0.5;
+}
+
+#bazingad{
+  position: relative;
+  text-align: center;
+  font-family: cooper-black-std, serif;
+  font-size: 52px;
+  text-shadow: 4px 4px 5px black;
+  bottom: 5px;
+  width: 100%;
+  padding-top: 60px;
+  justify-content: center;
+  align-items: center;
+  line-height: 0.5;
+}
+
+#nice{
+  vertical-align: middle;
+  height: 96px;
+  width: 96px;
+}
+
 }
 
 @media only screen and (min-device-width: 641px) {
@@ -116,6 +164,62 @@ textarea {
       font-size: 18px;
       height: 70px;
     }
+
+    #bazinga{
+      position: relative;
+      text-align: center;
+      font-family: cooper-black-std, serif;
+      font-size: 16px;
+      text-shadow: 2px 2px 3px black;
+      bottom: 15px;
+      width: 100%;
+      padding-top: 60px;
+      justify-content: center;
+      align-items: center;
+      line-height: 0.5;
+    }
+
+    #bazingo{
+      position: relative;
+      text-align: center;
+      font-family: cooper-black-std, serif;
+      font-size: 16px;
+      text-shadow: 2px 2px 3px black;
+      bottom: 15px;
+      width: 100%;
+      padding-top: 15px;
+      justify-content: center;
+      align-items: center;
+      line-height: 0.5;
+    }
+
+    #bazingad{
+      position: relative;
+      text-align: center;
+      font-family: cooper-black-std, serif;
+      font-size: 25px;
+      text-shadow: 4px 4px 5px black;
+      bottom: 15px;
+      width: 100%;
+      padding-top: 25px;
+      justify-content: center;
+      align-items: center;
+      line-height: 0.5;
+    }
+
+
+    #nice{
+      vertical-align: middle;
+      height: 48px;
+      width: 48px;
+    }
+
+
+    #nice{
+      vertical-align: middle;
+      height: 48px;
+      width: 48px;
+    }
 }
 
 @import url("https://p.typekit.net/p.css?s=1&k=zga7vyy&ht=tk&f=6839.6840&a=34288673&app=typekit&e=css");
@@ -131,22 +235,4 @@ font-display:auto;font-style:bold;font-weight:1600;
 #textContainer .outline {
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #000000;
-}
-
-#bazinga{
-  position: relative;
-  text-align: center;
-  font-family: cooper-black-std, serif;
-  font-size: 38px;
-  text-shadow: 4px 4px 5px black;
-  bottom: 5px;
-  width: 100%;
-  padding-top: 60px;
-  justify-content: center;
-  align-items: center;
-  line-height: 1;
-}
-
-#nice{
-  vertical-align: middle;
 }

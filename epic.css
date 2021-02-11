@@ -34,11 +34,42 @@ body {
   padding-top: 60px;
   justify-content: center;
   align-items: center;
-  line-height: 1;
+  line-height: 0.5;
 }
+
+#bazingo{
+  position: relative;
+  text-align: center;
+  font-family: cooper-black-std, serif;
+  font-size: 16px;
+  text-shadow: 2px 2px 3px black;
+  bottom: 5px;
+  width: 100%;
+  padding-top: 15px;
+  justify-content: center;
+  align-items: center;
+  line-height: 0.5;
+}
+
+#bazingad{
+  position: relative;
+  text-align: center;
+  font-family: cooper-black-std, serif;
+  font-size: 25px;
+  text-shadow: 4px 4px 5px black;
+  bottom: 5px;
+  width: 100%;
+  padding-top: 25px;
+  justify-content: center;
+  align-items: center;
+  line-height: 0.5;
+}
+
 
 #nice{
   vertical-align: middle;
+  height: 48px;
+  width: 48px;
 }
 
 #regForm {
