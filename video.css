@@ -34,6 +34,30 @@
     height: 95%;
 }
 
+button {
+  background-color: #ffffff;
+  color: #000000;
+  border: solid;
+  padding: 10px 20px;
+  font-size: 48px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+  background-color: #a9a9a9;
+}
+
+textarea {
+  width: 60%;
+  outline: none;
+  resize: none;
+  font-family: sans-serif;
+  font-size: 36px;
+  height: 132px;
+}
+
 }
 
 @media only screen and (min-device-width: 641px) {
@@ -61,5 +85,29 @@
   #player {
       position: center;
       padding-top: 10px;
+    }
+
+    button {
+      background-color: #ffffff;
+      color: #000000;
+      border: solid;
+      padding: 10px 20px;
+      font-size: 28px;
+      font-family: sans-serif;
+      cursor: pointer;
+    }
+
+    button:hover {
+      opacity: 0.8;
+      background-color: #a9a9a9;
+    }
+
+    textarea {
+      width: 320px;
+      outline: none;
+      resize: none;
+      font-family: sans-serif;
+      font-size: 18px;
+      height: 70px;
     }
 }
