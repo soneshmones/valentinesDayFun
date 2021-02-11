@@ -68,39 +68,37 @@ textarea {
   position: relative;
   text-align: center;
   font-family: cooper-black-std, serif;
-  font-size: 34px;
-  text-shadow: 4px 4px 5px black;
+  font-size: 2.5vw;
+  text-shadow: 3px 3px 4px black;
   bottom: 0px;
   width: 100%;
   padding-top: 60px;
   justify-content: center;
   align-items: center;
-  line-height: 0.5;
 }
 
 #bazingo{
   position: relative;
   text-align: center;
   font-family: cooper-black-std, serif;
-  font-size: 34px;
+  font-size: 2.5vw;
   text-shadow: 4px 4px 5px black;
-  bottom: 15px;
+  bottom: 25px;
   width: 100%;
-  padding-top: 45px;
+  padding-top: 20px;
   justify-content: center;
   align-items: center;
-  line-height: 0.5;
 }
 
 #bazingad{
   position: relative;
   text-align: center;
   font-family: cooper-black-std, serif;
-  font-size: 52px;
+  font-size: 4vw;
   text-shadow: 4px 4px 5px black;
   bottom: 5px;
   width: 100%;
-  padding-top: 60px;
+  padding-top: 25px;
   justify-content: center;
   align-items: center;
   line-height: 0.5;
@@ -108,8 +106,8 @@ textarea {
 
 #nice{
   vertical-align: middle;
-  height: 96px;
-  width: 96px;
+  height: 6vw;
+  width: 6vw;
 }
 
 }
@@ -214,12 +212,6 @@ textarea {
       width: 48px;
     }
 
-
-    #nice{
-      vertical-align: middle;
-      height: 48px;
-      width: 48px;
-    }
 }
 
 @import url("https://p.typekit.net/p.css?s=1&k=zga7vyy&ht=tk&f=6839.6840&a=34288673&app=typekit&e=css");

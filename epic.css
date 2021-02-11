@@ -178,3 +178,71 @@ font-display:auto;font-style:bold;font-weight:1600;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #000000;
 }
+
+@media only screen and (max-device-width : 640px) {
+
+  #bazinga{
+    position: relative;
+    text-align: center;
+    font-family: cooper-black-std, serif;
+    font-size: 2.5vw;
+    text-shadow: 2px 2px 3px black;
+    bottom: 0px;
+    width: 100%;
+    padding-top: 60px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #bazingo{
+    position: relative;
+    text-align: center;
+    font-family: cooper-black-std, serif;
+    font-size: 2.5vw;
+    text-shadow: 2px 2px 3px black;
+    bottom: 15px;
+    width: 100%;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #bazingad{
+    position: relative;
+    text-align: center;
+    font-family: cooper-black-std, serif;
+    font-size: 4vw;
+    text-shadow: 2px 2px 3px black;
+    bottom: 5px;
+    width: 100%;
+    padding-top: 25px;
+    justify-content: center;
+    align-items: center;
+    line-height: 0.5;
+  }
+
+  #nice{
+    vertical-align: middle;
+    height: 6vw;
+    width: 6vw;
+  }
+
+  #regForm {
+    background-color: #ff5e91;
+    text-shadow: 3px 3px 5px black;
+    margin: 10px auto;
+    letter-spacing: -1px;
+    font-family: cooper-black-std, serif;
+    padding: 6vw;
+    padding-top: 7vw;
+    width: 75%;
+    min-width: 300px;
+    font-size: 16px;
+    font-weight: 1600;
+    background-image:url('https://i.imgur.com/Nd3HhKE.png');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  }
