@@ -1,5 +1,8 @@
 body {
-  background-color: #f1f1f1;
+  background-image: url('https://i.imgur.com/oUtZ8Qm.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 
 @media only screen and (max-device-width : 640px) {
@@ -32,8 +35,18 @@ body {
 
 }
 
-@media only screen and (max-device-width: 768px) {
+@media only screen and (min-device-width: 641px) {
 
+  .module-border-wrap {
+    padding: 2px;
+    width: 820px;
+    height: 470px;
+    position: relative;
+    background: linear-gradient(to bottom, red, #330000);
+  }
 
-
+  #player {
+      position: center;
+      padding-top: 10px;
+    }
 }
