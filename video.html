@@ -59,6 +59,9 @@
         player = new YT.Player('player', {
             height: '450',
             width: '800',
+            playerVars: {
+              playsinline: 1
+            },
             events: {
                 'onReady': onPlayerReady,
                 'onStateChange': onPlayerStateChange
