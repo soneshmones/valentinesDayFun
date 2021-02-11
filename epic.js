@@ -70,3 +70,11 @@ function fixStepIndicator(n) {
   //... and adds the "active" class on the current step:
   x[n].className += " active";
 }
+
+function randomize() {
+  var names = document.getElementById('names');
+  var options = select.getElementsByTagName('option');
+  var choiceIndex = Math.floor(Math.random() * options.length);
+  select.selectedIndex = choiceIndex;
+  console.log(choiceIndex);
+}
