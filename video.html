@@ -24,6 +24,12 @@
         alert("Copied the text: " + copyText.value);
       }
     </script>
+    <script>
+      window.onload = function(){
+          var url = window.location;
+          document.getElementById('sharefield').innerHTML = url;
+      };
+    </script>
   </head>
 <body style="background-color:#FFAEC9;">
   <center><img id="logo" src="https://i.imgur.com/7smirkj.png"></center>
@@ -82,7 +88,7 @@
 <center><img id="sharelol" src="https://i.imgur.com/W8oX5Ce.png"></img></center>
 <p></p>
 <div>
-  <input type="text" value="Hello World" id="myInput">
+  <input type="text" id="sharefield" readonly>
   <center><button id="share" onclick="myFunction()">Copy text</button></center>
 </div>
 </html>
