@@ -4,6 +4,10 @@
   width: 100%;
 }
 
+#sharelol {
+  width: 60%;
+}
+
 #player {
   width: 95%;
   height: 95%;
@@ -33,6 +37,11 @@
 }
 
 @media only screen and (min-device-width: 641px) {
+
+  #sharelol {
+    width: 350px;
+  }
+
 
   body {
     background-image: url('https://i.imgur.com/oUtZ8Qm.jpg');
