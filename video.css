@@ -123,9 +123,44 @@ textarea {
   width: 6vw;
 }
 
+.restart-button {
+  background:    #ff0000;
+  background:    linear-gradient(#ff0000, #520101);
+  border:        4px solid #000000;
+  border-radius: 1000px;
+  padding:       20px 45px;
+  color:         #ffffff;
+  display:       inline-block;
+  font:          normal bold 42px/1 "Komika", cursive;
+  text-align:    center;
+}
+
+.restart-button:hover {
+  opacity: 0.8;
+  background-color: #880001;
+}
+
 }
 
 @media only screen and (min-device-width: 641px) {
+
+  .restart-button {
+    background:    #ff0000;
+    background:    linear-gradient(#ff0000, #520101);
+    border:        4px solid #000000;
+    border-radius: 1000px;
+    padding:       20px 45px;
+    color:         #ffffff;
+    display:       inline-block;
+    font:          normal bold 21px/1 "Komika", cursive;
+    text-align:    center;
+  }
+
+  .restart-button:hover {
+    opacity: 0.8;
+    background-color: #880001;
+  }
+
 
   #sharelol {
     width: 350px;
