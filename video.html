@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="video.css">
     <script src="https://www.youtube.com/iframe_api"></script>
     <script>
-      function myFunction() {
+      function shareFunction() {
         /* Get the text field */
-        var copyText = document.getElementById("myInput");
+        var copyText = document.getElementById("sharefield");
 
         /* Select the text field */
         copyText.select();
@@ -21,8 +21,15 @@
         document.execCommand("copy");
 
         /* Alert the copied text */
-        alert("Copied the text: " + copyText.value);
+       //  alert("Copied!" + copyText.value);
+        document.getElementById("share").innerHTML = "Success!"
       }
+    </script>
+    <script>
+      window.onload = function(){
+          var url = window.location;
+          document.getElementById('sharefield').innerHTML = url;
+      };
     </script>
   </head>
 <body style="background-color:#FFAEC9;">
@@ -74,7 +81,15 @@
     }
 </script>
 </div></center></div></center>
-<input type="text" value="Hello World" id="myInput">
-<button onclick="myFunction()">Copy text</button>
-
+<!-- <div>
+  <input type="text" placeholder="Enter the URL" id="url" />
+  <button onclick="share">Share</button>
+</div> -->
+<p></p>
+<center><img id="sharelol" src="https://i.imgur.com/W8oX5Ce.png"></img></center>
+<p></p>
+<div>
+  <center><textarea readonly id="sharefield"></textarea></center>
+  <center><button id="share" onclick="shareFunction()">Share link!</button></center>
+</div>
 </html>
