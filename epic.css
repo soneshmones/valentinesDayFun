@@ -252,4 +252,10 @@ font-display:auto;font-style:bold;font-weight:1600;
     background-position: center;
   }
 
+  #footer{
+  width:100%;
+  left:-0%;
+  margin-top:6%;
+}
+
   }

@@ -6,6 +6,12 @@ html {
 
 @media only screen and (max-device-width : 640px) {
 
+#footer{
+  width:100%;
+  left:-0%;
+  margin-top:6%;
+}
+
 body {
   background-image: url('https://i.imgur.com/oUtZ8Qm.jpg');
   background-repeat: no-repeat;
