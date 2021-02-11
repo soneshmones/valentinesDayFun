@@ -3,6 +3,10 @@
 }
 /* Hey there, bud. Welcome ( ° ͜ʖ ͡°) -Cuyoya */
 
+html {
+    position: relative;
+    min-height: 100%;
+}
 
 @media only screen and (min-device-width: 641px) {
 
@@ -17,6 +21,24 @@
 
 body {
   background-color: #f1f1f1;
+}
+
+#bazinga{
+  position: relative;
+  text-align: center;
+  font-family: cooper-black-std, serif;
+  font-size: 16px;
+  text-shadow: 2px 2px 3px black;
+  bottom: 5px;
+  width: 100%;
+  padding-top: 60px;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+}
+
+#nice{
+  vertical-align: middle;
 }
 
 #regForm {

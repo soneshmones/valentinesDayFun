@@ -1,3 +1,9 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+
 @media only screen and (max-device-width : 640px) {
 
 #logo {
@@ -39,7 +45,7 @@ button {
   color: #000000;
   border: solid;
   padding: 10px 20px;
-  font-size: 48px;
+  font-size: 80px;
   font-family: sans-serif;
   cursor: pointer;
 }
@@ -110,4 +116,37 @@ textarea {
       font-size: 18px;
       height: 70px;
     }
+}
+
+@import url("https://p.typekit.net/p.css?s=1&k=zga7vyy&ht=tk&f=6839.6840&a=34288673&app=typekit&e=css");
+
+@font-face {
+font-family:"cooper-black-std";
+src:url("https://use.typekit.net/af/4e1b68/000000000000000000013101/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/4e1b68/000000000000000000013101/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/4e1b68/000000000000000000013101/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:bold;font-weight:1600;
+}
+
+.tk-cooper-black-std { font-family: "cooper-black-std",serif; }
+
+#textContainer .outline {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000000;
+}
+
+#bazinga{
+  position: relative;
+  text-align: center;
+  font-family: cooper-black-std, serif;
+  font-size: 38px;
+  text-shadow: 2px 2px 3px black;
+  bottom: 5px;
+  width: 100%;
+  padding-top: 60px;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+}
+
+#nice{
+  vertical-align: middle;
 }
