@@ -13,16 +13,19 @@ body {
   margin: 10px auto;
   letter-spacing: -1px;
   font-family: cooper-black-std, serif;
-  padding: 6vw;
+  padding: 6.5vw;
   width: 50%;
   height: 40%;
   min-width: 300px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 1600;
-  background-image:url('https://i.imgur.com/PFb6Klo.png');
-  background-repeat:no-repeat;
-  background-size: cover;
-  background-position: center;
+}
+
+.module-border-wrap {
+  padding: 1vw;
+  position: relative;
+  background: linear-gradient(to bottom, red, #330000);
+  padding: 3px;
 }
 
 #regForm select {
