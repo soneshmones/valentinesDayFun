@@ -21,16 +21,15 @@
         document.execCommand("copy");
 
         /* Alert the copied text */
-       //  alert("Copied!" + copyText.value);
         document.getElementById("share").innerHTML = "Success!"
       }
     </script>
-    <script>
+    <!-- <script>
       window.onload = function(){
           var url = window.location;
           document.getElementById('sharefield').innerHTML = url;
       };
-    </script>
+    </script> -->
   </head>
 <body style="background-color:#FFAEC9; height:100%;">
   <center><img id="logo" src="https://i.imgur.com/7smirkj.png"></center>
@@ -93,6 +92,10 @@
   <p></p>
   <center><button id="share" onclick="shareFunction()">Share link!</button></center>
 </div>
+<script>
+    var url = window.location;
+    document.getElementById('sharefield').innerHTML = url;
+</script>
 
 <center><div id="footer">
   <p>&nbsp;</p>
