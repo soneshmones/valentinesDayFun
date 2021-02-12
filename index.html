@@ -10,6 +10,15 @@
   <link rel="stylesheet" href="epic.css">
   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
   <script data-ad-client="ca-pub-9631800489889522" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+    function randomize(type) {
+      var select = document.getElementById(type);
+      var options = select.getElementsByTagName('option');
+      var choiceIndex = Math.floor(Math.random() * options.length);
+      select.selectedIndex = choiceIndex;
+      console.log(choiceIndex);
+    }
+  </script>
 </head>
 <body style="background-color:#FFAEC9; height:100%;">
   <center><img id="logo" src="https://i.imgur.com/FPym7qh.png"></center>
@@ -233,102 +242,121 @@
           <option value="wFv7wosvgvA">William</option>
           <option value="gMpbDL3bBkY">Zack</option>
   			</select>
+        <a href="#" onclick="randomize('names')">Gimme something random</a>
     </div></center>
     <div class="tab">
       <h1><center><div id="textContainer">
         <strong><span style="color: #ffffff;" class="outline">How are you related to your Valentine?<br>(You are their...)</br></span></strong>
       </div></center></h1>
-      <center><select name="relations" id="relations">
-  		<option value="dJsmj8dtZJs">Partner</option>
-  		<option value="lsXFgoeX2lw">Husband</option>
-  		<option value="_1Jgxf-WVcA">Wife</option>
-  		<option value="-Xw9bW1S0Co">Boyfriend</option>
-  		<option value="1C55lTWlz78">Girlfriend</option>
-      <option value="rl2BYsod13M">Furry</option>
-      <option value="dmEXxzMN-3w">Best Friend</option>
-      <option value="-jdSg5q9acU">Significant Other</option>
-      <option value="BhnmGxvODgE">Unrequited Crush</option>
-      <option value="1bKanO9YjMY">Soulmate</option>
-      <option value="oFU2QHj-N0Y">Secret Admirer</option>
-  	</select></center>
+      <center>
+        <select name="relations" id="relations">
+      		<option value="dJsmj8dtZJs">Partner</option>
+      		<option value="lsXFgoeX2lw">Husband</option>
+      		<option value="_1Jgxf-WVcA">Wife</option>
+      		<option value="-Xw9bW1S0Co">Boyfriend</option>
+      		<option value="1C55lTWlz78">Girlfriend</option>
+          <option value="rl2BYsod13M">Furry</option>
+          <option value="dmEXxzMN-3w">Best Friend</option>
+          <option value="-jdSg5q9acU">Significant Other</option>
+          <option value="BhnmGxvODgE">Unrequited Crush</option>
+          <option value="1bKanO9YjMY">Soulmate</option>
+          <option value="oFU2QHj-N0Y">Secret Admirer</option>
+    	</select>
+      <a href="#" onclick="randomize('relations')">Gimme something random</a>
+    </center>
     </div>
     <div class="tab">
       <h1><center><div id="textContainer">
         <strong><span style="color: #ffffff;" class="outline">Where did you two meet?<br></br></span></strong>
         </div></center></h1>
-     <center><select name="meeting" id="meeting">
-  		<option value="bR8EE5lZe7U">At school</option>
-  		<option value="qnsZRXBjrvs">At a concert</option>
-  		<option value="kfCEWomm8Jg">Online</option>
-  		<option value="FA0Q8wtFT4A">At a bar</option>
-  		<option value="JR5cHLTIPIQ">At a funeral</option>
-      <option value="Am-hajJ6aYQ">Through Friends</option>
-      <option value="yHYlKQZ9T08">We haven't met yet</option>
-      <option value="yGCD0X2Ac3Q">At a party</option>
-  	</select></center>
+     <center>
+       <select name="meeting" id="meeting">
+    		<option value="bR8EE5lZe7U">At school</option>
+    		<option value="qnsZRXBjrvs">At a concert</option>
+    		<option value="kfCEWomm8Jg">Online</option>
+    		<option value="FA0Q8wtFT4A">At a bar</option>
+    		<option value="JR5cHLTIPIQ">At a funeral</option>
+        <option value="Am-hajJ6aYQ">Through Friends</option>
+        <option value="yHYlKQZ9T08">We haven't met yet</option>
+        <option value="yGCD0X2Ac3Q">At a party</option>
+  	   </select>
+       <a href="#" onclick="randomize('meeting')">Gimme something random</a>
+    </center>
     </div>
     <div class="tab">
       <h1><center><div id="textContainer">
         <strong><span style="color: #ffffff;" class="outline">What's your favorite thing<br>to do with your Valentine?</br></span></strong>
       </div></center></h1>
-     <center>	<select name="activity" id="activity">
-  		<option value="YLRCQ80VZfU">Birdwatching</option>
-  		<option value="Vtb52PqLk5U">Watching the hit show Bridgerton on Netflix</option>
-  		<option value="IDSb_JXzW6I">Kissing with tongue</option>
-      <option value="VTerz0RGz6E">Kissing with no tongue</option>
-      <option value="Pqzowy1Ckrk">Getting to 2nd base</option>
-      <option value="SmKX7YzQCnw">Watching let's plays from a popular YouTuber</option>
-      <option value="Lzn39Ue4cRk">Making fun of ugly people</option>
-      <option value="zssB7Dwih5E">Gaming with their favorite gamer because you're both gamers</option>
-      <option value="5DikLWYkv9s">Dicking around</option>
-      <option value="IDFbe0d3Stw">Being held like a big dumb baby</option>
-  	</select></center>
+     <center>
+      <select name="activity" id="activity">
+    		<option value="YLRCQ80VZfU">Birdwatching</option>
+    		<option value="Vtb52PqLk5U">Watching the hit show Bridgerton on Netflix</option>
+    		<option value="IDSb_JXzW6I">Kissing with tongue</option>
+        <option value="VTerz0RGz6E">Kissing with no tongue</option>
+        <option value="Pqzowy1Ckrk">Getting to 2nd base</option>
+        <option value="SmKX7YzQCnw">Watching let's plays from a popular YouTuber</option>
+        <option value="Lzn39Ue4cRk">Making fun of ugly people</option>
+        <option value="zssB7Dwih5E">Gaming with their favorite gamer because you're both gamers</option>
+        <option value="5DikLWYkv9s">Dicking around</option>
+        <option value="IDFbe0d3Stw">Being held like a big dumb baby</option>
+  	  </select>
+      <a href="#" onclick="randomize('activity')">Gimme something random</a>
+    </center>
     </div>
     <div class="tab">
       <h1><center><div id="textContainer">
         <strong><span style="color: #ffffff;" class="outline">What's your favorite thing<br>about your Valentine?</br></span></strong>
       </div></center></h1>
-     <center>	<select name="thing" id="thing">
-  		<option value="QV0HfKvPMAo">Their laugh</option>
-  		<option value="udLgQ_JXED0">Their smile</option>
-  		<option value="xTjxEcigVbE">Their odor</option>
-  		<option value="iC3IupPZRUc">Their teeth</option>
-  		<option value="SCuSC8fFhxk">Their knees</option>
-      <option value="RFdPOQmswbU">Their soul</option>
-      <option value="aOb0DPK0B-A">Their absolute dumptruck of an ass</option>
-      <option value="mBz6bujlxZo">Their sense of humor</option>
-  	</select></center>
+     <center>
+      <select name="thing" id="thing">
+    		<option value="QV0HfKvPMAo">Their laugh</option>
+    		<option value="udLgQ_JXED0">Their smile</option>
+    		<option value="xTjxEcigVbE">Their odor</option>
+    		<option value="iC3IupPZRUc">Their teeth</option>
+    		<option value="SCuSC8fFhxk">Their knees</option>
+        <option value="RFdPOQmswbU">Their soul</option>
+        <option value="aOb0DPK0B-A">Their absolute dumptruck of an ass</option>
+        <option value="mBz6bujlxZo">Their sense of humor</option>
+  	  </select>
+      <a href="#" onclick="randomize('thing')">Gimme something random</a>
+    </center>
     </div>
     <div class="tab">
       <h1><center><div id="textContainer">
         <strong><span style="color: #ffffff;" class="outline">What's your Valentine's<br>signature catchphrase?</br></span></strong>
       </div></center></h1>
-     <center><select name="catchphrase" id="catchphrase">
-  		<option value="-xUcxgswS8U">Furries should vote</option>
-  		<option value="Ax8CML5jDy0">Women be shoppin'</option>
-  		<option value="KOlls9Wg_gU">That's a spicy meat-a-ball-a</option>
-  		<option value="iDjjPqqqtFU">Bazungo</option>
-  		<option value="O6w3ewuinAg">OOFY WOOFY LET'S GET GOOFY</option>
-      <option value="0eo1Jw_0yl4">Man I feel like a gamer</option>
-      <option value="6jFVmYRSn1o">I'll have what she's having</option>
-      <option value="NeQnJnOGJjY">Let's all go in on a pizza</option>
-  	</select></center>
+     <center>
+      <select name="catchphrase" id="catchphrase">
+    		<option value="-xUcxgswS8U">Furries should vote</option>
+    		<option value="Ax8CML5jDy0">Women be shoppin'</option>
+    		<option value="KOlls9Wg_gU">That's a spicy meat-a-ball-a</option>
+    		<option value="iDjjPqqqtFU">Bazungo</option>
+    		<option value="O6w3ewuinAg">OOFY WOOFY LET'S GET GOOFY</option>
+        <option value="0eo1Jw_0yl4">Man I feel like a gamer</option>
+        <option value="6jFVmYRSn1o">I'll have what she's having</option>
+        <option value="NeQnJnOGJjY">Let's all go in on a pizza</option>
+  	  </select>
+      <a href="#" onclick="randomize('catchphrase')">Gimme something random</a>
+    </center>
     </div>
     <div class="tab">
       <h1><center><div id="textContainer">
         <strong><span style="color: #ffffff;" class="outline">Finish the sentence:<br>"I love you more than..."</br></span></strong>
       </div></center></h1>
-     <center><select name="morethan" id="morethan">
-  		<option value="5x7p7kIpcCM">YouTubers love apologizing</option>
-  		<option value="gPJbb2TMjSE">Gamers hate bathing</option>
-  		<option value="lIFGs5zO-w4">Twitter users love arguing</option>
-  		<option value="YJ1GyiqXh6M">You love me</option>
-  		<option value="Qhf5uAIvRMw">Mom's love Minion memes</option>
-      <option value="70v9JK5fUgg">Dads love dad rock</option>
-      <option value="nUgdACDvxHs">You love Bridgerton on Netflix</option>
-      <option value="UqbtQA6Ff2s">TikTokkers love the same 5 songs</option>
-      <option value="uuEJqUSf284">Twitch streamers love overreacting</option>
-  	</select></center>
+     <center>
+      <select name="morethan" id="morethan">
+    		<option value="5x7p7kIpcCM">YouTubers love apologizing</option>
+    		<option value="gPJbb2TMjSE">Gamers hate bathing</option>
+    		<option value="lIFGs5zO-w4">Twitter users love arguing</option>
+    		<option value="YJ1GyiqXh6M">You love me</option>
+    		<option value="Qhf5uAIvRMw">Mom's love Minion memes</option>
+        <option value="70v9JK5fUgg">Dads love dad rock</option>
+        <option value="nUgdACDvxHs">You love Bridgerton on Netflix</option>
+        <option value="UqbtQA6Ff2s">TikTokkers love the same 5 songs</option>
+        <option value="uuEJqUSf284">Twitch streamers love overreacting</option>
+  	  </select>
+      <a href="#" onclick="randomize('morethan')">Gimme something random</a>
+    </center>
     </div>
       <center><div>
   	  <p></p>
@@ -350,7 +378,6 @@
   </div>
 </form></div>
 <p></p>
-  <center><button type="button" id="randBtn" onclick="randomize(1)">Randomize!</button></center>
 <script src="epic.js"></script>
 <p></p>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
