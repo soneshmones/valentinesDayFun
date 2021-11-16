@@ -1,0 +1,41 @@
+﻿/* Copyright 2016 Epic Systems Corporation 
+********************************************************************* 
+ TITLE:   ACReportHandlingFeature.css 
+ PURPOSE: Report handling specific styling for the ACReportHandlingFeature
+ REVISION HISTORY: 
+	*JRM 09/16 442930 - Created
+	*SDS 10/16 450754 - Override specific breakWord style for Arabic
+	*JRM 11/16 450942 - Add handling for warning icon
+	*MBM 03/17 454064 - Create HSWeb file
+*********************************************************************/
+
+.autoHyphenate {
+	-moz-hyphens: auto;
+	-webkit-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+}
+
+.fixTableLayout, .fixTableLayout table {
+	table-layout: fixed;
+}
+
+.breakWord {
+	word-wrap: break-word;
+}
+
+.rpt table.breakWord table:not(.fmtConvDisableOverrides).fmtConvTable td {
+	word-wrap: break-word !important;
+}
+
+.makeImagesInTableFit img, .makeImagesInTableFit svg {
+	max-width: 100%;
+}
+
+.renderDisplayWarning svg {
+	fill:#c70000 !important;
+	max-height: 0.9em;
+	max-width: 0.9em;
+	vertical-align: middle;
+	padding-bottom: 0.2em;
+}

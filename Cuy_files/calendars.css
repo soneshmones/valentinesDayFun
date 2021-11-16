@@ -1,0 +1,290 @@
+﻿/* Copyright 2018-2020 Epic Systems Corporation */
+#calendar {
+  width: 20rem;
+}
+#calendar table {
+  min-width: 16rem;
+  min-height: 16rem;
+  table-layout: fixed;
+}
+
+.calendar table {
+  font-size: 0.8rem;
+  margin: 0 auto;
+  width: 100%;
+  min-height: 270px;
+}
+.calendar thead th {
+  font-size: 1.2em;
+}
+.calendar thead .calprev,
+.calendar thead .calnext,
+.calendar thead .calmonth {
+  font-weight: normal;
+}
+.calendar thead .calmonth {
+  width: calc(100% / 7 * 5);
+}
+.calendar table tbody td a, .calendar table tbody td button,
+.calendar table tbody td > span {
+  display: block;
+  height: 1.5em;
+  line-height: 1.5em;
+  margin: 0 auto;
+  width: 1.5em;
+}
+@media screen and (max-width: 1520px) {
+  .calendar table tbody td a, .calendar table tbody td button,
+.calendar table tbody td > span {
+    height: 1.25rem;
+    line-height: 1.25rem;
+    width: 1.25rem;
+  }
+}
+.calendar table td.hasevents a,
+.calendar table tbody td.hi a,
+.calendar table tbody td.hi button {
+  border-radius: 50%;
+  position: relative;
+}
+.calendar table td#calcancel {
+  width: 100%;
+}
+.calendar table td#calcancel a {
+  border-radius: 0;
+  width: auto;
+  background: none;
+}
+.calendar img {
+  cursor: pointer;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.calendar table .calprev a:after {
+  content: "<";
+}
+.calendar table .calnext a:after {
+  content: ">";
+}
+
+.dataselect img.calendar {
+  margin: -1px 0 0 2px;
+}
+
+.reading.date img.calendar {
+  margin-top: -2px;
+}
+
+a.calendar + label[for=todates] {
+  margin-left: 0.5em;
+}
+
+.calendar table tr:hover {
+  background: none !important;
+}
+
+#calendar table td.null {
+  cursor: default;
+}
+
+.calendar table td a, .calendar table td a:hover, .calendar table td a:focus,
+.calendar table td button,
+.calendar table td button:hover,
+.calendar table td button:focus {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#pagecalendar {
+  border-style: solid;
+  border-radius: 4px 4px 4px 4px;
+  border-width: 1px;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  width: 340px;
+}
+#pagecalendar,
+#pagecalendar * {
+  float: left;
+}
+#pagecalendar > div * {
+  display: inline-block;
+  text-align: center;
+}
+#pagecalendar .ctrlrow,
+#pagecalendar .daysrow {
+  font-weight: bold;
+}
+#pagecalendar .ctrlrow .ctrl {
+  width: 14%;
+}
+#pagecalendar .ctrlrow .hdr {
+  width: 72%;
+}
+#pagecalendar .daysrow .hdr {
+  width: 14%;
+  box-sizing: border-box;
+}
+#pagecalendar .daysrow .hdr:nth-child(2),
+#pagecalendar .daysrow .hdr:nth-child(6),
+#pagecalendar .weekrow div:nth-child(2),
+#pagecalendar .weekrow div:nth-child(6) {
+  width: 15%;
+}
+#pagecalendar .weekrow {
+  border-top-style: solid;
+  border-top-width: 1px;
+}
+#pagecalendar .weekrow div {
+  border-left-style: solid;
+  border-left-width: 1px;
+  padding: 0 5px;
+  width: 14%;
+  box-sizing: border-box;
+}
+#pagecalendar .empty {
+  background-color: #dbdbdb;
+}
+#pagecalendar a {
+  text-decoration: none;
+  width: 100%;
+}
+#pagecalendar .EditData,
+#pagecalendar .ReadOnlyData {
+  font-weight: bold;
+}
+#pagecalendar .ReadOnlyData,
+#pagecalendar .null {
+  cursor: default;
+}
+#pagecalendar .NoData,
+#pagecalendar .EditData,
+#pagecalendar .ctrl {
+  cursor: pointer;
+}
+
+.calendar table th,
+.calendar table td {
+  background: none;
+  display: inline-block;
+  padding: 0.4rem;
+  text-align: center;
+  width: calc(99.9999% / 7);
+  font-weight: bold;
+}
+.calendar table td.n, .calendar table td.past {
+  font-weight: normal;
+}
+
+#calendar table td.ctrl, #calendar table td.ctrln {
+  font-size: 1.2em;
+  font-weight: bold;
+  overflow-wrap: break-word;
+}
+
+.calendar .calnavbtn a:focus, .calendar .calnavbtn a:hover {
+  text-decoration: none;
+}
+
+/* #region Multi Month Calendar */
+.multiMonthCalendar .calendar table td.today {
+  font-weight: normal;
+}
+.multiMonthCalendar .calendar table td.hasevents {
+  font-weight: bold;
+}
+.multiMonthCalendar .toolbar {
+  padding: 0.5rem 0.8rem;
+}
+.multiMonthCalendar .SingleCalendar {
+  vertical-align: top;
+  min-width: 205px;
+}
+.multiMonthCalendar .SingleCalendar.full {
+  width: 100%;
+}
+.multiMonthCalendar .SingleCalendar.half {
+  width: 48%;
+  margin: 0 2%;
+}
+.multiMonthCalendar .SingleCalendar.half:nth-of-type(odd) {
+  margin-left: 0;
+}
+.multiMonthCalendar .SingleCalendar.half:nth-of-type(even) {
+  margin-right: 0;
+}
+.multiMonthCalendar .SingleCalendar.onethird {
+  width: 30.66%;
+  margin: 0 2%;
+}
+.multiMonthCalendar .SingleCalendar.onethird:nth-of-type(3n + 1) {
+  margin-left: 0;
+}
+.multiMonthCalendar .SingleCalendar.onethird:nth-of-type(3n) {
+  margin-right: 0;
+}
+.multiMonthCalendar .SingleCalendar .calendar table td:hover {
+  cursor: default;
+}
+.multiMonthCalendar .calendar table td.today:not(.hasevents) a {
+  border-radius: 50%;
+  position: relative;
+  border-width: 1px;
+  border-style: solid;
+}
+.multiMonthCalendar .calendarBtns {
+  width: 48%;
+}
+.multiMonthCalendar .calendarBtns a {
+  width: calc(100% - 1.5rem);
+  padding: 0;
+  vertical-align: middle;
+  display: inline-block;
+  font-size: 0.8rem;
+}
+.multiMonthCalendar .calendarBtns a, .multiMonthCalendar .calendarBtns a:hover {
+  background: none;
+  box-shadow: none;
+}
+.multiMonthCalendar li.calendarNextEventBtn {
+  text-align: right;
+  float: right;
+}
+.multiMonthCalendar li.calendarNextEventBtn a {
+  text-align: right;
+}
+.multiMonthCalendar li.calendarBackEventBtn a {
+  text-align: left;
+}
+.multiMonthCalendar li.calendarBtns::after {
+  display: inline-block;
+  width: 0.8rem;
+  vertical-align: middle;
+}
+.multiMonthCalendar li.calendarBackEventBtn:before {
+  content: "<";
+  margin-right: 0.5rem;
+}
+.multiMonthCalendar li.calendarNextEventBtn:after {
+  content: ">";
+}
+.multiMonthCalendar.notoolbar.component .toolbar {
+  display: none;
+}
+
+/* #endregion Multi Month calendar */
+input.date.withCalendar {
+  display: inline-block;
+  margin: 0 0.25rem 0 0;
+  vertical-align: middle;
+}
+input.date.withCalendar ~ .calendar {
+  display: inline-block;
+  line-height: 1.25rem;
+  margin: 0.25rem 0 0;
+  vertical-align: middle;
+}
+input.date.withCalendar[disabled] ~ .calendar {
+  display: none;
+}

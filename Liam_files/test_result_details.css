@@ -1,0 +1,26 @@
+﻿/* Copyright 2019-2020 Epic Systems Corporation */
+.mobile .md_labdetail .cptLink.sm-alignStart {
+  display: none;
+}
+.mobile .md_labdetail .navparent.singleRow.extraWide {
+  display: none;
+}
+.mobile .md_labdetail .tabcontainer {
+  padding: 0px;
+  margin: 0px;
+  border-width: 0px;
+}
+.mobile .md_labdetail .tabcontainer .report {
+  margin-top: 8px;
+}
+@media screen and (max-width: 768px) {
+  .mobile .md_labdetail .tabcontainer .rpt {
+    box-shadow: none;
+  }
+  .mobile .md_labdetail .tabcontainer .rpt .mainColumn.singleColWide {
+    padding: 8px;
+  }
+}
+.mobile .md_labdetail div.back {
+  display: none;
+}

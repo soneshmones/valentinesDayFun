@@ -1,0 +1,92 @@
+﻿/* Copyright 2016 Epic Systems Corporation 
+********************************************************************* 
+ TITLE:   ACSidebarFeature.css 
+ PURPOSE: Sidebar Specific styling for the ACSidebarFeature
+ REVISION HISTORY: 
+	*DS  2/16 T15558 - Created
+	*JRM 6/16 T19868 - Move styles here from ACSidebarFeature.js for performance
+	*JRM 7/16 T20627 - Add handling to allow for the sidebar on pages other than
+	                   the first so it will work well with cover pages
+	*MBM 3/17 454064 - Create HSWeb file 
+	*SDS 2/20 668550 - Set sidebar wrapper z-index
+*********************************************************************/
+#RptSidebar {
+	vertical-align: top;
+	box-sizing: border-box;
+}
+
+#RptSidebarWrapper {
+	position: relative;
+	height: 100%;
+	box-sizing: border-box;
+	z-index: 1;
+}
+
+#RptSidebarFooter {
+	box-sizing: border-box;
+	position: absolute;
+	bottom: 0;
+}
+
+
+@page:first {
+	@right-top {
+		content: element(RptSidebarIdentifierRight);
+	}
+}
+
+.rptSidebar.right.page1 {
+	position: running(RptSidebarIdentifierRight);
+}
+
+@page:first {
+	@left-top {
+		content: element(RptSidebarIdentifierLeft);
+	}
+}
+
+.rptSidebar.left.page1 {
+	position: running(RptSidebarIdentifierLeft);
+}
+
+
+@page:-ro-nth(2) {
+	@right-top {
+		content: element(RptSidebarIdentifierRight2);
+	}
+}
+
+.rptSidebar.right.page2 {
+	position: running(RptSidebarIdentifierRight2);
+}
+
+@page:-ro-nth(2) {
+	@left-top {
+		content: element(RptSidebarIdentifierLeft2);
+	}
+}
+
+.rptSidebar.left.page2 {
+	position: running(RptSidebarIdentifierLeft2);
+}
+
+
+@page:-ro-nth(3) {
+	@right-top {
+		content: element(RptSidebarIdentifierRight3);
+	}
+}
+
+.rptSidebar.right.page3 {
+	position: running(RptSidebarIdentifierRight3);
+}
+
+@page:-ro-nth(3) {
+	@left-top {
+		content: element(RptSidebarIdentifierLeft3);
+	}
+}
+
+.rptSidebar.left.page3 {
+	position: running(RptSidebarIdentifierLeft3);
+}

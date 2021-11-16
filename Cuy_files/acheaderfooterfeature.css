@@ -1,0 +1,37 @@
+﻿/* Copyright 2016-2017 Epic Systems Corporation 
+********************************************************************* 
+ TITLE:   ACHeaderFooterFeature.css 
+ PURPOSE: Header/Footer Specific styling for the ACHeaderFooterFeature
+ REVISION HISTORY: 
+	*JRM  6/16 T19868 - Created
+	*JRM  7/16 T20627 - Add handling to allow for blank footers on cover pages
+	                    and to allow for headers on pages other than the first
+	*MBM  3/17 454064 - Create HSWeb file 
+	*JRM 10/17 510407 - Add style to footer to ensure it shows on every page
+	*JRM 11/17 513440 - Add padding bottom to the footer for the margin
+*********************************************************************/
+@page:first {
+	@top-left {
+		content: element(RptHeaderIdentifier);
+	}
+}
+
+#RptHeader.page1 {
+	position: running(RptHeaderIdentifier);
+}
+
+#RptFooter:empty::before { content: ' '; }
+
+#RptFooter {
+	padding-bottom:.25in;
+}
+
+@page {
+	@bottom-left {
+		content: element(RptFooterIdentifier);
+	}
+}
+
+.EmptyFirstFooter,.EmptySecondFooter,#RptFooter {
+	position: running(RptFooterIdentifier);
+}

@@ -1,0 +1,1 @@
+(function(){var b=Handlebars.template,a=$$WP.Templates=$$WP.Templates||{};a=a.Core=a.Core||{};a.scrollbarwidth=b({compiler:[7,">= 4.0.0"],main:function(){return'<div style="visibility: hidden; width: 100px; height: 100px; overflow: hidden;"><p style="width: 100px; height: 200px;">Unused/invisible text content</p></div>'},useData:true})})()

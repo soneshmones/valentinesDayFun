@@ -1,0 +1,2 @@
+/*! Copyright (c) Epic Systems Corporation 2014-2016 */
+$$WPContain.Panel=function WPContain$Panel(b){var a=this;$$WPComp.applySettings(b,a);a.$parent=a.$parent||$afe.select("#main");a.Containers$ContainerComponent({})};$$WPContain.Panel.prototype={IsClosable:false,Class:"Panel",$parent:$afe.select("#main")};$$WPContain.Panel.extend("Containers.ContainerComponent")

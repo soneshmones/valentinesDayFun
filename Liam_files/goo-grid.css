@@ -1,0 +1,272 @@
+﻿/* Copyright 2018-2019 Epic Systems Corporation */
+.grid {
+  width: 100%;
+  box-sizing: border-box;
+  letter-spacing: 0px;
+  display: block;
+  font-size: 0px;
+}
+
+.grid > .row {
+  width: 100%;
+  font-size: 0px;
+  padding-left: 0px;
+  max-width: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media print {
+  .grid > .row:not(.noprint):not(.hidden):not(ul) {
+    overflow: visible !important;
+    display: table !important;
+  }
+}
+
+.col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: top;
+  margin-right: 12px;
+  word-wrap: break-word;
+  font-size: 1rem;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.col-1 {
+  width: calc(8.3333333333% - 12px);
+}
+.grid.compact > .row > .col-1 {
+  width: 8.3333333333%;
+}
+.grid.insulated > .row > .col-1 {
+  width: calc(8.3333333333% - 24px);
+}
+
+.col-2 {
+  width: calc(16.6666666667% - 12px);
+}
+.grid.compact > .row > .col-2 {
+  width: 16.6666666667%;
+}
+.grid.insulated > .row > .col-2 {
+  width: calc(16.6666666667% - 24px);
+}
+
+.col-3 {
+  width: calc(25% - 12px - 0.01px);
+}
+.grid.compact > .row > .col-3 {
+  width: 25%;
+}
+.grid.insulated > .row > .col-3 {
+  width: calc(25% - 24px - 0.01px);
+}
+
+.col-4 {
+  width: calc(33.3333333333% - 12px);
+}
+.grid.compact > .row > .col-4 {
+  width: 33.3333333333%;
+}
+.grid.insulated > .row > .col-4 {
+  width: calc(33.3333333333% - 24px);
+}
+
+.col-5 {
+  width: calc(41.6666666667% - 12px);
+}
+.grid.compact > .row > .col-5 {
+  width: 41.6666666667%;
+}
+.grid.insulated > .row > .col-5 {
+  width: calc(41.6666666667% - 24px);
+}
+
+.col-6 {
+  width: calc(50% - 12px - 0.01px);
+}
+.grid.compact > .row > .col-6 {
+  width: 50%;
+}
+.grid.insulated > .row > .col-6 {
+  width: calc(50% - 24px - 0.01px);
+}
+
+.col-7 {
+  width: calc(58.3333333333% - 12px);
+}
+.grid.compact > .row > .col-7 {
+  width: 58.3333333333%;
+}
+.grid.insulated > .row > .col-7 {
+  width: calc(58.3333333333% - 24px);
+}
+
+.col-8 {
+  width: calc(66.6666666667% - 12px);
+}
+.grid.compact > .row > .col-8 {
+  width: 66.6666666667%;
+}
+.grid.insulated > .row > .col-8 {
+  width: calc(66.6666666667% - 24px);
+}
+
+.col-9 {
+  width: calc(75% - 12px - 0.01px);
+}
+.grid.compact > .row > .col-9 {
+  width: 75%;
+}
+.grid.insulated > .row > .col-9 {
+  width: calc(75% - 24px - 0.01px);
+}
+
+.col-10 {
+  width: calc(83.3333333333% - 12px);
+}
+.grid.compact > .row > .col-10 {
+  width: 83.3333333333%;
+}
+.grid.insulated > .row > .col-10 {
+  width: calc(83.3333333333% - 24px);
+}
+
+.col-11 {
+  width: calc(91.6666666667% - 12px);
+}
+.grid.compact > .row > .col-11 {
+  width: 91.6666666667%;
+}
+.grid.insulated > .row > .col-11 {
+  width: calc(91.6666666667% - 24px);
+}
+
+.col-12 {
+  width: calc(100% - 12px);
+}
+.grid.compact > .row > .col-12 {
+  width: 100%;
+}
+.grid.insulated > .row > .col-12 {
+  width: calc(100% - 24px);
+}
+
+.grid .grid {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+ul.grid,
+ol.grid {
+  padding: 0px;
+}
+
+.grid {
+  margin-bottom: 24px;
+  margin-top: 12px;
+}
+
+.col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+  margin-right: 12px;
+  margin-bottom: 12px;
+}
+
+.grid > .row {
+  width: calc(100% + 12px);
+}
+.grid > .row:last-child {
+  padding-bottom: 0px;
+  margin-bottom: -12px;
+}
+
+.grid.compact > .row > .col, .grid.compact > .row > .col-1, .grid.compact > .row > .col-2, .grid.compact > .row > .col-3, .grid.compact > .row > .col-4, .grid.compact > .row > .col-5, .grid.compact > .row > .col-6, .grid.compact > .row > .col-7, .grid.compact > .row > .col-8, .grid.compact > .row > .col-9, .grid.compact > .row > .col-10, .grid.compact > .row > .col-11, .grid.compact > .row > .col-12 {
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+.grid.compact > .row {
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.grid.insulated > .row > .col, .grid.insulated > .row > .col-1, .grid.insulated > .row > .col-2, .grid.insulated > .row > .col-3, .grid.insulated > .row > .col-4, .grid.insulated > .row > .col-5, .grid.insulated > .row > .col-6, .grid.insulated > .row > .col-7, .grid.insulated > .row > .col-8, .grid.insulated > .row > .col-9, .grid.insulated > .row > .col-10, .grid.insulated > .row > .col-11, .grid.insulated > .row > .col-12 {
+  margin-right: 24px;
+  margin-bottom: 24px;
+}
+
+.grid.insulated {
+  padding: 0px;
+}
+.grid.insulated > .row {
+  width: calc(100% + 24px);
+}
+.grid.insulated > .row:last-child {
+  margin-bottom: -24px;
+}
+
+@media screen and (max-width: 768px) {
+  .grid > .row:not(.fixed),
+.grid.insulated > .row:not(.fixed),
+.grid.compact > .row:not(.fixed) {
+    width: 100%;
+    display: block;
+  }
+  .grid > .row:not(.fixed) > [class*=col],
+.grid.insulated > .row:not(.fixed) > [class*=col],
+.grid.compact > .row:not(.fixed) > [class*=col] {
+    width: 100%;
+    margin-right: 0px;
+  }
+}
+.alignEnd {
+  text-align: right;
+}
+
+.alignCenter {
+  text-align: center;
+}
+
+.alignStart {
+  text-align: left;
+}
+
+.insulated {
+  padding: 24px;
+}
+
+.compact {
+  padding: 0px;
+}
+
+.expandable {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .sm-hide,
+.lg-only {
+    display: none;
+  }
+
+  .sm-alignEnd {
+    text-align: right;
+  }
+
+  .sm-alignCenter {
+    text-align: center;
+  }
+
+  .sm-alignStart {
+    text-align: left;
+  }
+}
+@media screen and (min-width: 769px) {
+  .lg-hide,
+.sm-only {
+    display: none;
+  }
+}

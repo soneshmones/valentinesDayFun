@@ -1,0 +1,2143 @@
+﻿/* Copyright 2018-2021 Epic Systems Corporation */
+.proxytextcolor.color1 {
+  color: #1871b5;
+}
+
+.proxytextcolor.color2 {
+  color: #207e2b;
+}
+
+.proxytextcolor.color3 {
+  color: #ba2bae;
+}
+
+.proxytextcolor.color4 {
+  color: #904ad5;
+}
+
+.proxytextcolor.color5 {
+  color: #007875;
+}
+
+.proxytextcolor.color6 {
+  color: #8b6622;
+}
+
+.proxytextcolor.color7 {
+  color: #b05114;
+}
+
+#wrap .cssSwitcher[data-csstitle="High Contrast"] {
+  display: none;
+}
+
+#wrap .cssSwitcher[data-csstitle=Default] {
+  display: inline;
+  margin-right: 0;
+}
+
+html,
+#sidebar,
+#sidebar .subtle,
+#sidebar .subtlecolor,
+#header .menugroup a:not(.button),
+.subtle,
+.subtlecolor,
+body.isInside #footer,
+body.isInside #footer a,
+.datatile #wrap > .copyright a,
+.list.hoverable:not(.collapsible) a:not(.button),
+.list.hoverable:not(.collapsible) a:not(.button):focus,
+.list.hoverable:not(.collapsible) a:not(.button):hover,
+.list.hoverable.collapsible a.collapsed:focus,
+.list.hoverable.collapsible a.collapsed:hover,
+.list.hoverable.collapsible li.collapsed:focus a,
+.list.hoverable.collapsible li.collapsed:hover a,
+.list.hoverable.collapsible li.collapsed a:focus,
+.list.hoverable.collapsible li.collapsed a:hover,
+.md_caredecision_index .documenttable .documents .document .docinfo,
+.md_caredecision_index #divHCAs .divHCATitle p,
+.md_premiumbilling_index span.premium-bill-balance-label,
+.md_premiumbilling_index span.premium-bill-summary-details,
+.md_premiumbilling_index span.premium-bill-payment-date,
+.md_premiumbilling_payments tr.uncommitted-payment,
+.md_socialcareapplications_index .statusAuthorized,
+.md_socialcareapplications_index .statusOpen,
+.md_socialcareapplications_index .statusPendingReview,
+.md_socialcareapplications_index .statusNewRequest,
+.md_socialcareapplications_index .statusIncomplete,
+.md_socialcareapplications_index .statusCanceled,
+.md_socialcareapplications_index .statusDenied,
+.md_socialcareapplications_index .statusClosed,
+.md_socialcareapplications_index .statusDefault,
+body.md_visitdetails_index div.waitlist span.waitlistpretext,
+body.md_visitdetails_index div.visitinstructionsheader,
+body.md_visitdetails_index div.departmentaddress,
+body.md_visitdetails_index div.departmentphone,
+body .component.Popup.notificationreview .footer,
+label,
+.label,
+.section.questionsContainer .helptext,
+.section.questionsContainer .question.HORIZSLIDER .answers .slidersection > .minmax .min,
+.section.questionsContainer .question.HORIZSLIDER .answers .slidersection > .minmax .max,
+.section.questionsContainer .question.VERTSLIDER .answers .slidersection > .minmax .min,
+.section.questionsContainer .question.VERTSLIDER .answers .slidersection > .minmax .max,
+.qnr-summary-question-answer.slider-answer .slidersection.HORIZSLIDER > .minmax,
+.qnr-summary-question-answer.slider-answer .slidersection.VERTSLIDER > .minmax,
+.inlinelabel,
+.formsection fieldset legend,
+.button.buttoncheck label,
+.openingsContainer .filterControls .filterFrame,
+.statusBadge.CareEverywhere,
+.statusBadge.CareEverywhere .header,
+#orgSearch::placeholder {
+  color: #000000;
+}
+
+.standardBanner.successType .header, .standardBanner.informationalType .header, .standardBanner.warningType .header, .standardBanner.criticalType .header {
+  color: #000000;
+}
+
+a,
+._Link._link,
+.linkcolor,
+.subtle.linkcolor,
+#sidebar .recovery a,
+#sidebar .component.medicationslist .pickupbanner,
+#sidebar .component.medicationslist .pendingupdates,
+.visitinformation a:not(.button),
+.apptDeptInstructions .section.flat a:not(.button),
+.medbottom .medinfocolumn a,
+.softwarning a:not(.button),
+#editdocumentform .fa-edit-file,
+.doc-upload-container .doc-upload-container-content .addItem.card form span,
+#twofactorresend input[type=submit],
+#twofactorresend input[type=button],
+.goalssmall .goalslist .compliant,
+.multiMonthCalendar .calendarBtns a,
+.multiMonthCalendar .calendarBtns a:hover,
+.multiMonthCalendar .calendarBtns a:focus,
+.multiMonthCalendar li.calendarBackEventBtn:before,
+.multiMonthCalendar li.calendarNextEventBtn:after,
+.loginalert .body .apptDateDetails,
+.BeforeList .top a,
+.messagefooter .loadall,
+.calendar table td#calcancel a,
+.ToDolist li.healthadvisory a.requestappointment:not(.button),
+.visittypecontainer a.visitlink.request,
+.summaryInfo .subtle.editText,
+.list.hoverable:not(.collapsible) a.notificationSelect:not(.button) {
+  color: #c20000;
+}
+
+@media only screen and (min-width: 1px) and (max-width: 1300px) {
+  #touchmenu-account .menuname {
+    color: #c20000;
+  }
+}
+.cardline .popupiconcontainer .popupinstructionsicon > svg {
+  fill: #c20000;
+}
+
+a:focus,
+a:hover,
+.linkcolor:focus,
+.linkcolor:hover,
+#calendar table td.ctrl a:hover,
+.clicktoexpand,
+.clicktocollapse,
+.group.hover .grouphelptext {
+  color: #aa0000;
+}
+
+.md_visitdetails_index div.providerphotocontainer a:hover .providerphoto {
+  border-color: #aa0000;
+}
+
+.linkcolorOverride, .linkcolorOverride:visited {
+  color: #c20000 !important;
+}
+.linkcolorOverride:focus, .linkcolorOverride:hover {
+  color: #aa0000 !important;
+}
+
+.list.hoverable:not(.collapsable) a.addItem, .list.hoverable:not(.collapsable) a.addItem:hover {
+  color: #c20000;
+}
+
+#header:not(:empty).header_graphic {
+  background: #ffffff;
+}
+#header:not(:empty).header_graphic .header_color {
+  background: #ffffff;
+}
+#header:not(:empty).header_graphic #logout_button, #header:not(:empty).header_graphic #localeswitch {
+  background: #000000;
+  border: 1px solid #ffffff;
+}
+
+#header.compact #graphicHeader:not(:empty) #proxyMenuButton {
+  background: #000000;
+  border: 1px solid #ffffff;
+}
+
+#sidebar .header {
+  color: #b80000;
+}
+#sidebar .header.titlebar {
+  color: #ffffff;
+}
+
+.Visits .card .date div,
+.previewCCD .listelement .date div {
+  color: #005ebb;
+}
+
+h1,
+h2,
+h3,
+h4,
+.header,
+.heading,
+.hover a.header:focus,
+.hover a.header:hover,
+.hover a.heading:focus,
+.hover a.heading:hover,
+.titlebar,
+.sectionheader,
+.formsection > legend,
+table thead tr,
+div.OutstandingBalanceHeader,
+.receipt .receiptsection .receiptline.name,
+.section .content .PEF .headerrow,
+.section .content .PEF .grouper.prompt,
+.refillpickupoptions#pickupoptions > label,
+#divAcpQuestionnaire .qnr-container .questiongroup .group-prompt,
+.popupiconcontainer > .popupInstructions > span.header,
+.md_questionnairelist .header,
+.md_mychartquestionnaire_questionnaires .header,
+#calendar table td.ctrln,
+.urgent,
+.PickOrganization .content > p,
+.essSearchResultsMsg,
+.summaryInfo.summaryActive .subtle.edit,
+.summaryInfo.summaryComplete .subtle,
+.summaryInfo.summaryIncomplete .subtle,
+#standardworkflowselector > .separator > p,
+a.card-button,
+.md_confirmation_confirm input:focus + label.togglebutton[for],
+.md_confirmation_confirm input + label.togglebutton[for]:hover,
+#ShareCodeSection #Code,
+.TRPComponentHeader,
+.upload--file-name,
+#documentwidgettitle {
+  color: #c20000;
+}
+
+.pageNum:not(.active) {
+  color: #c20000;
+}
+
+.ba_card_actions_link,
+.insurance_card_actions_link {
+  color: #c20000;
+}
+.ba_card_actions_link:hover, .ba_card_actions_link:focus, .ba_card_actions_link:active,
+.insurance_card_actions_link:hover,
+.insurance_card_actions_link:focus,
+.insurance_card_actions_link:active {
+  background-color: #faebeb;
+  color: #c20000;
+}
+
+.cardlist.selectable .card.selected:before,
+.fullscreen ul.careteam li.selected:before,
+.goalslarge li.goalslistelement.selected:before {
+  background-color: #c20000;
+}
+
+select.selected,
+div.ChargeGroupContainer,
+.shareeverywhere a.selinks:hover,
+.selinks:hover,
+.shareeverywhere .selinks.selected,
+.TRPCareteamParent .TRPComponentAbbrev.selected {
+  border-left-color: #c20000;
+}
+
+.calendar table td.today a,
+#SavedPaymentMethods.selectable.cardlist .card.Selected,
+#ShareCodeSection #Code {
+  border-color: #c20000;
+}
+
+.ReviewMessages .BeforeList .tabs input:checked + label,
+.hra-chosen {
+  border-bottom-color: #c20000;
+}
+
+.membertab.selected {
+  border-top-color: #c20000;
+}
+
+a.summaryInfo:hover,
+a.summaryInfo.summaryActive {
+  background-color: rgba(194, 0, 0, 0.1);
+}
+
+.summaryInfo:before {
+  background-color: #c20000;
+}
+
+.summary {
+  border-top-color: rgba(194, 0, 0, 0.2);
+}
+
+@media only screen and (min-width: 1px) and (max-width: 1300px) {
+  #touchmenu-toggle:after {
+    border-top-color: #c20000;
+  }
+}
+.previewCCD .previewPopupMulti .listelement.selected,
+#SavedPaymentMethods.selectable.cardlist .card.Selected {
+  background-color: #f3cccc;
+}
+
+div#goallist > div.hover,
+#SavedPaymentMethods.selectable.cardlist .cardlist.selectable .card.clickable.hover,
+#SavedPaymentMethods.selectable.cardlist .cardlist.selectable .card.clickable:focus {
+  background-color: #faebeb;
+}
+
+#two-factor-intro span.blue,
+.instructionImages span.blue,
+.receipt .titlebar,
+.calendar table tbody td.hi a,
+.calendar .selectableevent,
+.summary .titlebar,
+.sidebarlinks .titlebar,
+.visitlist li.listheaderelement {
+  background-color: #c20000;
+}
+
+table tr.hover,
+table tr td.selected,
+table.hoverable tr:hover,
+.section .content .hover:not(.button):not(.card),
+.list.hoverable:not(.collapsible) a:not(.button):focus,
+.list.hoverable:not(.collapsible) a:not(.button):hover,
+.list.hoverable:not(.collapsible) li:focus,
+.list.hoverable:not(.collapsible) li:hover,
+.list.hoverable.collapsible a.collapsed:focus,
+.list.hoverable.collapsible a.collapsed:hover,
+.list.hoverable.collapsible li.collapsed:focus,
+.list.hoverable.collapsible li.collapsed:focus a,
+.list.hoverable.collapsible li.collapsed:hover,
+.list.hoverable.collapsible li.collapsed:hover a,
+.list.hoverable.collapsible li.collapsed a:focus,
+.list.hoverable.collapsible li.collapsed a:hover,
+.MessageList .SingleMessage.collapsed .inlinedelete:focus,
+.SingleIndicator.collapsed.hover,
+.listHolder > .listRow.hover,
+.listHolder > .listRow.selected,
+.clickable:hover,
+.clickable:focus,
+.clickable a:focus,
+.lookup ul.suggestions li.suggestion.selected,
+.flipButton:hover .flipIcon,
+.hospitalinfo .hospitalthumbnail:hover,
+#paymentCollectionGroup .hover {
+  background: #faebeb;
+}
+
+.section .content .PEF .headerrow,
+.section .content .PEF .grouper.prompt,
+.section > *:not(.report) thead tr,
+.section table.benefitdetailstable tbody tr.header {
+  background-color: rgba(194, 0, 0, 0.05);
+}
+
+.section table tbody tr.header th:last-child::after,
+.section table tbody tr.header td:last-child::after,
+.section table tfoot tr.amount.header td:last-child::after {
+  background-color: rgba(194, 0, 0, 0.05);
+}
+
+.ReviewMessages .messageheader .filters,
+.organizationStep .filterContainer > .filters,
+.Visits .filters,
+.requestheader,
+#scheduling-workflow .banner::before,
+.section.questionsContainer .questiongroup .grouptable .grouptablerow[data-zebrastripeon=true] {
+  background-color: rgba(194, 0, 0, 0.05);
+}
+
+.MyChartPromptBox,
+.card .cardheader,
+.section .chart .tableOveraly table tr th.fixed,
+.loginalert .body .offertitle,
+.apptDeptInstructions .section.flat,
+#scheduling-workflow .extrasContainer,
+ul.MessageList > li.SingleMessage .head.grid > .row.message_header:focus,
+.apptDeptInstructions .section.flat {
+  background-color: #faebeb;
+}
+
+.visitdetails .visitinstructionscontent .readmore {
+  background-color: rgba(250, 235, 235, 0.8);
+}
+
+@media only screen and (min-width: 1px) and (max-width: 1300px) {
+  #touchmenu-account,
+#touchmenu-locale_container {
+    background: #faebeb;
+  }
+}
+.md_visitdetails_index div.triangle {
+  border-bottom-color: #faebeb;
+}
+
+.section.questionsContainer .questiongroup .grouptable .grouptablerow .grouptablecolumn:not(.responseheader) .groupresponsecolumn:hover,
+tr.clickable.selectedVisitRecord,
+#ld-workflow #calendar table tr td.currentselected:not(.othermonth):not(.hi) a {
+  background-color: #f3cccc;
+}
+
+.medicationspopup .medcard.selected {
+  box-shadow: 0 8px 9px 1px #c20000;
+}
+
+.ba_card_header_paperless {
+  border-top-color: #c20000;
+}
+
+.datatile .payplanautonormal .paymentplanautocontainer,
+.famhxtopic .highlighteditborder .famrel select,
+.famhxtopic .highlighteditborder .famname input,
+.shareeverywhere .payplanautonormal .paymentplanautocontainer {
+  border-color: #c20000;
+}
+
+.temporaryInformation.noMatchesContainer,
+.permanentInformation.noMatchesContainer {
+  background-color: gray;
+}
+
+.progbarsquares {
+  background: #c20000;
+}
+
+div.essInfoCard {
+  border-left-color: #003348;
+}
+
+div.notificationsignupdiv:focus,
+.refill-workflow .medications-step .medcard.selected {
+  border-color: #003348;
+}
+
+.drawingcontainer .patternscontainer .pattern.selected {
+  background: #003348;
+}
+
+.shareeverywhere a.selinks:hover,
+.selinks:hover,
+.shareeverywhere .selinks.selected {
+  color: #003348;
+}
+
+body .moneyColor,
+body .essMoneyColor,
+body .HARSAutopay,
+body .payplannormal .paymentplanautocontainer .payplanamount.nopayment {
+  color: #246d34;
+}
+
+body .ba_details_payment_amount {
+  color: #246d34;
+}
+
+#documenttable .document .docinfo.signed {
+  color: #246d34;
+}
+
+.rxReviewCards .reviewCostContainer.moneyColor {
+  color: #246d34;
+}
+
+.rxReviewCards {
+  border: 1px solid #dbdbdb;
+}
+
+#main,
+.BeforeList input.SearchList,
+body .card.addItem {
+  background-color: white;
+}
+
+#sidebar {
+  background-color: rgba(255, 255, 255, 0.92);
+}
+
+body .signupContainer .card.loginContainer {
+  background: #ffffff;
+}
+
+body .application {
+  background: #ffffff;
+}
+
+body .section .chart .tableOverlay table tr th.fixed {
+  background: #fcf2f2;
+}
+
+.todoweekcalendarcontent .event.showtime,
+.todoweekcalendarcontent .event.notime .eventinner:before,
+.todoweekcalendarcontent .event.notime .eventinner {
+  background: #1e7db3;
+}
+
+div.section div.sidetab ul.sectiontabs li:not(.selected) {
+  background: #f2f2f2;
+  color: #c20000;
+}
+
+input, select, textarea,
+.terms,
+label.togglebutton[for],
+input.buttoncheck + label.buttoncheck,
+.TestResultsHeader .BeforeTestResultsList input.SearchList,
+.testresultheader .BeforeTestResultsList input.SearchList,
+.TestResultsHeader .BeforeTestResultsList select,
+.Visits .filters select[class],
+.messageheader .BeforeList input.SearchList,
+.messageheader .BeforeList select,
+.lookup .searchinputs input[type=text] {
+  border: 1px solid #767676;
+}
+
+.messageheader .BeforeList select {
+  box-shadow: none;
+}
+
+.card:not(.SingleResult),
+.accountBadge,
+#calendar table,
+.section table[id],
+.TestResultsList .SingleResult,
+ul.MessageList,
+.HPcell.component > .content,
+.component.pocdefault > a.viewmore,
+.stepContainer .filterControl .filterValue,
+ul li.HARForPayment:first-of-type,
+.WAMR_List {
+  border: 1px solid #dbdbdb;
+}
+
+.component.Popup > .titlebar {
+  background-color: #ffffff;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+@media screen and (-ms-high-contrast: active) {
+  .component.Popup,
+a.button,
+div.button,
+input.button,
+body .lookup .searchinputs::after,
+body .lookup .expanded #searchimg {
+    border: 1px solid;
+  }
+
+  .tbContainer > input.togglebutton.clearradio {
+    opacity: 1;
+    top: 0.58rem;
+    left: 0.7rem;
+    position: absolute;
+    z-index: 1;
+    width: 1.125rem;
+    height: 1.125rem;
+  }
+
+  label[for].togglebutton {
+    padding: 0.25rem 0.7rem 0.25rem 2rem !important;
+  }
+
+  input.prettycheck:checked + label:before,
+input.buttoncheck:checked + label.buttoncheck:before {
+    background-color: black;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4AIYEjQPAcoESgAAAKVJREFUSMft1rENgzAQQFGKbAAsEUoaZxyycYCKDWhQFoCfIk4Tgm2k8yEF//70Gp91WZZKCQRcjkBL4AHctdGOd7MK/oWigm+gnyag0EafwC2hx6J7l10KbYAWKLXR2Q71PjwGig+XQnO71L9a4aKvFzB2yIlbtBddmQD8Ko4G4osDNRKfgQuPg+7EZdFAPA7qweOiG/gI1Jq3kwEGoDrHifpXvQANql+AlGeZnQAAAABJRU5ErkJggg==");
+  }
+
+  input.prettyradio + label:before {
+    opacity: 0;
+    width: 0;
+  }
+
+  .prettyradio.container > input.prettyradio {
+    opacity: 1;
+    top: 5px;
+    width: 0.9rem;
+    height: 0.9rem;
+    position: relative;
+  }
+
+  body .stepContainer .openingsData .slotslist .slotdetailaction.selected,
+body .lookup .searchinputs::after, body .lookup .expanded #searchimg {
+    background-color: black;
+    height: 96%;
+  }
+
+  #wrap [data-csstitle=Default].cssSwitcher, #wrap [data-csstitle="High Contrast"].cssSwitcher {
+    display: none;
+  }
+
+  .sliderresponsecontainer > .sliderresponseoptions .option .tbContainer > input.togglebutton.clearradio {
+    opacity: 0;
+    width: 0px;
+    z-index: -1;
+  }
+
+  .slider-answer .slidersection.HORIZSLIDER .sliderball, .slider-answer .slidersection.VERTSLIDER .sliderball {
+    border-bottom-color: transparent;
+  }
+
+  :not(.ghostInput) > .required:before, :not(.ghostInput) > .required.clearlabel:before {
+    background: url("../images/required_asterisk.png") scroll no-repeat transparent 0 0/0.5rem 0.5rem;
+  }
+
+  .ghostInput label.required + input, .ghostInput label.required + select, .ghostInput label.required + textarea {
+    background: url("../images/required_asterisk.png") scroll no-repeat 0.1rem 0.1rem/0.5rem 0.5rem;
+  }
+}
+.flyoutprompt,
+.flyoutitem:focus,
+.flyoutitem:hover {
+  background-color: #003348;
+}
+
+.flyoutitem,
+.flyoutitem.chosen:focus,
+.flyoutitem.chosen:hover {
+  color: #003348;
+}
+
+img[src*="info_grey.png"] {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABKklEQVR42p3SsU7CUBTG8UMBBwNJJ8OgmCBuhBDiAzg5ER2cHHgBEl6A0SdggoWBBEcXpw7EyYUnMCZORFcfgMjgv81XaG5oUnuSXwK3vefcc3vM9lFCHQMs8Y0v+cQcN/BRMCeOcY8XLNBDTc88NDFEgAlaWt9VDjc/4QGVROI73Cb+X+IRz+jEJ6mrcrj5yDnZK2bOWhVjnSb8HfW8cCrH0cbFgfUTfKBvurCe/T/Cwm+m266lvPSD95RnDWxMnyktfjM8j17wciQoYmsakmaOBF21GE3YMEeCqfZG4xloSLImuMYaV6bZnmjCqhkSnGGFEcqmcWxpPMcakjjOcepUXqmYn8zqabYDTdhA3zm+7a56Xquyf+hSCmqhrwnbqIWtbnuunsvJTX8JMkA3dxB0rwAAAABJRU5ErkJggg==");
+  background-size: auto;
+  background-repeat: no-repeat;
+  padding: 8px;
+  width: 16px;
+}
+
+img[src*="edit.svg"] {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAABTklEQVR42u2bzRGCMBBGKYESKCElWAIlpAPoxBJSQkrwzsUSKCElIEN0ZDRC/g7u7vfN7N33SLIxgaZBEARBENoZplYidL/Wfa1lV3YtJQH++gG+L8dbwjDpA/h9aY7wl0h41hJMogTFZdjrTAmW05zPk8BswUuXwHC1T5PAtNXFSpi59vlYCZoSvHru5JZKEgx3+CMJYuBDErQ0eKJb37rwy/b3WDQ8mYMRwAMe8NLgO8nwbeD0FvCAB3xSOenwCvCABzzgAf+HAm6S4Y1c+LoCyD35tqIEcvDd148uk9BTG/Zj8MnlSSB2hO1B55/DN00CSXh1OofjJBCEP4ZzCVfVROE9mCu8qiYNrwuvqgnDexhbcFVNHr6T0eLOe3/K7s5yEjBHQht6O7u83v9++8q/tc36zWwTOJsft3VBRF7z2bdBgV9lIAiCIAjrPACtPjntoLD4qwAAAABJRU5ErkJggg==");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 10px;
+  width: 20px;
+}
+
+.summary .apptProvider img {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAALElEQVR42mNgwA7+k4BpawA+MIgMINl/NDOAYi/QxACi0gFNDBjEiWbw5TwAcSR7hT7Ve94AAAAASUVORK5CYII=");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 0.35rem;
+}
+
+.ba_card_header_paperless {
+  border-top-color: #c20000;
+}
+
+body .component .medicationlistelement .rightsection .refillBtn img,
+body .section .content input.transparent {
+  opacity: 1;
+}
+
+a.button,
+div.button,
+input.button,
+button.button {
+  font-weight: bold;
+}
+
+.button {
+  box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  background-color: #003348;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  fill: currentColor;
+  font-family: inherit;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin: 0.5rem 0;
+  padding: 0.25rem 0.75rem;
+  position: relative;
+  text-align: center;
+  -webkit-user-select: none;
+  user-select: none;
+  white-space: normal;
+}
+.button:focus, .button:hover, .button:active {
+  color: #ffffff;
+}
+.button:active {
+  box-shadow: none;
+  transform: translateY(1px);
+}
+.button:hover, .button:active {
+  background-color: #002b3d;
+}
+.button.subtle {
+  background-color: #ffffff;
+  border: 1px solid currentColor;
+  box-shadow: none;
+  padding-top: calc(0.25rem - 1px);
+  padding-bottom: calc(0.25rem - 1px);
+  color: #003348;
+}
+.mobile .button.subtle {
+  padding-top: calc(0.75rem - 1px);
+  padding-bottom: calc(0.75rem - 1px);
+}
+.button.subtle:active {
+  border-color: transparent;
+  box-shadow: inset 0 0 0 2px currentColor;
+  transform: none;
+}
+.button.subtle:hover, .button.subtle:active {
+  background-color: #e6ebed;
+  color: #002b3d;
+}
+.button.nextstep, .button.completeworkflow, .button.inlinesave {
+  box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  background-color: #c20000;
+}
+.button.nextstep:focus, .button.nextstep:hover, .button.nextstep:active, .button.completeworkflow:focus, .button.completeworkflow:hover, .button.completeworkflow:active, .button.inlinesave:focus, .button.inlinesave:hover, .button.inlinesave:active {
+  color: #ffffff;
+}
+.button.nextstep:active, .button.completeworkflow:active, .button.inlinesave:active {
+  box-shadow: none;
+  transform: translateY(1px);
+}
+.button.nextstep:hover, .button.nextstep:active, .button.completeworkflow:hover, .button.completeworkflow:active, .button.inlinesave:hover, .button.inlinesave:active {
+  background-color: #a50000;
+}
+.button.nextstep.subtle, .button.completeworkflow.subtle, .button.inlinesave.subtle {
+  background-color: #ffffff;
+  border: 1px solid currentColor;
+  box-shadow: none;
+  padding-top: calc(0.25rem - 1px);
+  padding-bottom: calc(0.25rem - 1px);
+  color: #246d34;
+}
+.mobile .button.nextstep.subtle, .mobile .button.completeworkflow.subtle, .mobile .button.inlinesave.subtle {
+  padding-top: calc(0.75rem - 1px);
+  padding-bottom: calc(0.75rem - 1px);
+}
+.button.nextstep.subtle:active, .button.completeworkflow.subtle:active, .button.inlinesave.subtle:active {
+  border-color: transparent;
+  box-shadow: inset 0 0 0 2px currentColor;
+  transform: none;
+}
+.button.nextstep.subtle:hover, .button.nextstep.subtle:active, .button.completeworkflow.subtle:hover, .button.completeworkflow.subtle:active, .button.inlinesave.subtle:hover, .button.inlinesave.subtle:active {
+  background-color: #f9e6e6;
+  color: #1f5d2c;
+}
+.button.cancelworkflow, .button.inlinedelete {
+  box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  background-color: black;
+}
+.button.cancelworkflow:focus, .button.cancelworkflow:hover, .button.cancelworkflow:active, .button.inlinedelete:focus, .button.inlinedelete:hover, .button.inlinedelete:active {
+  color: #ffffff;
+}
+.button.cancelworkflow:active, .button.inlinedelete:active {
+  box-shadow: none;
+  transform: translateY(1px);
+}
+.button.cancelworkflow:hover, .button.cancelworkflow:active, .button.inlinedelete:hover, .button.inlinedelete:active {
+  background-color: black;
+}
+.button.cancelworkflow.subtle, .button.inlinedelete.subtle {
+  background-color: #ffffff;
+  border: 1px solid currentColor;
+  box-shadow: none;
+  padding-top: calc(0.25rem - 1px);
+  padding-bottom: calc(0.25rem - 1px);
+  color: #d80000;
+}
+.mobile .button.cancelworkflow.subtle, .mobile .button.inlinedelete.subtle {
+  padding-top: calc(0.75rem - 1px);
+  padding-bottom: calc(0.75rem - 1px);
+}
+.button.cancelworkflow.subtle:active, .button.inlinedelete.subtle:active {
+  border-color: transparent;
+  box-shadow: inset 0 0 0 2px currentColor;
+  transform: none;
+}
+.button.cancelworkflow.subtle:hover, .button.cancelworkflow.subtle:active, .button.inlinedelete.subtle:hover, .button.inlinedelete.subtle:active {
+  background-color: #e6e6e6;
+  color: #b80000;
+}
+.button:focus, .button:hover {
+  text-decoration: none;
+}
+.button[class][disabled]:not(.omitdisablestyling), .button[class].disabled {
+  cursor: default;
+}
+.button[class][disabled]:not(.omitdisablestyling), .button[class][disabled]:not(.omitdisablestyling):focus, .button[class][disabled]:not(.omitdisablestyling):hover, .button[class][disabled]:not(.omitdisablestyling):active, .button[class].disabled, .button[class].disabled:focus, .button[class].disabled:hover, .button[class].disabled:active {
+  background-color: #dbdbdb;
+  color: #565656;
+  box-shadow: none;
+  text-decoration: none;
+  transform: none;
+}
+.button:active:hover {
+  outline: 0;
+}
+.mobile .button[class] {
+  -webkit-appearance: none;
+  display: inline-block;
+  font-size: 1.2rem;
+  line-height: inherit;
+  outline: 0;
+  padding: 0.75rem;
+  vertical-align: top;
+  word-wrap: break-word;
+}
+.mobile .button[class]:focus {
+  outline: 0;
+}
+@media (min--moz-device-pixel-ratio: 0) {
+  .button::-moz-focus-inner {
+    border: none;
+  }
+  .button:focus {
+    outline: 1px dotted black;
+    outline-offset: 3px;
+  }
+}
+.button.primary.negative {
+  box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  background-color: black;
+}
+.button.primary.negative:focus, .button.primary.negative:hover, .button.primary.negative:active {
+  color: #ffffff;
+}
+.button.primary.negative:active {
+  box-shadow: none;
+  transform: translateY(1px);
+}
+.button.primary.negative:hover, .button.primary.negative:active {
+  background-color: black;
+}
+.button.primary.neutral {
+  box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  background-color: #003348;
+}
+.button.primary.neutral:focus, .button.primary.neutral:hover, .button.primary.neutral:active {
+  color: #ffffff;
+}
+.button.primary.neutral:active {
+  box-shadow: none;
+  transform: translateY(1px);
+}
+.button.primary.neutral:hover, .button.primary.neutral:active {
+  background-color: #002b3d;
+}
+.button.primary.positive {
+  box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  background-color: #c20000;
+}
+.button.primary.positive:focus, .button.primary.positive:hover, .button.primary.positive:active {
+  color: #ffffff;
+}
+.button.primary.positive:active {
+  box-shadow: none;
+  transform: translateY(1px);
+}
+.button.primary.positive:hover, .button.primary.positive:active {
+  background-color: #a50000;
+}
+.button.secondary.negative {
+  background-color: #ffffff;
+  border: 1px solid currentColor;
+  box-shadow: none;
+  padding-top: calc(0.25rem - 1px);
+  padding-bottom: calc(0.25rem - 1px);
+  color: #d80000;
+}
+.mobile .button.secondary.negative {
+  padding-top: calc(0.75rem - 1px);
+  padding-bottom: calc(0.75rem - 1px);
+}
+.button.secondary.negative:active {
+  border-color: transparent;
+  box-shadow: inset 0 0 0 2px currentColor;
+  transform: none;
+}
+.button.secondary.negative:hover, .button.secondary.negative:active {
+  background-color: #e6e6e6;
+  color: #b80000;
+}
+.button.secondary.neutral {
+  background-color: #ffffff;
+  border: 1px solid currentColor;
+  box-shadow: none;
+  padding-top: calc(0.25rem - 1px);
+  padding-bottom: calc(0.25rem - 1px);
+  color: #003348;
+}
+.mobile .button.secondary.neutral {
+  padding-top: calc(0.75rem - 1px);
+  padding-bottom: calc(0.75rem - 1px);
+}
+.button.secondary.neutral:active {
+  border-color: transparent;
+  box-shadow: inset 0 0 0 2px currentColor;
+  transform: none;
+}
+.button.secondary.neutral:hover, .button.secondary.neutral:active {
+  background-color: #e6ebed;
+  color: #002b3d;
+}
+.button.secondary.positive {
+  background-color: #ffffff;
+  border: 1px solid currentColor;
+  box-shadow: none;
+  padding-top: calc(0.25rem - 1px);
+  padding-bottom: calc(0.25rem - 1px);
+  color: #246d34;
+}
+.mobile .button.secondary.positive {
+  padding-top: calc(0.75rem - 1px);
+  padding-bottom: calc(0.75rem - 1px);
+}
+.button.secondary.positive:active {
+  border-color: transparent;
+  box-shadow: inset 0 0 0 2px currentColor;
+  transform: none;
+}
+.button.secondary.positive:hover, .button.secondary.positive:active {
+  background-color: #f9e6e6;
+  color: #1f5d2c;
+}
+.button.tertiary.negative {
+  background-color: transparent;
+  box-shadow: none;
+  color: #d80000;
+}
+.button.tertiary.negative:hover {
+  text-decoration: underline;
+}
+.button.tertiary.negative:active {
+  box-shadow: inset 0 0 0 2px currentColor;
+  transform: none;
+}
+.button.tertiary.negative:active {
+  background-color: rgba(216, 0, 0, 0.1);
+}
+.button.tertiary.neutral {
+  background-color: transparent;
+  box-shadow: none;
+  color: #003348;
+}
+.button.tertiary.neutral:hover {
+  text-decoration: underline;
+}
+.button.tertiary.neutral:active {
+  box-shadow: inset 0 0 0 2px currentColor;
+  transform: none;
+}
+.button.tertiary.neutral:active {
+  background-color: rgba(0, 51, 72, 0.1);
+}
+.button.tertiary.positive {
+  background-color: transparent;
+  box-shadow: none;
+  color: #246d34;
+}
+.button.tertiary.positive:hover {
+  text-decoration: underline;
+}
+.button.tertiary.positive:active {
+  box-shadow: inset 0 0 0 2px currentColor;
+  transform: none;
+}
+.button.tertiary.positive:active {
+  background-color: rgba(36, 109, 52, 0.1);
+}
+
+div#furtherexplanation,
+.essLtrBtn:not(.nextstep) {
+  background-color: #003348;
+}
+
+.expanded #searchimg,
+.confirmationstep .buttoncontainer .button,
+.shareeverywhere #submit,
+.logout input[type=button] {
+  background-color: #c20000;
+}
+
+#main .back .button {
+  background-color: #ffffff;
+  border: 1px solid currentColor;
+  box-shadow: none;
+  padding-top: calc(0.25rem - 1px);
+  padding-bottom: calc(0.25rem - 1px);
+  color: #003348;
+}
+.mobile #main .back .button {
+  padding-top: calc(0.75rem - 1px);
+  padding-bottom: calc(0.75rem - 1px);
+}
+#main .back .button:active {
+  border-color: transparent;
+  box-shadow: inset 0 0 0 2px currentColor;
+  transform: none;
+}
+#main .back .button:hover, #main .back .button:active {
+  background-color: #e6ebed;
+  color: #002b3d;
+}
+
+body .stepContainer .openingsData .slotslist .slotdetailaction.selected,
+body .lookup .searchinputs:after,
+body .lookup .expanded #searchimg {
+  background-color: #c20000;
+  border-color: #246d34;
+}
+
+.md_admissions .tbContainer.nextstep input:checked + label.togglebutton[for],
+.md_admissions .tbContainer.nextstep input.buttoncheck:checked + label.buttoncheck,
+.md_ippatientnotes .tbContainer.nextstep input:checked + label.togglebutton[for],
+.md_ippatientnotes .tbContainer.nextstep input.buttoncheck:checked + label.buttoncheck,
+.md_ippatientedu .tbContainer.nextstep input:checked + label.togglebutton[for],
+.md_ippatientedu .tbContainer.nextstep input.buttoncheck:checked + label.buttoncheck {
+  background-color: #c20000;
+}
+
+input.flatradio:checked + label,
+input.flatradio:checked + label .subtle {
+  color: #003348;
+}
+
+input.prettycheck:checked + label:before,
+input.buttoncheck:checked + label.buttoncheck:before {
+  background-color: #003348;
+  border-color: #003348;
+}
+
+input.prettyradio:checked + label:before {
+  background-color: #003348;
+}
+
+input.flatradio:checked + label:before {
+  background-color: #003348;
+  border-color: #003348;
+}
+
+.flatradio.container input.flatradio:disabled + label {
+  color: #767676;
+}
+
+.list.collapsible > * {
+  border-color: #cccccc;
+  border-style: solid solid none;
+  border-width: 1px 1px 0;
+}
+
+.list.collapsible > :last-child {
+  border-bottom: 1px solid #cccccc;
+}
+
+.listHolder {
+  border: 1px solid #dbdbdb;
+}
+
+/* #region SDKComponents.scss */
+[class] ._heading {
+  color: #c20000;
+}
+[class] ._heading._subtitle {
+  color: #000000;
+}
+[class] ._link {
+  color: #c20000;
+}
+[class] ._link:focus, [class] ._link:hover {
+  color: #aa0000;
+}
+[class] ._command {
+  font-weight: bold;
+}
+[class] ._command.primary.negative {
+  box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  background-color: black;
+}
+[class] ._command.primary.negative:focus, [class] ._command.primary.negative:hover, [class] ._command.primary.negative:active {
+  color: #ffffff;
+}
+[class] ._command.primary.negative:active {
+  box-shadow: none;
+  transform: translateY(1px);
+}
+[class] ._command.primary.negative:hover, [class] ._command.primary.negative:active {
+  background-color: black;
+}
+[class] ._command.primary.neutral {
+  box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  background-color: #003348;
+}
+[class] ._command.primary.neutral:focus, [class] ._command.primary.neutral:hover, [class] ._command.primary.neutral:active {
+  color: #ffffff;
+}
+[class] ._command.primary.neutral:active {
+  box-shadow: none;
+  transform: translateY(1px);
+}
+[class] ._command.primary.neutral:hover, [class] ._command.primary.neutral:active {
+  background-color: #002b3d;
+}
+[class] ._command.primary.positive {
+  box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  background-color: #c20000;
+}
+[class] ._command.primary.positive:focus, [class] ._command.primary.positive:hover, [class] ._command.primary.positive:active {
+  color: #ffffff;
+}
+[class] ._command.primary.positive:active {
+  box-shadow: none;
+  transform: translateY(1px);
+}
+[class] ._command.primary.positive:hover, [class] ._command.primary.positive:active {
+  background-color: #a50000;
+}
+[class] ._command.secondary.negative {
+  background-color: #ffffff;
+  border: 1px solid currentColor;
+  box-shadow: none;
+  padding-top: calc(0.25rem - 1px);
+  padding-bottom: calc(0.25rem - 1px);
+  color: #d80000;
+}
+.mobile [class] ._command.secondary.negative {
+  padding-top: calc(0.75rem - 1px);
+  padding-bottom: calc(0.75rem - 1px);
+}
+[class] ._command.secondary.negative:active {
+  border-color: transparent;
+  box-shadow: inset 0 0 0 2px currentColor;
+  transform: none;
+}
+[class] ._command.secondary.negative:hover, [class] ._command.secondary.negative:active {
+  background-color: #e6e6e6;
+  color: #b80000;
+}
+[class] ._command.secondary.neutral {
+  background-color: #ffffff;
+  border: 1px solid currentColor;
+  box-shadow: none;
+  padding-top: calc(0.25rem - 1px);
+  padding-bottom: calc(0.25rem - 1px);
+  color: #003348;
+}
+.mobile [class] ._command.secondary.neutral {
+  padding-top: calc(0.75rem - 1px);
+  padding-bottom: calc(0.75rem - 1px);
+}
+[class] ._command.secondary.neutral:active {
+  border-color: transparent;
+  box-shadow: inset 0 0 0 2px currentColor;
+  transform: none;
+}
+[class] ._command.secondary.neutral:hover, [class] ._command.secondary.neutral:active {
+  background-color: #e6ebed;
+  color: #002b3d;
+}
+[class] ._command.secondary.positive {
+  background-color: #ffffff;
+  border: 1px solid currentColor;
+  box-shadow: none;
+  padding-top: calc(0.25rem - 1px);
+  padding-bottom: calc(0.25rem - 1px);
+  color: #246d34;
+}
+.mobile [class] ._command.secondary.positive {
+  padding-top: calc(0.75rem - 1px);
+  padding-bottom: calc(0.75rem - 1px);
+}
+[class] ._command.secondary.positive:active {
+  border-color: transparent;
+  box-shadow: inset 0 0 0 2px currentColor;
+  transform: none;
+}
+[class] ._command.secondary.positive:hover, [class] ._command.secondary.positive:active {
+  background-color: #f9e6e6;
+  color: #1f5d2c;
+}
+[class] ._command.tertiary.negative {
+  background-color: transparent;
+  box-shadow: none;
+  color: #d80000;
+}
+[class] ._command.tertiary.negative:hover {
+  text-decoration: underline;
+}
+[class] ._command.tertiary.negative:active {
+  box-shadow: inset 0 0 0 2px currentColor;
+  transform: none;
+}
+[class] ._command.tertiary.negative:active {
+  background-color: rgba(216, 0, 0, 0.1);
+}
+[class] ._command.tertiary.neutral {
+  background-color: transparent;
+  box-shadow: none;
+  color: #003348;
+}
+[class] ._command.tertiary.neutral:hover {
+  text-decoration: underline;
+}
+[class] ._command.tertiary.neutral:active {
+  box-shadow: inset 0 0 0 2px currentColor;
+  transform: none;
+}
+[class] ._command.tertiary.neutral:active {
+  background-color: rgba(0, 51, 72, 0.1);
+}
+[class] ._command.tertiary.positive {
+  background-color: transparent;
+  box-shadow: none;
+  color: #246d34;
+}
+[class] ._command.tertiary.positive:hover {
+  text-decoration: underline;
+}
+[class] ._command.tertiary.positive:active {
+  box-shadow: inset 0 0 0 2px currentColor;
+  transform: none;
+}
+[class] ._command.tertiary.positive:active {
+  background-color: rgba(36, 109, 52, 0.1);
+}
+[class] ._command[class][disabled]:not(.omitdisablestyling), [class] ._command[class][disabled]:not(.omitdisablestyling):focus, [class] ._command[class][disabled]:not(.omitdisablestyling):hover, [class] ._command[class][disabled]:not(.omitdisablestyling):active, [class] ._command[class].disabled, [class] ._command[class].disabled:focus, [class] ._command[class].disabled:hover, [class] ._command[class].disabled:active {
+  background-color: #dbdbdb;
+  color: #565656;
+}
+[class] ._input {
+  border-color: #767676;
+}
+[class] ._Choice,
+[class] ._Segment.boundary-strong {
+  border: 1px solid #cccccc;
+}
+[class] ._OptionListCommand {
+  opacity: 1;
+}
+[class] ._TabList.vertical ._OptionListElement.selected ._OptionListCommand {
+  border-color: #cccccc #c20000;
+}
+[class] ._CollapsedControls ._OptionListElement:hover,
+[class] ._CollapsedControls ._OptionListElement ._OptionListCommand:focus {
+  color: #c20000;
+}
+
+/* #endregion */
+.button[data-type=workflow]:hover,
+.button[data-type=workflow]:focus {
+  background-color: #002b3d;
+}
+
+#scheduling-workflow .banner::before {
+  background-color: transparent;
+}
+
+body #scheduling-workflow a.slot:not(:hover):not(:focus),
+body #selftriage-triage-workflow a.slot:not(:hover):not(:focus),
+body #onmyway-workflow .slot:not(:hover):not(:focus),
+.openingsData .slotslist .slotdetailaction:not(:hover):not(:focus) {
+  color: #ffffff;
+  background-color: #c20000;
+}
+
+.slot.selected,
+.slotgroup.preview .slot,
+.slotdetailaction.selected,
+html:not(.mobile) .slot:hover,
+html:not(.mobile) .slot:focus,
+html:not(.mobile) .slotdetailaction:hover,
+html:not(.mobile) .slotdetailaction:focus {
+  background-color: #a50000 !important;
+}
+
+.solutionpreview {
+  border-top-color: #a50000;
+  border-bottom-color: #a50000;
+}
+
+#scheduling-workflow .summaryInfo .summarySpan > .subtle.editText {
+  color: #c20000;
+}
+
+a.expandrequestoptions, a.loadanotherbatchbutton {
+  color: #003348;
+}
+
+.requestheader {
+  background-color: #ffffff;
+}
+
+#scheduling-workflow .extrasContainer {
+  background-color: transparent;
+}
+
+#scheduling-workflow .cardlist.selectable.autoadvance .card:before, #scheduling-workflow .cardlist.selectable.multiselect .card:not(.selected):before {
+  filter: brightness(0.75);
+}
+
+body #onMyWayPopup .slot:not(:hover):not(:focus) {
+  color: #ffffff;
+  background-color: #c20000;
+}
+
+body #onMyWayPopup .slot:focus {
+  background-color: #a50000;
+}
+
+body #onMyWayPopup .slotDropdown {
+  border-color: #000000;
+}
+
+body #onMyWayPopup .walkInButton:hover:not([disabled]),
+body #onMyWayPopup .walkInButton:focus:not([disabled]) {
+  background-color: #002b3d;
+}
+
+.positiveValue {
+  color: #246d34;
+}
+
+.mapHolder,
+#filterControls {
+  border: 1px solid #dbdbdb;
+}
+
+body .case .trackerStatus.Pending .trackerBadge,
+body .case .trackerStatus.OpenCase .trackerBadge,
+#viewdocumentwidget .docinfo span.pendingDocBadge,
+.org-signup:not(.button) > span {
+  background: none;
+  border: 1px solid #ffa020;
+  color: #000000;
+}
+
+#viewdocumentwidget .Status span.pendingDocBadge {
+  background: none;
+  border: 1px solid #ffa020;
+  color: #000000;
+}
+
+#viewdocumentwidget .Status {
+  line-height: 1.5rem;
+}
+
+body .tracker.Approved .trackerStatus .trackerBadge {
+  background-color: #246d34;
+}
+
+.hca-content.card .cardline.hca-activestatus.active {
+  background-color: #f2a7a7;
+  border-color: #ee4a4a;
+}
+
+.acpContent .approvedDocBadge {
+  background-color: #f2a7a7;
+  border-color: #c20000;
+  color: #600f0f;
+}
+
+.tracker.Approved .trackerStatus .trackerBadge,
+.approvedDocBadge {
+  background-color: #a30000;
+}
+
+.card.helptip.success,
+.telemedicine,
+.visitactionbanner {
+  background-color: #f9d3d3;
+}
+
+.card.helptip.success:not(.moreToDo) .header.medium {
+  color: #600f0f;
+}
+
+.statusBadge.neutral {
+  background-color: #f0bfbf;
+  border-color: #c20000;
+  color: #000000;
+}
+
+.statusBadge.positive {
+  background-color: #f2a7a7;
+  border-color: #c20000;
+  color: #600f0f;
+}
+
+#documenttable .document .docinfo.unsigned {
+  background-color: #767676;
+}
+
+body.md_mychartquestionnaire_questionnaires .assigned_qnr_description, body.md_mychartquestionnaire_questionnaires .optional_qnr_description {
+  color: #000000;
+}
+
+.section.questionsContainer .tbContainer > input:focus + label[for] {
+  text-decoration: underline;
+  border: 1px solid #000000;
+}
+
+.section.questionsContainer .question.HORIZSLIDER .answers .slider,
+.section.questionsContainer .question.VERTSLIDER .answers .slidertools .slider,
+.section.questionsContainer .question.HORIZSLIDER .answers .noresponse,
+.section.questionsContainer .question.VERTSLIDER .answers .noresponse,
+.qnr-summary-question-answer.slider-answer .slidersection.HORIZSLIDER > .slider,
+.qnr-summary-question-answer.slider-answer .slidersection.VERTSLIDER > .slider {
+  border-color: #000000;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: none;
+}
+
+.section.questionsContainer .question.questionSlider .slidersection .sliderball {
+  border-color: #000000;
+}
+
+.section.questionsContainer .question.HORIZSLIDER .answers .slider,
+.section.questionsContainer .question.VERTSLIDER .answers .slidertools .slider,
+.qnr-summary-question-answer.slider-answer .slidersection.HORIZSLIDER > .slider,
+.qnr-summary-question-answer.slider-answer .slidersection.VERTSLIDER > .slider {
+  background: rgba(194, 0, 0, 0.85);
+}
+
+.section.questionsContainer .question.HORIZSLIDER .answers .slider.higherbetter,
+.slider-answer:not(.vert) .slidersection.HORIZSLIDER .slider.higherbetter {
+  background-image: linear-gradient(to right, #d60017, #dede0e, #09b737);
+}
+.section.questionsContainer .question.HORIZSLIDER .answers .slider.lowerbetter,
+.slider-answer:not(.vert) .slidersection.HORIZSLIDER .slider.lowerbetter {
+  background-image: linear-gradient(to left, #d60017, #dede0e, #09b737);
+}
+
+.section.questionsContainer .question.VERTSLIDER .answers .slider.higherbetter,
+.slider-answer.vert .slidersection.VERTSLIDER .slider.higherbetter {
+  background-image: linear-gradient(to top, #d60017, #dede0e, #09b737);
+}
+.section.questionsContainer .question.VERTSLIDER .answers .slider.lowerbetter,
+.slider-answer.vert .slidersection.VERTSLIDER .slider.lowerbetter {
+  background-image: linear-gradient(to bottom, #d60017, #dede0e, #09b737);
+}
+
+.qnr-summary-question-answer.slider-answer .slidersection.HORIZSLIDER .sliderball,
+.qnr-summary-question-answer.slider-answer .slidersection.VERTSLIDER .sliderball {
+  border-color: transparent #000000 transparent;
+}
+
+.section.questionsContainer input.prettyradio:checked + label:before,
+.section.questionsContainer input.prettycheck:checked + label:before {
+  border-color: #003348;
+}
+
+.qnr-scoring-header {
+  background-color: rgba(194, 0, 0, 0.05);
+}
+
+#main .section.questionsContainer .questionGroupRulerStyle .flatradiogrouper .question.questiongroupitem:after,
+#main .section.questionsContainer .questionGroupRulerStyle .flatradiogrouper .flatradio.container:after {
+  border-bottom-color: #565656;
+}
+
+#main .section tr .qnr-summary-follow-up-question-container {
+  border-left-color: rgba(204, 204, 204, 0.95);
+}
+
+#main .section tr:hover .qnr-summary-follow-up-question-container {
+  border-left-color: rgba(118, 118, 118, 0.7);
+}
+
+.componentDataTable .refRangeGraph .ptMid {
+  stroke: #178935;
+}
+
+.componentDataTable .refRangeGraph .ptLeft, .componentDataTable .refRangeGraph .ptRight {
+  stroke: #857700;
+}
+
+.TRPTimelineList .timeLineDetails .testResultAndComponents li.TRPComponentHeader,
+.dashboardComponentCard {
+  border: 1px #dbdbdb solid;
+  border-collapse: collapse;
+}
+
+.TRPComponentHeader .nameColumn {
+  color: #000000;
+}
+
+div.hmt-item-card > div.hmt-previously-done > div {
+  color: #000000 !important;
+}
+
+.ellipsisControl > a.ellipsisControl-caret:after {
+  border-top-color: #000000 !important;
+}
+
+.ellipsisControl.ellipsisControl-no-ellipsis > a.ellipsisControl-caret:after {
+  border-top-color: transparent !important;
+  border-bottom-color: #000000 !important;
+}
+
+.pastvisit.card .visit-summary-text {
+  color: #c20000;
+}
+.pastvisit.card .avs.visit-summary-link:hover,
+.pastvisit.card .notes.visit-summary-link:hover {
+  background-color: #faebeb;
+}
+
+div.filters.extendedBar {
+  background-color: rgba(194, 0, 0, 0.05) !important;
+}
+
+.noShowCanceledShiftedCard > .date > div {
+  color: #000000 !important;
+}
+
+label.filterButton {
+  color: #c20000 !important;
+}
+label.filterButton:hover {
+  color: #aa0000 !important;
+}
+
+label.clearButton {
+  color: #c20000 !important;
+}
+
+.dropdown-content tr:hover td.optionCell > label,
+.optionCell > input:focus + label {
+  background-color: #003348;
+}
+
+.md_visitdetails_index .telemedicine,
+.md_visitdetails_index .visitactionbanner {
+  background-color: rgba(118, 118, 118, 0.02);
+}
+
+.selfTriage .landingPage .inProgressStatus .status {
+  background: none;
+  border: 1px solid #ffa020;
+  color: #000000;
+}
+.selfTriage .helperSection.narrowSymptoms:after,
+.selfTriage .helperSection.nextSteps:after {
+  border-color: rgba(194, 0, 0, 0.5);
+}
+
+/* #region Medications */
+.medcard .selection-enabled input[type=checkbox] + label svg,
+.medcard .med-selection-box .selection-disabled svg {
+  fill: #565656;
+}
+
+.medcard .selection-enabled input[type=checkbox] + label svg:hover,
+.medcard .selection-enabled input[type=checkbox]:checked + label svg {
+  fill: #003348;
+}
+
+.refill-workflow .card.refill-disabled .medmessage,
+.medcard .selection-disabled .cardline.medmessage {
+  background-color: #565656;
+}
+
+.refill-workflow .medcard.refill-disabled * {
+  color: #565656;
+}
+
+.refill-workflow .card.refill-disabled .medmessage {
+  color: #eaeaea;
+}
+
+#MedicationForm .formbuttons {
+  background-color: #ffffff;
+}
+
+/* #endregion */
+/* #region Subway UI */
+.subway.scrollable .nav div {
+  background-color: #767676 !important;
+}
+
+.subway,
+.subway a,
+.subway a:focus,
+.subway a:hover {
+  color: #c20000;
+}
+
+.line .trainrail {
+  background-color: #c20000;
+}
+.line .trainrail.future:not(.visited) {
+  background-color: rgba(194, 0, 0, 0.5);
+}
+
+.stops .trainstation {
+  background: #e18080;
+  border-color: #c20000;
+}
+.stops .now .trainstation {
+  background-color: #c20000;
+}
+.stops .future:not(.visited) .trainstation {
+  border-color: rgba(194, 0, 0, 0.5);
+}
+
+/* #endregion */
+/* #region Add Item Card help text */
+.card.addItem .vcentertablecell .addMessage {
+  color: #000000 !important;
+}
+
+/* #endregion */
+/* #region Explore More */
+#exploreMoreContainer .exploreMoreSubjectContext {
+  background: #ffffff;
+}
+
+/* endregion */
+/* #region Carousel */
+.carouselContainer #carouselIndicators .carouselButtonInner {
+  border: 1px solid #000000;
+}
+.carouselContainer #carouselIndicators .carouselButton:not(.active) {
+  opacity: 1;
+}
+.carouselContainer #carouselIndicators .carouselButton:not(.active) .carouselButtonInner {
+  background-color: transparent;
+}
+.carouselContainer #carouselIndicators .carouselButton:not(.active):hover {
+  opacity: 1;
+}
+.carouselContainer #carouselIndicators .carouselButton:not(.active):hover .carouselButtonInner {
+  background-color: #dbdbdb;
+}
+
+/* endregion */
+/* #region Friends and family access */
+.statusIndicator.statusBadge.neutral {
+  border: 2px solid #c20000;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.statusIndicator.statusBadge.pending {
+  border: 2px solid #ffa020;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.row.notificationRow {
+  background-color: #ffffff;
+  border-top: 2px solid #767676;
+}
+
+/* #endregion */
+/* #region Community*/
+#ceSpotlight:not(:empty), #fhirSpotlight:not(:empty) {
+  border: 1px solid #cccccc;
+}
+
+/* #endregion*/
+/* #region proxy selector*/
+.proxySelectorDropDownContainer .dropdown-menu li.proxySubjectListItem:not(:hover) {
+  background-color: #ffffff;
+}
+.proxySelectorDropDownContainer .dropdown-menu li.proxySubjectListItem a.proxySubjectLink {
+  color: #363636;
+}
+
+/* #endregion*/
+/* region Item Feed */
+#itemFeedContainer a,
+#exploreMoreContainer a {
+  font-weight: bold;
+}
+#itemFeedContainer a.tertiary .tertiaryLabel,
+#itemFeedContainer a.tertiary svg,
+#itemFeedContainer a.tertiary img,
+#exploreMoreContainer a.tertiary .tertiaryLabel,
+#exploreMoreContainer a.tertiary svg,
+#exploreMoreContainer a.tertiary img {
+  color: #c20000;
+  fill: #c20000;
+}
+#itemFeedContainer .waterMark,
+#exploreMoreContainer .waterMark {
+  display: none;
+}
+#itemFeedContainer .visitDate,
+#exploreMoreContainer .visitDate {
+  color: #c20000;
+}
+#itemFeedContainer .fastPassFeedItem .fastPassOffers .newAppt .visitDate, #itemFeedContainer .fastPassFeedItem .fastPassOffers .newAppt .timeLabel,
+#exploreMoreContainer .fastPassFeedItem .fastPassOffers .newAppt .visitDate,
+#exploreMoreContainer .fastPassFeedItem .fastPassOffers .newAppt .timeLabel {
+  color: #c20000;
+}
+
+/* endregion */
+/* #region COVID Status*/
+#main #CovidStatusContainer .factorContainer .iconStatus {
+  fill: #000000;
+}
+#main #CovidStatusContainer .factorContainer .iconStatus.iconStatusDetected, #main #CovidStatusContainer .factorContainer .iconStatus.iconStatusHighRisk {
+  fill: #d80000;
+}
+#main #CovidStatusContainer .statusComplete {
+  color: #000000;
+}
+#main #CovidStatusContainer .covidQuestionnaireLink {
+  color: #003348;
+}
+#main #CovidStatusContainer .covidQuestionnaireLink .iconLink {
+  fill: #003348;
+}
+#main #CovidStatusContainer .PreviousScreeningsHeader {
+  border: 1px solid #dbdbdb;
+}
+#main #CovidStatusContainer .PreviousScreeningsList .screeningRow .iconStatus {
+  fill: #000000;
+}
+#main #CovidStatusContainer .PreviousScreeningsList .screeningRow .iconStatus.iconStatusHighRisk {
+  fill: #d80000;
+}
+#main #CovidStatusContainer .PreviousScreeningsList .screeningRow:hover .iconStatus {
+  fill: #363636;
+}
+
+/* #endregion */
+.emergencyDisclaimer .progressiveDisclosureText .mainText {
+  background-color: rgba(255, 255, 255, 0.925);
+}
+.emergencyDisclaimer .progressiveDisclosureText .mainText.expandableMainText:hover {
+  background-color: #fdf2f2;
+}
+
+#AddDocButton.AddDocButton {
+  border: 2px dashed #767676;
+}
+
+/* #region Communication-Center */
+[class] .ConversationHeader {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background: #fdf7f7;
+}
+@media screen and (min--moz-device-pixel-ratio: 0) {
+  [class] .ConversationHeader {
+    background: #fdf7f7;
+  }
+}
+[class] .TaskList .TaskLink,
+[class] .TaskList .completedTask, [class] .PreviewActionables .TaskLink,
+[class] .PreviewActionables .completedTask {
+  color: #003348;
+}
+[class] .TaskList .TaskLink:focus, [class] .TaskList .TaskLink:hover,
+[class] .TaskList .completedTask:focus,
+[class] .TaskList .completedTask:hover, [class] .PreviewActionables .TaskLink:focus, [class] .PreviewActionables .TaskLink:hover,
+[class] .PreviewActionables .completedTask:focus,
+[class] .PreviewActionables .completedTask:hover {
+  color: #002b3d;
+}
+[class] .TaskList .completedTask, [class] .PreviewActionables .completedTask {
+  border-color: #c20000;
+  background-color: #c20000;
+}
+[class] .TaskList .completedTask .linkText, [class] .PreviewActionables .completedTask .linkText {
+  background-color: #ccffd8;
+  color: #246d34;
+}
+[class] .ConversationPreview.unread .ParticipantPhoto:not([class*=color]) {
+  border-color: #005ebb;
+}
+[class] .ConversationPreview.unread .ParticipantPhoto[class*=color] {
+  box-shadow: 0 0 0 2px #005ebb;
+}
+[class] .ConversationPreview .subject {
+  color: #000000;
+}
+[class] .ConversationPreview .supplementalFlags .flagUnread {
+  background-color: #005ebb;
+}
+[class] .Tab .unreadCount {
+  background: #005ebb;
+}
+[role=tab][aria-selected=true] [class] .Tab {
+  color: #c20000;
+}
+[class] .AttachmentList .AttachmentLink, [class] PreviewActionables .AttachmentLink {
+  color: #003348;
+}
+[class] .AttachmentList .AttachmentLink:focus, [class] .AttachmentList .AttachmentLink:hover, [class] PreviewActionables .AttachmentLink:focus, [class] PreviewActionables .AttachmentLink:hover {
+  color: #002b3d;
+}
+[class] .Message.fromThem .MessageContent {
+  border-color: #dbdbdb;
+  border: 2px solid #dbdbdb;
+  background: #ffffff;
+  border-radius: 0.75rem;
+  border-top-left-radius: 0;
+  padding: 0.5rem;
+  position: relative;
+}
+[class] .Message.fromThem .MessageContent::before {
+  content: "";
+  position: absolute;
+  /*rtl:raw:
+  	transform: scaleX(-1);*/
+  top: calc(-1.4em - 2px);
+  width: 1.4em;
+  height: calc(1.4em + 5px);
+  left: -2px;
+  background: radial-gradient(circle at 100% 0, transparent 1.4em, #dbdbdb 1.4em, #dbdbdb calc(1.4em + 2px), #ffffff calc(1.4em + 2px));
+  /*rtl:ignore*/
+  border-left: 2px solid #dbdbdb;
+}
+@media print {
+  [class] .Message.fromThem .MessageContent::before {
+    visibility: hidden;
+  }
+}
+@media print {
+  [class] .Message.fromThem .MessageContent {
+    border: none;
+  }
+}
+[class] .Message.fromThem.unread .ParticipantPhoto {
+  border-color: #005ebb;
+}
+[class] .Message.fromThem.unread .MessageContent {
+  box-shadow: 0 0 3px 1px #005ebb;
+  margin-left: 2px;
+  background: #ffffff;
+  border-radius: 0.75rem;
+  border-top-left-radius: 0;
+  padding: 0.5rem;
+  position: relative;
+  border: none;
+}
+[class] .Message.fromThem.unread .MessageContent::before {
+  background: radial-gradient(circle at 100% 0, transparent calc(1.4em - 1px), rgba(0, 94, 187, 0.5) calc(1.4em + 1px), #ffffff calc(1.4em + 2px));
+  /*rtl:raw:
+  transform: scaleX(-1);*/
+  left: 0;
+  -webkit-mask-image: linear-gradient(to right, #000000 80%, transparent 95%);
+  mask-image: linear-gradient(to right, #000000 80%, transparent 95%);
+  top: calc(-1.4em - 1.5px);
+}
+[class] .Message.fromThem.unread .MessageContent::after {
+  content: "";
+  position: absolute;
+  left: -3px;
+  background: linear-gradient(to right, transparent, rgba(0, 94, 187, 0.7));
+  top: -1.45rem;
+  height: 1.45rem;
+  width: 3px;
+  -webkit-mask-image: linear-gradient(to bottom, #000000 85%, rgba(0, 0, 0, 0.5));
+  mask-image: linear-gradient(to bottom, #000000 85%, rgba(0, 0, 0, 0.5));
+}
+@media print {
+  [class] .Message.fromThem.unread .MessageContent {
+    box-shadow: none;
+  }
+}
+[class] .Message.fromThem.unread .MessageContent::before {
+  border: none;
+}
+[class] .Message.fromUs .MessageContent {
+  border-color: #b8c6d8;
+  border: 2px solid #b8c6d8;
+  background: #ffffff;
+  border-radius: 0.75rem;
+  border-top-right-radius: 0;
+  padding: 0.5rem;
+  position: relative;
+}
+[class] .Message.fromUs .MessageContent::before {
+  content: "";
+  position: absolute;
+  /*rtl:raw:
+  	transform: scaleX(-1);*/
+  top: calc(-1.4em - 2px);
+  width: 1.4em;
+  height: calc(1.4em + 5px);
+  right: -2px;
+  background: radial-gradient(circle at 0 0, transparent 1.4em, #b8c6d8 1.4em, #b8c6d8 calc(1.4em + 2px), #ffffff calc(1.4em + 2px));
+  /*rtl:ignore*/
+  border-right: 2px solid #b8c6d8;
+}
+@media print {
+  [class] .Message.fromUs .MessageContent::before {
+    visibility: hidden;
+  }
+}
+@media print {
+  [class] .Message.fromUs .MessageContent {
+    border: none;
+  }
+}
+[class] .Message.fromUs .MessageContent.color1 {
+  border-color: #92c6ed;
+  border: 2px solid #92c6ed;
+  background: #ffffff;
+  border-radius: 0.75rem;
+  border-top-right-radius: 0;
+  padding: 0.5rem;
+  position: relative;
+}
+[class] .Message.fromUs .MessageContent.color1::before {
+  content: "";
+  position: absolute;
+  /*rtl:raw:
+  	transform: scaleX(-1);*/
+  top: calc(-1.4em - 2px);
+  width: 1.4em;
+  height: calc(1.4em + 5px);
+  right: -2px;
+  background: radial-gradient(circle at 0 0, transparent 1.4em, #92c6ed 1.4em, #92c6ed calc(1.4em + 2px), #ffffff calc(1.4em + 2px));
+  /*rtl:ignore*/
+  border-right: 2px solid #92c6ed;
+}
+@media print {
+  [class] .Message.fromUs .MessageContent.color1::before {
+    visibility: hidden;
+  }
+}
+@media print {
+  [class] .Message.fromUs .MessageContent.color1 {
+    border: none;
+  }
+}
+[class] .Message.fromUs .MessageContent.color2 {
+  border-color: #96cd9c;
+  border: 2px solid #96cd9c;
+  background: #ffffff;
+  border-radius: 0.75rem;
+  border-top-right-radius: 0;
+  padding: 0.5rem;
+  position: relative;
+}
+[class] .Message.fromUs .MessageContent.color2::before {
+  content: "";
+  position: absolute;
+  /*rtl:raw:
+  	transform: scaleX(-1);*/
+  top: calc(-1.4em - 2px);
+  width: 1.4em;
+  height: calc(1.4em + 5px);
+  right: -2px;
+  background: radial-gradient(circle at 0 0, transparent 1.4em, #96cd9c 1.4em, #96cd9c calc(1.4em + 2px), #ffffff calc(1.4em + 2px));
+  /*rtl:ignore*/
+  border-right: 2px solid #96cd9c;
+}
+@media print {
+  [class] .Message.fromUs .MessageContent.color2::before {
+    visibility: hidden;
+  }
+}
+@media print {
+  [class] .Message.fromUs .MessageContent.color2 {
+    border: none;
+  }
+}
+[class] .Message.fromUs .MessageContent.color3 {
+  border-color: #e8abe3;
+  border: 2px solid #e8abe3;
+  background: #ffffff;
+  border-radius: 0.75rem;
+  border-top-right-radius: 0;
+  padding: 0.5rem;
+  position: relative;
+}
+[class] .Message.fromUs .MessageContent.color3::before {
+  content: "";
+  position: absolute;
+  /*rtl:raw:
+  	transform: scaleX(-1);*/
+  top: calc(-1.4em - 2px);
+  width: 1.4em;
+  height: calc(1.4em + 5px);
+  right: -2px;
+  background: radial-gradient(circle at 0 0, transparent 1.4em, #e8abe3 1.4em, #e8abe3 calc(1.4em + 2px), #ffffff calc(1.4em + 2px));
+  /*rtl:ignore*/
+  border-right: 2px solid #e8abe3;
+}
+@media print {
+  [class] .Message.fromUs .MessageContent.color3::before {
+    visibility: hidden;
+  }
+}
+@media print {
+  [class] .Message.fromUs .MessageContent.color3 {
+    border: none;
+  }
+}
+[class] .Message.fromUs .MessageContent.color4 {
+  border-color: #d2b7ec;
+  border: 2px solid #d2b7ec;
+  background: #ffffff;
+  border-radius: 0.75rem;
+  border-top-right-radius: 0;
+  padding: 0.5rem;
+  position: relative;
+}
+[class] .Message.fromUs .MessageContent.color4::before {
+  content: "";
+  position: absolute;
+  /*rtl:raw:
+  	transform: scaleX(-1);*/
+  top: calc(-1.4em - 2px);
+  width: 1.4em;
+  height: calc(1.4em + 5px);
+  right: -2px;
+  background: radial-gradient(circle at 0 0, transparent 1.4em, #d2b7ec 1.4em, #d2b7ec calc(1.4em + 2px), #ffffff calc(1.4em + 2px));
+  /*rtl:ignore*/
+  border-right: 2px solid #d2b7ec;
+}
+@media print {
+  [class] .Message.fromUs .MessageContent.color4::before {
+    visibility: hidden;
+  }
+}
+@media print {
+  [class] .Message.fromUs .MessageContent.color4 {
+    border: none;
+  }
+}
+[class] .Message.fromUs .MessageContent.color5 {
+  border-color: #80cbc9;
+  border: 2px solid #80cbc9;
+  background: #ffffff;
+  border-radius: 0.75rem;
+  border-top-right-radius: 0;
+  padding: 0.5rem;
+  position: relative;
+}
+[class] .Message.fromUs .MessageContent.color5::before {
+  content: "";
+  position: absolute;
+  /*rtl:raw:
+  	transform: scaleX(-1);*/
+  top: calc(-1.4em - 2px);
+  width: 1.4em;
+  height: calc(1.4em + 5px);
+  right: -2px;
+  background: radial-gradient(circle at 0 0, transparent 1.4em, #80cbc9 1.4em, #80cbc9 calc(1.4em + 2px), #ffffff calc(1.4em + 2px));
+  /*rtl:ignore*/
+  border-right: 2px solid #80cbc9;
+}
+@media print {
+  [class] .Message.fromUs .MessageContent.color5::before {
+    visibility: hidden;
+  }
+}
+@media print {
+  [class] .Message.fromUs .MessageContent.color5 {
+    border: none;
+  }
+}
+[class] .Message.fromUs .MessageContent.color6 {
+  border-color: #d5c098;
+  border: 2px solid #d5c098;
+  background: #ffffff;
+  border-radius: 0.75rem;
+  border-top-right-radius: 0;
+  padding: 0.5rem;
+  position: relative;
+}
+[class] .Message.fromUs .MessageContent.color6::before {
+  content: "";
+  position: absolute;
+  /*rtl:raw:
+  	transform: scaleX(-1);*/
+  top: calc(-1.4em - 2px);
+  width: 1.4em;
+  height: calc(1.4em + 5px);
+  right: -2px;
+  background: radial-gradient(circle at 0 0, transparent 1.4em, #d5c098 1.4em, #d5c098 calc(1.4em + 2px), #ffffff calc(1.4em + 2px));
+  /*rtl:ignore*/
+  border-right: 2px solid #d5c098;
+}
+@media print {
+  [class] .Message.fromUs .MessageContent.color6::before {
+    visibility: hidden;
+  }
+}
+@media print {
+  [class] .Message.fromUs .MessageContent.color6 {
+    border: none;
+  }
+}
+[class] .Message.fromUs .MessageContent.color7 {
+  border-color: #ebb390;
+  border: 2px solid #ebb390;
+  background: #ffffff;
+  border-radius: 0.75rem;
+  border-top-right-radius: 0;
+  padding: 0.5rem;
+  position: relative;
+}
+[class] .Message.fromUs .MessageContent.color7::before {
+  content: "";
+  position: absolute;
+  /*rtl:raw:
+  	transform: scaleX(-1);*/
+  top: calc(-1.4em - 2px);
+  width: 1.4em;
+  height: calc(1.4em + 5px);
+  right: -2px;
+  background: radial-gradient(circle at 0 0, transparent 1.4em, #ebb390 1.4em, #ebb390 calc(1.4em + 2px), #ffffff calc(1.4em + 2px));
+  /*rtl:ignore*/
+  border-right: 2px solid #ebb390;
+}
+@media print {
+  [class] .Message.fromUs .MessageContent.color7::before {
+    visibility: hidden;
+  }
+}
+@media print {
+  [class] .Message.fromUs .MessageContent.color7 {
+    border: none;
+  }
+}
+
+/* #endregion */
+/* #region onboarding */
+[class] ._Popup.Onboarding ._CloseCommand {
+  color: #ffffff;
+}
+
+/* #endregion */

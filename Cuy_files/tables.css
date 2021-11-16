@@ -1,0 +1,761 @@
+@charset "UTF-8";
+/* Copyright 2018 Epic Systems Corporation */
+.section table {
+  border: none;
+  border-spacing: 0;
+  width: 100%;
+}
+.section table.multipart {
+  position: relative;
+}
+.section table.multipart thead {
+  background-color: transparent;
+  color: transparent;
+  left: 0;
+  position: absolute;
+  top: 0;
+  visibility: hidden;
+  width: 100%;
+}
+.section table tbody tr.header {
+  background-color: transparent;
+  position: relative;
+}
+.section table tbody tr.header th:last-child::after,
+.section table tbody tr.header td:last-child::after,
+.section table tfoot tr.amount.header td:last-child::after {
+  background-color: rgba(204, 0, 0, 0.05);
+  content: "";
+  display: block;
+  height: calc(100% - 1rem);
+  left: 0;
+  margin: 1rem 0 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+.section table tbody tr:not(:first-child).header.childheader td:last-child::after,
+.section table tbody tr:not(:first-child).header.childheader th:last-child::after {
+  margin: 0;
+  height: 100%;
+}
+.section table tbody tr.header.groupheader td:last-child::after {
+  margin: 0.5rem 0 0;
+  height: calc(100% - 0.5rem);
+}
+.section table tbody tr.groupheader + tr.header td {
+  padding-top: 0;
+}
+.section table tbody tr:not(:first-child).header.childheader td {
+  padding-top: 0.5rem;
+}
+.section table tbody tr.header.groupheader td {
+  padding-top: 1rem;
+}
+.section table tfoot tr.amount.header td {
+  position: relative;
+}
+.section table tfoot tr.amount.header td:last-child::after {
+  margin: 0;
+  height: 100%;
+}
+
+.section > *:not(.report) thead tr {
+  background-color: rgba(204, 0, 0, 0.05);
+  position: relative;
+}
+
+.section table thead tr th,
+.section table tbody tr.header td,
+.section table tbody tr.header th {
+  border: none;
+  font-weight: normal;
+  text-align: left;
+}
+.section table thead tr th.center,
+.section table tbody tr.header td.center,
+.section table tbody tr.header th.center {
+  text-align: center;
+}
+.section table thead tr th {
+  padding: 0.5rem;
+}
+.section table tbody tr.header td,
+.section table tbody tr.header th {
+  padding: 1.5rem 0.5rem 0.5rem;
+  position: relative;
+}
+.section table tbody tr.header td > * {
+  vertical-align: middle;
+}
+.section table tbody tr {
+  background-color: #ffffff;
+}
+.section table tbody tr.clickable {
+  cursor: pointer;
+}
+.section table table tr {
+  background-color: inherit;
+}
+
+.section div.tablenav,
+.section > *:not(.report) tr td {
+  border-style: solid;
+  border-width: 1px 0 0;
+  border-color: #eaeaea;
+  padding: 0.5rem;
+  vertical-align: top;
+}
+
+.section table tbody tr td.middle, .section table tbody tr td.vcenter {
+  vertical-align: middle;
+}
+
+.section > *:not(.report) tr:first-child td,
+.section table tbody tr.tableRowMessage td {
+  border-width: 0;
+}
+
+.section table th img {
+  height: 0.75rem;
+  margin: 0 0 0 0.25rem;
+  vertical-align: middle;
+  width: 0.75rem;
+}
+.section table th img.large {
+  height: 1rem;
+  width: 1rem;
+}
+.section table tr.header {
+  display: table-row;
+}
+.section table tr.header td.header,
+.section table tr.header th.header {
+  display: table-cell;
+}
+.section table .additem {
+  color: #767676;
+}
+.section table .addnew .button {
+  background-color: #ffffff;
+  width: 2.75rem;
+}
+
+.section div.tablenav,
+.section table tfoot tr td {
+  padding: 1rem 0.5rem 0.5rem;
+  text-align: center;
+}
+.section div.tablenav .pages,
+.section div.tablenav .active,
+.section div.tablenav .inactive,
+.section table tfoot tr td .pages,
+.section table tfoot tr td .active,
+.section table tfoot tr td .inactive {
+  display: inline-block;
+  line-height: 1.5rem;
+  padding: 0 0.75rem;
+  vertical-align: top;
+  width: auto;
+}
+.section div.tablenav .pages > *,
+.section div.tablenav .active > *,
+.section div.tablenav .inactive > *,
+.section table tfoot tr td .pages > *,
+.section table tfoot tr td .active > *,
+.section table tfoot tr td .inactive > * {
+  padding: 0 0.25rem;
+}
+.section div.tablenav .pages,
+.section table tfoot tr td .pages {
+  border-color: #cccccc;
+  border-style: none solid;
+  border-width: 0 1px;
+  font-weight: bold;
+}
+.section div.tablenav .navLink,
+.section div.tablenav .navArrow,
+.section table tfoot tr td .navLink,
+.section table tfoot tr td .navArrow {
+  display: inline-block;
+  vertical-align: top;
+}
+.section div.tablenav .navLink,
+.section table tfoot tr td .navLink {
+  text-decoration: inherit;
+}
+.section div.tablenav [class*=active]:first-child .navArrow:before, .section div.tablenav [class*=active]:last-child .navArrow:after,
+.section table tfoot tr td [class*=active]:first-child .navArrow:before,
+.section table tfoot tr td [class*=active]:last-child .navArrow:after {
+  display: inline-block;
+  margin: 0 0.25rem;
+  vertical-align: top;
+}
+.section div.tablenav [class*=active]:first-child .navArrow:before,
+.section table tfoot tr td [class*=active]:first-child .navArrow:before {
+  content: "←";
+}
+.section div.tablenav [class*=active]:last-child .navArrow:after,
+.section table tfoot tr td [class*=active]:last-child .navArrow:after {
+  content: "→";
+}
+
+.section table tfoot tr.listpagebar td .inactive:first-child .navArrow:first-child:before,
+.section table tfoot tr.listpagebar td .active:first-child a:first-child .navArrow:before {
+  content: "|←";
+}
+.section table tfoot tr.listpagebar td .inactive:last-child .navArrow:last-child:after,
+.section table tfoot tr.listpagebar td .active:last-child a:last-child .navArrow:after {
+  content: "→|";
+}
+
+.section .content table col.icon {
+  width: 16px;
+}
+.section .content table .radio.colorband {
+  width: 20px;
+  vertical-align: middle;
+}
+.section .content table tfoot tr.amount td,
+.section .content table th.amount,
+.section .content table td.amount {
+  text-align: right !important;
+}
+.section .content table td.amount {
+  white-space: nowrap;
+}
+.section .content table td.date {
+  text-align: center !important;
+}
+.section .content table td.right {
+  text-align: right;
+}
+.section .content table td.vcenter .button {
+  margin-bottom: 0;
+}
+.section .content table.indent {
+  margin-top: -1px;
+  clear: none;
+  box-shadow: none;
+}
+.section .content table thead th.imgCaption {
+  font-size: 0.8em;
+  text-align: center;
+  white-space: nowrap;
+}
+.section .content table tfoot th {
+  padding: 7px 15px;
+  border-width: 2px 0 0 0;
+  border-style: solid;
+}
+.section .content table tfoot tr td img {
+  width: 36px !important;
+  height: 24px !important;
+  margin: 0 5px;
+  vertical-align: middle;
+}
+.section .content table tbody tr td .scoring {
+  line-height: normal;
+}
+.section .content table tbody tr.new td,
+.section .content table tbody tr.new td input,
+.section .content table tbody tr.new td select {
+  font-weight: bold;
+}
+.section .content table tbody th {
+  vertical-align: top;
+}
+.section .content table tbody tr.tableRowMessage td {
+  width: auto;
+  padding-top: 0;
+  padding-bottom: 4px;
+}
+
+.section .content table.photo tbody tr.tableRowMessage td {
+  padding-bottom: 0px;
+}
+.section .content table.photo tbody tr td.proxylongtext {
+  padding-bottom: 0px;
+}
+
+.section .content table tbody tr.comments td {
+  padding-left: 15px;
+}
+.section .content table tbody .rowComments {
+  box-sizing: border-box;
+  font-size: 0.8rem;
+  padding: 0 0.5rem;
+}
+.section .content table tbody tr td.notgiven {
+  text-decoration: line-through;
+}
+
+.section .content table select {
+  margin-left: 0;
+  float: none;
+  clear: none;
+  display: inline;
+}
+.section .content table thead tr th input.radio,
+.section .content table tbody tr td input.radio {
+  width: auto;
+  border: 0;
+  margin: 0 0.25rem 0 0;
+  vertical-align: bottom;
+}
+.section .content table table {
+  border: 0;
+}
+.section .content table table tr td,
+.section .content table table tr th {
+  width: 50%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.section .content table tr td .deptAddr {
+  width: auto;
+  padding: 3px 0 0 10px;
+  font-size: 0.8em;
+}
+
+.section .content table#dailyagenda tbody th {
+  vertical-align: middle;
+}
+
+.section div.content table.billing tbody tr td {
+  border-style: solid;
+  border-width: 1px;
+}
+
+.section .content table.billing td .small {
+  font-size: 0.8em;
+}
+.section .content table.billing img {
+  width: auto !important;
+  height: auto !important;
+}
+
+.section .content table.healthmainttopics tbody tr td img {
+  height: 1.2em;
+}
+
+.section .content table tbody tr td img.payplan {
+  margin: 0 0 5px 0;
+}
+.section .content table tbody tr td input.center {
+  text-align: center !important;
+}
+.section .content table tbody tr td input.icon {
+  height: 16px;
+  width: 16px;
+  border: 0;
+  background: none;
+}
+.section .content table tbody tr td.header {
+  font-weight: bold;
+}
+
+.section .content table tbody tr.footer td {
+  width: auto;
+  border-width: 2px 0 1px 0;
+  border-style: solid;
+  text-align: right;
+}
+.section .content table tbody tr.header td a img.popupinstructionsicon {
+  float: none !important;
+  margin-top: 0 !important;
+  width: 1.25rem;
+}
+.section .content table tbody tr.billingsummary td {
+  font-weight: bold;
+}
+
+.section .content table#mysubjects tr td {
+  padding-bottom: 0.5rem 0;
+  padding-top: 0.5rem 0;
+}
+
+.section .content tbody tr.bordertop td {
+  border-width: 1px 0 0 0;
+  border-style: solid;
+}
+.section .content tbody tr.borderbottom td {
+  border-width: 0 0 1px 0;
+  border-style: solid;
+}
+.section .content tbody tr.bordernone td {
+  border-width: 0 0 0 0;
+  border-style: solid;
+}
+
+.section .questiongroupitem table tbody tr td {
+  width: 150px;
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: top;
+}
+
+.section .questiongroupitem table {
+  width: 100%;
+}
+.section .questiongroupitem table tbody tr td.BooleanPrompt {
+  padding-left: 10px;
+}
+.section .questiongroupitem table tbody tr td.BooleanPrompt:first-child {
+  padding-left: 20px;
+}
+.section .questiongroupitem table tbody tr td.alertcell:first-child {
+  border-color: #d80000 !important;
+  border-style: solid;
+}
+.section .questiongroupitem table tbody tr td.alertcell {
+  border-color: #d80000 !important;
+  border-style: solid;
+}
+.section .questiongroupitem table tbody tr td.BooleanChoice {
+  width: 50px;
+}
+.section .questiongroupitem table tbody tr td input {
+  margin-left: 0px;
+}
+
+.section .question table tbody tr td.famrel {
+  vertical-align: top;
+}
+
+.section .content table tbody tr td.qtnnreserieslistrow {
+  padding-left: 40px;
+}
+
+.components .rtfValueCol div {
+  width: auto;
+}
+.components td {
+  border: none;
+}
+.components .nameCol,
+.components .valueCol,
+.components .flagCol {
+  font-weight: bold;
+}
+.components .rangeCol {
+  font-style: italic;
+}
+.components .valueCol .unit {
+  font-weight: normal;
+  font-size: 0.909em;
+}
+.content .components .valueCol, .content .components .flagCol {
+  font-size: 1.1em;
+}
+.components > thead > tr {
+  word-wrap: break-word;
+}
+
+th.tr-component-col {
+  width: 15%;
+}
+th.tr-value-col {
+  width: 60%;
+}
+th.tr-value-col-wide {
+  width: 70%;
+}
+th.tr-range-col {
+  width: 15%;
+}
+th.tr-flag-col {
+  width: 10%;
+}
+
+.section .content table.visitSummaryTable td,
+.section .content table.visitSummaryTable tr.tableRowMessage td {
+  border: none;
+}
+
+.section .tableWrapper {
+  margin: auto;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 18px;
+}
+
+.section .tableOverlay {
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.section .tableWrapper table,
+.section .tableOverlay table {
+  width: 100%;
+}
+
+.section div.tableOverlay {
+  pointer-events: none;
+}
+.section div.tableOverlay td.action.fixed {
+  pointer-events: auto;
+}
+.section div.tableOverlay,
+.section div.tableOverlay table {
+  background: none !important;
+}
+
+.section .chart table col.stdPEFheader,
+.section .chart table tbody tr td.name.fixed {
+  width: 23%;
+  min-width: 175px;
+}
+.section .chart table colgroup.stdPEFdata {
+  width: 1%;
+}
+
+.section .tallchart table tr td.fixed:nth-child(2) {
+  border-right-style: solid;
+  border-right-width: 2px;
+}
+
+.section .chart table tr th.fixed a#timeurl {
+  position: absolute;
+  top: 7px;
+  left: 5px;
+}
+
+.section .chart table tr td.scroll {
+  width: 10%;
+}
+
+.section .chart > a#timeurl {
+  display: none;
+}
+
+.section .content div.listcontrol form {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+}
+.section .content div.listcontrol div.listsearch input {
+  display: inline-block;
+  vertical-align: top;
+}
+.section .content div.listcontrol div.listsearch input.imgbutn {
+  border: none;
+  left: -1.5rem;
+  position: relative;
+  top: 0.375rem;
+}
+.section .content div.listcontrol div.listsearch img {
+  margin-left: 5px;
+}
+.section .content div.listcontrol div.listpagesize {
+  text-align: right;
+}
+.section .content div.listcontrol div.listpagesize select {
+  display: inline-block;
+  min-width: 4rem;
+}
+.section .content div.listcontrol div.listpagesize label {
+  display: inline-block;
+  margin: 0 0.25rem 0 0;
+}
+
+.section .content table.listtable tfoot p {
+  display: inline;
+}
+.section .content table.listtable tfoot img {
+  width: 20px !important;
+  height: 24px !important;
+}
+.section .content table.listtable tfoot tr.listpagebar td {
+  padding-top: 0;
+}
+
+.section .content div.listmessage {
+  margin-bottom: 10px;
+}
+.section .content div.listmessage p {
+  margin-left: 0px;
+  width: auto;
+}
+
+.section .content table tbody tr td.multideptdotted {
+  border-style: dotted;
+}
+
+table.adl th.ques {
+  width: 44%;
+}
+table.adl th.response {
+  width: 14%;
+}
+table.adl th.responsenocomments {
+  width: 25%;
+}
+table.adl th.comments {
+  width: 42%;
+}
+
+table.adlnoresp th.ques {
+  width: 38%;
+}
+table.adlnoresp th.response {
+  width: 30%;
+}
+table.adlnoresp th.comments {
+  width: 42%;
+}
+
+table.medsurg th.ques, table.medsurgnodate th.ques, table.medsurgnocmt th.ques, table.medsurgcheck th.ques {
+  width: 33%;
+}
+table.medsurgnodatenocmt th.ques, table.medsurgchecknodate th.ques, table.medsurgchecknocmt th.ques {
+  width: 40%;
+}
+
+table.medsurgchecknodate th.comments {
+  width: 60%;
+}
+
+table.medsurgchecknodate td.comments input,
+table.medsurgnodate td.comments input,
+table.medsurgcheck td.comments input {
+  width: 95%;
+}
+
+table.medsurg th.response {
+  width: 14%;
+}
+
+table.medsurg th.date,
+table.medsurgcheck th.date {
+  width: 16%;
+}
+table.medsurg th.comments,
+table.medsurgcheck th.comments {
+  width: 37%;
+}
+
+table.medsurgnoresp th.ques {
+  width: 33%;
+}
+table.medsurgnoresp th.response {
+  width: 36%;
+}
+table.medsurgnoresp th.date {
+  width: 10%;
+}
+table.medsurgnoresp th.comments {
+  width: 37%;
+}
+
+.section .content td.appticon {
+  padding: 8px 0px 0px 15px;
+}
+
+.section table tr td.description {
+  hyphens: auto;
+  width: 20%;
+}
+
+.section table td .fileName {
+  word-break: break-all;
+  display: inline-block;
+}
+
+.section table td .descriptionFont {
+  margin: 2.5rem 0 -1.25rem;
+  position: relative;
+  top: -1.25rem;
+  width: calc((100% + 0.5rem) * 5);
+}
+.section table td .buttonimg {
+  display: inline-block;
+  margin: 0 0.25rem 0 0;
+  vertical-align: middle;
+}
+.section table td .buttonimg + span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.section table td .inlineForm {
+  display: inline-block;
+  width: auto;
+}
+
+.section .content .button.authoptions {
+  left: 160px;
+}
+
+.section table tr td.greyoutbackground {
+  background-color: #f2f2f2;
+}
+
+.section .content table.flowsheets col:last-child {
+  width: 15%;
+}
+.section .content table.flowsheets .rowComments {
+  width: calc(100% / 0.85);
+}
+
+.section .content table.provSrchResults {
+  table-layout: fixed;
+  width: 100%;
+}
+.section .content table.provSrchResults thead th {
+  width: 100%;
+}
+.section .content table.provSrchResults th.radioColumn {
+  width: 35px;
+}
+.section .content table.provSrchResults tbody tr td {
+  word-wrap: break-word;
+}
+
+.abnormal svg.icon {
+  width: 1.15rem;
+  height: 1.15rem;
+  vertical-align: bottom;
+}
+
+.section table.leftAlignNumbers thead tr th,
+.section table.leftAlignNumbers tbody tr td {
+  text-align: right;
+}
+.section table.leftAlignNumbers thead tr th:first-child,
+.section table.leftAlignNumbers tbody tr td:first-child {
+  text-align: left;
+}
+
+.section table.benefitdetailstable tbody tr td.primary {
+  border-right: 1px solid #eaeaea;
+  border-bottom: none;
+}
+.section table.benefitdetailstable thead tr th:first-child,
+.section table.benefitdetailstable tbody tr td.primary,
+.section table.benefitdetailstable tbody tr.header td.primarytos {
+  font-weight: bold;
+}
+.section table.benefitdetailstable tbody tr.emptyComponent td:first-child,
+.section table.benefitdetailstable tbody tr td.borderTopNone {
+  border-top: none;
+}
+.section table.benefitdetailstable tbody tr td.borderRight {
+  border-right: 1px solid #eaeaea;
+}
+.section table.benefitdetailstable tbody tr.header td:last-child::after {
+  background-color: transparent;
+}
+.section table.benefitdetailstable tbody tr.header {
+  background-color: rgba(204, 0, 0, 0.05);
+}
+.section table.benefitdetailstable tbody tr.header td {
+  padding-top: 1rem;
+}
+
+.tableLayoutFixed {
+  table-layout: fixed;
+}

@@ -1,0 +1,1425 @@
+﻿/* Copyright 2018-2020 Epic Systems Corporation */
+html {
+  height: auto;
+}
+
+#main,
+#sidebar {
+  display: block;
+}
+
+div.content:not(.noprint),
+div.component:not(.hidden) {
+  display: block !important;
+}
+
+div.visitcomponent,
+div.patlist,
+div.listsection,
+div.infosession {
+  display: block !important;
+}
+
+body.md_visitdetails_index #main > div.title + div > div.card .printerfriendlycopay {
+  display: inline !important;
+}
+
+@-moz-document url-prefix() {
+  body.md_visitdetails_index #main > div.title + div > div.card {
+    display: block !important;
+  }
+  body.md_visitdetails_index #main > div.title + div > div.card .visitdetails .grid .row .col-4,
+body.md_visitdetails_index #main > div.title + div > div.card .visitdetails .grid .row .col-8,
+body.md_visitdetails_index #main > div.title + div > div.card .visitdetails .grid .row .col-12,
+body.md_visitdetails_index #main > div.title + div > div.card .visitdetails .grid .row {
+    display: block !important;
+    width: auto !important;
+  }
+  body.md_visitslist_index .timeLineDetails {
+    display: block !important;
+    width: 100% !important;
+  }
+  body.md_visitslist_index .timeLineDetails .sevendaysvisits {
+    display: block;
+    width: auto;
+  }
+  body.md_visitslist_index .timeLineDetails .sevendaysvisits .card {
+    width: calc(100% - 1rem);
+    margin-left: 0.5rem;
+  }
+  body.md_claims_index #claims-list {
+    display: block !important;
+  }
+  body.md_claims_index #claims-list .row,
+body.md_claims_index #claims-list .col-12 {
+    display: block;
+    width: calc(100% - 1rem);
+    margin-left: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  body.md_details_index #ba_details_container {
+    display: block !important;
+  }
+  body.md_details_index #ba_details_container .row,
+body.md_details_index #ba_details_container .col-12 {
+    display: block;
+  }
+  body.md_details_index #ba_details_container .ba_details_visits_detail_totals {
+    white-space: normal;
+  }
+}
+body.md_details_index #ba_details_container .sm-only.verticalDate {
+  display: none;
+}
+
+html,
+body,
+#wrap,
+#main,
+#footer {
+  min-width: 0;
+  min-height: 0;
+}
+
+body {
+  background: #ffffff;
+  font-size: 10pt;
+  padding: 20px;
+  overflow: visible !important;
+}
+
+html,
+body[class],
+body *,
+body *:before,
+body *:after {
+  box-shadow: none !important;
+}
+
+html,
+body[class],
+html:not(.printcolor) body *,
+html:not(.printcolor) body *:before,
+html:not(.printcolor) body *:after,
+#content:after,
+#printbar * {
+  color: #000000 !important;
+  border-color: #000000 !important;
+  background: none !important;
+}
+
+body.graphicHeader,
+body.graphicHeader:before,
+body.graphicHeader:after,
+body.graphicHeader #content:after {
+  background: none !important;
+}
+
+.noprint,
+#banner,
+#baselinks,
+#proxyTabs,
+#menu,
+.back,
+tfoot.nav,
+img:not(.allowPrint),
+.button,
+#srotext,
+#loginnotice,
+td.action,
+.popupinstructionsicon,
+iframe.fileselector,
+#iframelabel {
+  width: 1pt !important;
+  display: none !important;
+}
+
+.map img {
+  width: auto !important;
+  display: block !important;
+}
+.map .leaflet-marker-icon {
+  height: 32px !important;
+  width: 32px !important;
+}
+
+img.uploadedimage {
+  display: block !important;
+  width: auto !important;
+  max-height: 150px;
+  max-width: 150px;
+}
+
+div.filecontainer {
+  height: auto;
+}
+
+.section .content h3.filedescription {
+  min-height: 50px;
+}
+
+#upload {
+  page-break-before: always;
+}
+
+div.imagescontainer, div.imagecontrolcontainer {
+  height: auto;
+  width: 100%;
+}
+
+#footer,
+.patientfooter,
+.printheader,
+.printfooter {
+  margin: 0;
+  border: 0;
+  display: block !important;
+  text-align: center;
+  font-size: 10pt;
+  position: relative;
+  padding: 1px 0;
+  top: -1em;
+}
+
+#footer,
+.patientfooter,
+.printfooter {
+  top: 1em;
+}
+
+#footer.width,
+#footer div.mainStyle {
+  margin: 0.25in auto !important;
+  width: 8.5in !important;
+}
+
+.printheader *,
+.printfooter * {
+  width: auto !important;
+  display: inline !important;
+}
+
+body.inside #footer {
+  border: 0 !important;
+}
+
+.printonly,
+img.scan,
+img.scanThumbnail,
+img.rtf,
+.section h3 img,
+.message img,
+.fmtConv img,
+#providerdetails img,
+p img,
+td img,
+td .contentlink {
+  display: inline-block !important;
+  width: auto !important;
+}
+
+.section div.graph p.noPrintWarning.printonly {
+  display: block !important;
+}
+
+.hideonpaper {
+  display: block;
+}
+
+@media print {
+  #printbar {
+    display: none !important;
+  }
+
+  .hideonpaper {
+    display: none !important;
+  }
+}
+#printbar {
+  display: none;
+}
+
+#sidebar {
+  display: none !important;
+}
+
+#main {
+  width: 100% !important;
+  max-width: 8.5in !important;
+}
+
+div#content.fitme.width {
+  width: 100%;
+  min-width: 0;
+}
+
+#wrap,
+#wrap #footer,
+#main,
+#defaultColumn,
+#defaultForm,
+.terms,
+#content {
+  background: none !important;
+  width: auto !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  float: none !important;
+  overflow: visible !important;
+  min-height: 0 !important;
+}
+
+#wrap,
+table {
+  box-shadow: none !important;
+}
+
+#wrap {
+  margin: 0.25in auto !important;
+  width: 8.5in !important;
+  min-width: 0 !important;
+  position: static !important;
+}
+
+html:not(.printcolor) body .nodata {
+  background-color: rgba(204, 204, 204, 0.25) !important;
+}
+
+@media print {
+  #wrap {
+    width: auto !important;
+  }
+}
+canvas.graphCanvas + .cgImgContainer {
+  display: none !important;
+}
+
+.section .graph img {
+  display: block !important;
+}
+
+.cgImgContainer, canvas.graphCanvas {
+  position: static !important;
+  margin: 0 auto !important;
+  display: block;
+}
+
+.cgContainer, .cgImgContainer {
+  height: auto !important;
+}
+
+a, a:focus, a:hover {
+  cursor: text;
+  text-decoration: none;
+}
+
+div#printbar a.button {
+  cursor: pointer;
+}
+div#printbar a.button:hover, div#printbar a.button:focus {
+  text-decoration: underline;
+}
+
+.title h1,
+.title h2 {
+  margin: 0;
+}
+
+.title #assistiveicons {
+  display: none;
+}
+
+label.radio,
+label.radio *,
+input,
+select,
+textarea {
+  float: none !important;
+  display: inline !important;
+}
+
+.content {
+  padding-top: 0.5em;
+}
+
+p,
+label.radio {
+  position: static !important;
+}
+
+p.WCnote {
+  position: absolute !important;
+}
+
+textarea {
+  font-size: 14pt;
+  overflow: visible;
+}
+
+col.radio {
+  width: auto !important;
+}
+
+.colorband {
+  display: none;
+}
+
+thead {
+  display: table-header-group;
+}
+
+.tableRowMessage td {
+  border-top-color: #ffffff !important;
+}
+
+.wallet a {
+  display: none;
+}
+
+.chart table tr td,
+.tallchart table tr td {
+  border-right-color: #cccccc !important;
+  border-right-style: solid !important;
+  border-right-width: 1px !important;
+  border-bottom-color: #cccccc !important;
+  border-bottom-style: solid !important;
+  border-bottom-width: 1px !important;
+}
+
+.tableOverlay {
+  display: none;
+}
+
+.section {
+  float: none;
+}
+
+.section .Notes pre {
+  width: 96%;
+  border-width: 2px;
+  border-style: solid;
+  font-size: 1.3em !important;
+  height: auto !important;
+  overflow: visible;
+  word-wrap: break-word;
+}
+.section .Notes textarea {
+  height: auto !important;
+}
+
+.section .rxholder .rx {
+  margin: 5px;
+}
+.section .rxholder .rx img {
+  display: none;
+}
+.section .rxholder .rx h2 {
+  float: none;
+}
+.section .rxholder .rx .rxright {
+  height: auto;
+}
+
+.section .chart,
+.section .tallchart,
+.section .content .PEF {
+  overflow: visible !important;
+  overflow-x: visible;
+}
+
+.section .report {
+  page-break-inside: auto;
+}
+.section .report .rpt.Universal img:not(.rtf) {
+  display: block !important;
+  width: auto !important;
+}
+
+#dailynotes {
+  page-break-before: always;
+}
+
+div .chart {
+  display: block !important;
+}
+
+.iconcalendar table {
+  font-size: 10pt !important;
+}
+
+.iconcal_legend .legenditem img {
+  display: inline-block !important;
+  width: auto !important;
+}
+
+#topic_9 .iconcal_legend {
+  border-style: solid;
+  border-width: 0;
+}
+
+div.tabcontainer {
+  border: none;
+  margin-top: 0px;
+  box-shadow: none;
+}
+
+input.disabledfield {
+  background-color: #eeeeee !important;
+  color: #666666 !important;
+}
+
+.content table tr.preview td {
+  border-top-color: #ffffff !important;
+}
+
+.lb_content {
+  position: relative !important;
+  left: 0 !important;
+  width: 95% !important;
+  margin: 20px 0 0 0 !important;
+  padding: 0px !important;
+  box-shadow: none;
+}
+.lb_content .printheader {
+  display: none;
+}
+
+.terms p {
+  white-space: normal !important;
+}
+
+.large_img > img {
+  width: 100% !important;
+  height: auto;
+}
+
+.patientnote {
+  border: 1px solid #000000;
+}
+.patientnote:hover, .patientnote:focus {
+  height: 120px !important;
+  box-shadow: none !important;
+  margin-bottom: 10px !important;
+}
+.patientnote:after {
+  width: 0px !important;
+  top: 0px !important;
+  background: none !important;
+  box-shadow: none !important;
+}
+.patientnote:hover:after, .patientnote:focus:after {
+  bottom: 0px !important;
+  background: none !important;
+  box-shadow: none !important;
+}
+
+.md_visitsummary #visittabs a.selectedlink:after {
+  background-color: #ffffff !important;
+}
+
+.shrinkReportParent {
+  height: auto !important;
+  overflow: visible !important;
+}
+
+.shrinkReport {
+  transform: none !important;
+  -ms-transform: none !important;
+  -webkit-transform: none !important;
+  filter: none !important;
+}
+
+.HPcell.pocdefault.component .printdata {
+  display: block;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.userPhoto {
+  display: none !important;
+}
+
+.DetailsHidden {
+  display: table-row !important;
+}
+
+.RightArrow, .DownArrow {
+  display: none !important;
+}
+
+.hidePrint {
+  display: none !important;
+}
+
+#Confirm-SelectedBrandLogo {
+  display: inline !important;
+  width: inherit !important;
+}
+
+.successMessage p {
+  margin: 0 !important;
+}
+
+.PaymentAmountVerify {
+  font-size: 13pt !important;
+  margin: 0 !important;
+}
+
+div#apSuccessPaymentMethodInfo {
+  width: 100% !important;
+  text-align: left !important;
+}
+
+.md_manage_communitymanage p.button {
+  display: inline !important;
+  width: auto !important;
+  margin-left: 1rem;
+}
+.md_manage_communitymanage label.buttoncheck {
+  font-size: 10pt !important;
+}
+.md_manage_communitymanage input.buttoncheck:checked + label::before {
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfgAhgSNA8BygRKAAAAGHRFWHRTb2Z0d2FyZQBwYWludC5uZXQgNC4wLjlsM35OAAAAx0lEQVRIS+2WQQ7CMAwEc+AHwCfgyAWeA///Q9gQL4I2VhLq+IAy0sqp63hOlRomEwtijDs5+gHpMZf4yB0HKGVc5EspM1SuSRlwQLWlQXpDtWVKmSYphro+divpPZfXsioyVxSmgHYpI0tV5P2X6DOgX8rI8hXSX80zoEm6T0WLSN7Ic3E2BdSlBMPXVLSIzFZKcKkmP5X6zE9SUpNrkXvb6JWbSEmr3FRKavIhUqLJh0rJUg4uqe8C5eCcO45A6v+L+keE8AQZoGLMPCf5fAAAAABJRU5ErkJggg==") no-repeat center center/cover !important;
+}
+
+.md_review_index #account,
+.ReviewMessages .messagefooter a {
+  display: none !important;
+}
+
+.ReviewMessages li.SingleMessage {
+  border-top-width: 1px;
+}
+.ReviewMessages .messageheader .tabs {
+  border-width: 0 0 0 0 !important;
+  position: relative !important;
+  display: inline !important;
+  left: auto !important;
+}
+.ReviewMessages .messages {
+  margin: 0 !important;
+}
+.ReviewMessages .messages .SingleMessage.collapsed,
+.ReviewMessages .messages .SingleMessage .head {
+  height: auto !important;
+}
+.ReviewMessages .messages .SingleMessage.expanded {
+  height: auto !important;
+}
+.ReviewMessages .messages .SingleMessage.collapsed .MessageDetails,
+.ReviewMessages .messages .SingleMessage .ReplyButton,
+.ReviewMessages .BeforeList div.search:empty,
+.ReviewMessages .actionlinks {
+  display: none;
+}
+.ReviewMessages .head .photo {
+  border: none !important;
+}
+.ReviewMessages .content {
+  padding: 0;
+}
+.ReviewMessages .messageheader {
+  border-bottom: solid 1px;
+  height: auto !important;
+}
+.ReviewMessages .messageheader > .content {
+  height: auto;
+}
+.ReviewMessages .messageheader .bottom {
+  margin: 0;
+}
+.ReviewMessages .messageheader .tabs label {
+  border-bottom-width: 0 !important;
+  padding-right: 10px;
+}
+.ReviewMessages .BeforeList .top,
+.ReviewMessages .BeforeList .bottom {
+  display: inline;
+}
+.ReviewMessages .BeforeList div.search {
+  height: auto;
+}
+.ReviewMessages .BeforeList .tabs input + label {
+  display: none;
+}
+
+.MessageList .head > span.actionButtons,
+.ReviewMessages input.SearchList.notsearched {
+  display: none !important;
+}
+
+.ReviewMessages .messageheader input[type=checkbox],
+.ReviewMessages .messageheader input[type=checkbox] + label {
+  display: none !important;
+}
+.ReviewMessages input:checked,
+.ReviewMessages input:checked + label {
+  display: inline !important;
+}
+
+div.messages ul.MessageList .SingleMessage.hidden {
+  display: none !important;
+}
+
+body.md_messages #main div.section div.content:first-child p img {
+  display: none !important;
+}
+
+.ReviewMessages span.photo,
+.ReviewMessages span.actionButtons {
+  display: none !important;
+}
+.ReviewMessages span.MessageSummary {
+  width: 75% !important;
+}
+.ReviewMessages div.MessageDetails {
+  margin-left: 1% !important;
+}
+.ReviewMessages .MessageList .SenderDetails {
+  width: 100%;
+}
+
+.Visits .visitcomponent,
+.visitdetails {
+  padding-right: 0rem !important;
+}
+
+body.md_visitslist_index .timeline {
+  display: block;
+  position: static;
+  text-align: left;
+  width: 100%;
+}
+body.md_visitslist_index #main .listsection::before,
+body.md_visitslist_index #main .timelinecircle {
+  display: none !important;
+  visibility: hidden !important;
+}
+body.md_visitslist_index .infosession {
+  width: 100%;
+}
+body.md_visitslist_index .time {
+  padding-left: 0;
+}
+body.md_visitslist_index .soonvisits .col-1 {
+  width: 100% !important;
+  margin-bottom: 0.5rem !important;
+}
+body.md_visitslist_index .soonvisits .col-1 .date {
+  margin-left: 0;
+}
+body.md_visitslist_index .soonvisits .col-1 .date .verticalMonth,
+body.md_visitslist_index .soonvisits .col-1 .date .verticalDateOfMonth,
+body.md_visitslist_index .soonvisits .col-1 .date .verticalDayOfWeek {
+  text-align: left;
+}
+
+.md_visitdetails_index .hideresponsive,
+.md_visitdetails_index .subwaystopexpand {
+  display: none;
+}
+.md_visitdetails_index .subwaycontentbody {
+  display: block !important;
+}
+.md_visitdetails_index .unconfirmed {
+  border: 1px solid #000000 !important;
+}
+
+div.infosession.timeLineSection.hidden > * {
+  display: none !important;
+  visibility: hidden !important;
+}
+div.infosession.timeLineSection.hidden::before {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+body.md_letters .section.letter {
+  padding: 0;
+}
+body.md_letters .section.letter.card {
+  border: 0 !important;
+}
+
+.required::before {
+  border-color: #000000 transparent transparent !important;
+}
+
+label.togglebutton {
+  border: 1px solid #000000 !important;
+}
+label.togglebutton.selected {
+  background-color: #cccccc !important;
+}
+
+div.notificationreview {
+  display: none !important;
+}
+
+#main div.HPtemplate div {
+  height: auto !important;
+}
+
+div.ToDoEvents {
+  max-height: none !important;
+  min-height: 0 !important;
+}
+
+div.HPcell, div.HPcell div {
+  display: block !important;
+}
+
+div.HPcell div.multiMonthCalendar {
+  display: none !important;
+}
+
+div.ToDoEvents > a.viewmore {
+  display: none !important;
+}
+div.ToDoEvents div.ToDolist,
+div.ToDoEvents div.ToDolist .leftsection {
+  width: 100% !important;
+}
+div.ToDoEvents div.ToDolist div.rightsection {
+  display: none !important;
+}
+div.ToDoEvents div.ToDolist li.listelement ul li {
+  display: inline-block;
+  vertical-align: text-top;
+  width: 50%;
+}
+
+body.md_default #sidebar,
+body.md_registries_index #sidebar {
+  display: block !important;
+  width: 100%;
+  height: auto !important;
+  min-height: 0 !important;
+}
+
+body.md_default div.quickLinks {
+  display: none !important;
+}
+
+body.md_default div.externalalerts {
+  display: none !important;
+}
+
+body.md_default #sidebar div,
+body.md_registries_index #sidebar div {
+  height: auto !important;
+}
+
+div.pocdefault ul.careteam li {
+  display: inline-block;
+  padding: 0.7rem 0;
+  width: 50%;
+}
+
+span.providerimage {
+  display: none;
+}
+
+li.careteam span.col1 {
+  display: none !important;
+}
+
+.membertab.selected {
+  border-left: 1px solid !important;
+  border-right: 1px solid !important;
+}
+
+#header.compact:not(:empty) + #content #sidebar,
+#header.compact:not(:empty) + #toastWrapper + #content #sidebar {
+  padding: 0 !important;
+}
+
+.TestResults div.BeforeTestResultsList {
+  display: none;
+}
+
+.TestResults .TestResultsHeader {
+  height: auto;
+}
+
+.TestResults .TestResultsHeader .descending::after,
+.TestResults .TestResultsHeader .ascending::after {
+  border-color: #000000 transparent !important;
+}
+
+.TestResults .SingleResult:not(:last-child) {
+  border-bottom: none !important;
+}
+
+.TestResultsList .DateWrapper .Date {
+  overflow: visible;
+}
+
+div.cptLink {
+  visibility: hidden;
+}
+
+div.graph img {
+  display: block !important;
+  width: auto !important;
+}
+
+ul.testresultspoc .timeLine .timeLineSection .timeLineHeader {
+  width: 100%;
+  text-align: center;
+}
+
+div[data-component=testresultspoc] > a.viewmore {
+  display: none;
+}
+
+div[data-component=testresultspoc] {
+  max-height: none;
+}
+
+ul.testresultspoc .newResultIndicatorColumn,
+ul.testresultspoc .newResultIndicator,
+ul.testresultspoc .timeLine .timeLineSection .timeLineHeader * {
+  display: inline;
+}
+ul.testresultspoc .timeLine .timeLineSection:before {
+  width: 0;
+  height: 0;
+  border: none;
+}
+ul.testresultspoc .timeLine:before {
+  width: 0;
+}
+ul.testresultspoc .timeLine .timeLineSection .timeLineDetails {
+  width: 100%;
+}
+
+ul.testresultspoc .TRPYear, .TRPDate {
+  font-size: 1.3rem;
+  margin: 0.25rem;
+}
+
+ul.testresultspoc {
+  overflow: visible !important;
+}
+ul.testresultspoc .timeLine .TRPTimelineList,
+ul.testresultspoc .timeLine .timeLineSection,
+ul.testresultspoc .timeLine .timeLineSection .timeLineDetails {
+  display: inline !important;
+  overflow: visible !important;
+  overflow-y: visible !important;
+  height: auto !important;
+}
+
+#header {
+  display: none !important;
+}
+
+.card {
+  border: 1px solid #dbdbdb !important;
+}
+.card.selected {
+  border-left: 5px solid #000000 !important;
+}
+
+div.card:not(.helptip) {
+  min-height: 139px !important;
+}
+div.card.addItem {
+  display: none !important;
+}
+
+.hospitalinfo .hospitalthumbnail {
+  width: 29%;
+  height: 150px !important;
+}
+
+.hospitalinfo .hospitalthumbnail, div.advice {
+  border: 1px solid #dbdbdb !important;
+}
+
+.hospitalinfo .hospitalthumbnail .imagespaceholder,
+.hospitalinfo .hospitalthumbnail .hospitalimage {
+  display: none !important;
+}
+
+.section .chart .tableWrapper table tr .fixed {
+  visibility: visible;
+  opacity: 1;
+}
+
+.section .graph img {
+  display: block !important;
+}
+
+body.md_referrals div#innertabs {
+  display: none;
+}
+
+img.photoedit {
+  display: none !important;
+}
+
+body.md_personalize table#mysubjects .proxyphoto {
+  display: none;
+}
+body.md_personalize table#mysubjects > thead > th,
+body.md_personalize table#mysubjects > tbody > td,
+body.md_personalize table#mysubjects > colgroup > col {
+  width: auto;
+}
+
+body.md_communications_manage input.invisible {
+  display: none !important;
+}
+
+select#schedulewith {
+  display: none !important;
+}
+
+body.md_visitdetails_index div.visitdetails div.visitsubtitle.time {
+  padding-left: 0;
+}
+body.md_visitdetails_index div.visitdetails div.waitlist div.waitlisticon {
+  display: none;
+}
+body.md_visitdetails_index div.visitdetails div.providerphotocontainer {
+  display: block;
+}
+body.md_visitdetails_index div.visitdetails div.providerphotocontainer div {
+  text-align: left;
+}
+
+body.md_schedotherprefs p.button {
+  width: auto !important;
+  display: block !important;
+}
+
+body.md_schedotherprefs #schedprefs .preftimes {
+  width: 70%;
+}
+
+.section.indented > .content,
+.section.indented > .header {
+  width: 100%;
+}
+
+body.md_schedotherprefs ul.bcList li.bcItem {
+  width: 49% !important;
+}
+
+input.buttoncheck:checked + label.buttoncheck::before {
+  background-color: #000000 !important;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4AIYEjQPAcoESgAAAKVJREFUSMft1rENgzAQQFGKbAAsEUoaZxyycYCKDWhQFoCfIk4Tgm2k8yEF//70Gp91WZZKCQRcjkBL4AHctdGOd7MK/oWigm+gnyag0EafwC2hx6J7l10KbYAWKLXR2Q71PjwGig+XQnO71L9a4aKvFzB2yIlbtBddmQD8Ko4G4osDNRKfgQuPg+7EZdFAPA7qweOiG/gI1Jq3kwEGoDrHifpXvQANql+AlGeZnQAAAABJRU5ErkJggg==") !important;
+  background-size: contain !important;
+}
+
+body.md_visitdetails_index #sidebar,
+body.md_visitslist_index #sidebar {
+  display: none !important;
+}
+
+.barcode {
+  display: inline-block !important;
+  width: auto !important;
+}
+
+.successIcon {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+div.clinicalcard.allergycard .clinicalinfo {
+  padding-left: 0;
+}
+
+div.cardline.medwarning,
+div.cardline.medmessage {
+  background-color: #cccccc !important;
+}
+
+div.cardline.medwarning img {
+  display: inline-block !important;
+  width: auto !important;
+}
+
+.card.medcard {
+  padding-left: 1.5rem;
+}
+
+.medcard .medinfocolumn {
+  width: 50%;
+  position: relative;
+}
+
+div.medicationsdetails,
+div.PharmaciesList {
+  height: auto !important;
+}
+
+.card .medmessage,
+.card .medwarning,
+.medcard .warning {
+  display: block !important;
+  margin: 0.7rem 0 0 -1.2rem !important;
+  width: 100%;
+}
+
+.respNavChild {
+  width: 100%;
+}
+
+.respNavChild > .respNavTab {
+  flex: 1 1 auto;
+  height: 3.25rem;
+  padding: 0;
+  border: none;
+}
+.respNavChild > .respNavTab > a {
+  display: inline-flex;
+  flex-direction: row;
+}
+.respNavChild > .respNavTab > a > span.tabname {
+  flex: 1 1 auto;
+  -webkit-box-align: start;
+  text-align: left;
+  font-size: 1.333rem;
+  line-height: 1.5rem;
+}
+
+.respNavTab:not(.selected) {
+  display: none;
+}
+
+body.md_medrefill li.viewer p.button {
+  display: inline-block !important;
+  width: auto !important;
+}
+
+body.md_medrefill table#prescriptionlist td.colorband {
+  display: table-cell !important;
+}
+
+.rxReviewDetailsCardList .card {
+  background-color: #f2f2f2 !important;
+}
+
+.confirmationStep .medwarning {
+  display: none !important;
+}
+.confirmationStep .rxReviewCards {
+  border: 1px solid #dbdbdb !important;
+}
+.confirmationStep .rxReviewCards .card,
+.confirmationStep .rxReviewDetailsCardList .card,
+.confirmationStep .rxReviewCardList .card {
+  border: none !important;
+}
+
+div.inlineloading,
+div.Popup,
+div.Popup.container,
+div#lightbox,
+div#lightbox_overlay {
+  display: none !important;
+}
+
+div:not(.selected).membertab {
+  display: none;
+}
+
+div.selected.membertab {
+  display: block !important;
+  max-width: 100%;
+}
+
+div.navchild::after {
+  display: none;
+}
+
+div.membertab, div.selected.membertab {
+  border: 0 !important;
+}
+
+div.navchild {
+  width: 100%;
+}
+
+div.selected.membertab a {
+  padding: 0;
+}
+
+div.tabcontainer {
+  margin-top: 3.25rem;
+}
+
+.ExternalAccounts .FlowsheetRow {
+  min-height: 0;
+  padding: 0;
+}
+
+body.md_researchstudies_index div.research.subcard {
+  display: block !important;
+}
+body.md_researchstudies_index div.research.details span.collapsedescription,
+body.md_researchstudies_index div.research.details a.moredetails {
+  display: none !important;
+}
+body.md_researchstudies_index div.research.subcard div.column.provider {
+  display: none !important;
+}
+
+.section .content table tfoot tr.amount .grandtotal {
+  font-size: 0.8rem;
+  display: inline-block;
+  font-weight: bold;
+}
+
+div.table-pages .table-page:not(:first-child) {
+  page-break-before: always;
+}
+
+.pmtPlan img.creditcardlogo {
+  width: 3rem !important;
+}
+
+body.isPrelogin #sidebar {
+  display: none !important;
+}
+body.isPrelogin #main a.logo {
+  background: transparent url("../images/loginlogo.png") no-repeat scroll center center !important;
+}
+body.isPrelogin div.links {
+  width: 100%;
+}
+body.isPrelogin div#footer div.sidebarStyle {
+  width: 100%;
+}
+body.isPrelogin ul#features li {
+  padding: 1rem;
+}
+
+body.md_stdfile a[href="#top"] {
+  display: none !important;
+}
+
+body.md_standalone_signup #main a.logo {
+  height: 6rem !important;
+  background: transparent url("../images/loginlogo.png") no-repeat scroll center center !important;
+}
+
+body.md_standalone_signup form#SignupDemographic_Form > div.formsection {
+  display: none !important;
+}
+
+body.md_openscheduling_index #main a.logo {
+  height: 6rem !important;
+  background: transparent url("../images/loginlogo.png") no-repeat scroll center center !important;
+}
+body.md_openscheduling_index .stepContainer .scrollTableWrapper,
+body.md_openscheduling_index div.openingsData {
+  height: auto !important;
+  overflow: visible !important;
+}
+body.md_openscheduling_index div.loginSignupContainer {
+  display: none !important;
+}
+body.md_openscheduling_index .card,
+body.md_openscheduling_index .card a {
+  height: auto !important;
+  min-height: 0 !important;
+}
+
+body.md_showform #main div.alert.card img {
+  display: block !important;
+  width: auto !important;
+}
+
+body.md_openscheduling_index div.cardline.photo,
+body.md_openscheduling_index div.providerPhoto {
+  display: none;
+}
+body.md_openscheduling_index .slotDetailsContainer .hasProviderPhoto {
+  padding-left: 0;
+}
+body.md_openscheduling_index .slotslist a.selected {
+  background-color: #cccccc !important;
+}
+
+body.md_showform #main div.alert.card img {
+  display: block !important;
+  width: auto !important;
+}
+
+div#insurance div.card {
+  width: 49%;
+}
+
+body.md_echeckin div.stops div.future span.trainstation {
+  background-color: #ffffff !important;
+}
+body.md_echeckin div.stops div.past span.trainstation,
+body.md_echeckin div.stops div.future.visited span.trainstation {
+  background-color: #cccccc !important;
+}
+body.md_echeckin div.stops div.now span.trainstation {
+  background-color: #000000 !important;
+}
+body.md_echeckin div.line div.trainrail {
+  background-color: #000000 !important;
+}
+
+body.md_echeckin.showLightBox div#lightbox,
+body.md_echeckin.showLightBox div#lightbox div#divConfirmPayment,
+body.md_visitpayment_enteramounts.showLightBox div#lightbox,
+body.md_visitpayment_enteramounts.showLightBox div#lightbox div#divConfirmPayment {
+  position: static !important;
+  width: 100% !important;
+  margin: 0 !important;
+  display: block !important;
+}
+body.md_echeckin.showLightBox div#wrap > div:not(#lightbox),
+body.md_visitpayment_enteramounts.showLightBox div#wrap > div:not(#lightbox) {
+  display: none !important;
+}
+
+body.md_echeckin .setOfStepsContainer,
+body.md_echeckin .setOfStepsContainer .slider,
+body.md_visitpayment_enteramounts .setOfStepsContainer,
+body.md_visitpayment_enteramounts .setOfStepsContainer .slider,
+body.md_payment_makepayment .setOfStepsContainer,
+body.md_payment_makepayment .setOfStepsContainer .slider {
+  position: static !important;
+  display: block;
+  overflow: visible;
+  vertical-align: top;
+  width: 100%;
+  height: 100% !important;
+}
+body.md_echeckin div#PaymentEntry,
+body.md_echeckin div#PaymentEntry #paymentInfoContainer,
+body.md_echeckin div#DetailsVerification,
+body.md_visitpayment_enteramounts div#PaymentEntry,
+body.md_visitpayment_enteramounts div#PaymentEntry #paymentInfoContainer,
+body.md_visitpayment_enteramounts div#DetailsVerification,
+body.md_payment_makepayment div#PaymentEntry,
+body.md_payment_makepayment div#PaymentEntry #paymentInfoContainer,
+body.md_payment_makepayment div#DetailsVerification {
+  display: block !important;
+  width: 100% !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+body.md_echeckin div#divPmtMethod,
+body.md_visitpayment_enteramounts div#divPmtMethod,
+body.md_payment_makepayment div#divPmtMethod {
+  display: none !important;
+}
+
+.ellipsisControl {
+  white-space: normal !important;
+}
+.ellipsisControl > span {
+  display: inline !important;
+}
+
+body.md_financialassistance_index .receipt .receiptsection .receiptline.name:before {
+  display: none;
+}
+body.md_financialassistance_index .innercard.receipt .receiptsection .receiptline.name .item {
+  width: 60%;
+}
+body.md_financialassistance_index .innercard.receipt .receiptsection .receiptline.name .value {
+  width: 40%;
+}
+
+body.md_caredecision_index .jumbotron {
+  border: 1px solid #000000;
+}
+
+.visitinstructionscontent .readmore {
+  display: none !important;
+}
+
+.visitdetails .visitinformation {
+  width: 100% !important;
+}
+
+.visitinstructionscontent {
+  height: 100% !important;
+}
+
+.selfTriage .pastTriagesPage .pastTriageList {
+  display: none;
+}
+.selfTriage .pastTriagesPage .actionNodesContainer {
+  width: 100%;
+}
+.selfTriage .pastTriagesPage .actionNodesContainer .treeTitle .date {
+  display: inline;
+}
+
+.selfTriage .actionNode .instruction.collapsed .instructionContainer,
+.selfTriage .collapsableInstructionSection.collapsed .collapsableInstruction {
+  overflow: visible;
+  max-height: none;
+}
+
+.selfTriage .actionNode .instruction.collapsed .expandInstructionLink,
+.selfTriage .actionNode .instruction.expanded .collapseInstructionLink,
+.selfTriage .collapsableInstructionSection .expandableLinkSection .expandableLink,
+.selfTriage .collapsableInstructionSection .collapsableLinkSection .collapsableLink {
+  display: none;
+}
+
+.qnr-summary-question-answer .answerrow .answerimage {
+  width: 4rem !important;
+}
+
+.slider-answer .slidersection,
+.slider-answer .slidersection * {
+  display: none !important;
+  position: unset !important;
+}
+
+.slider-answer .answerrow {
+  text-align: left !important;
+  display: inline-block !important;
+}
+.slider-answer .answerrow .answertext,
+.slider-answer .answerrow .answerimage {
+  top: 0 !important;
+  left: 0 !important;
+  text-align: left !important;
+  margin-left: 0 !important;
+}
+.slider-answer .answerrow .answertext {
+  vertical-align: middle !important;
+}
+.slider-answer .answerrow .answerimg + .answertext {
+  max-width: calc(100% - 4.25rem) !important;
+}
+.slider-answer .answerrow .answerimage {
+  margin-right: 0.25rem !important;
+}
+
+body.md_growthchart div.table-pages .table-page {
+  page-break-before: always;
+  padding-top: 3rem !important;
+}
+
+#CovidStatusContainer .iconStatus {
+  fill: #000000;
+  filter: grayscale(1);
+}
+#CovidStatusContainer .iconStatusDetected,
+#CovidStatusContainer .iconStatusWithSymptoms {
+  fill: #000000;
+}
+#CovidStatusContainer .iconLink {
+  fill: #000000;
+}

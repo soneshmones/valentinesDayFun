@@ -1,0 +1,26 @@
+﻿/* Copyright 2018 Epic Systems Corporation */
+#proxies.proxyList.cardlist {
+  padding: 0;
+  width: 100%;
+}
+
+.proxyList.cardlist li.card {
+  text-align: center;
+}
+.proxyList.cardlist li.card a {
+  display: block;
+}
+.proxyList.cardlist li.card .proxyicon {
+  height: 90px;
+  margin: 0 auto 0.25rem;
+  width: 90px;
+  background: transparent none no-repeat scroll center center;
+  background-size: cover;
+  border: 1px solid #cccccc;
+  border-radius: 100%;
+  display: block;
+  overflow: hidden;
+}
+.proxyList.cardlist li.card.other .proxyicon {
+  background-color: #dbdbdb;
+}

@@ -1,0 +1,1778 @@
+﻿/* Copyright 2018-2021 Epic Systems Corporation */
+html,
+.bodyTextColor {
+  color: #363636;
+}
+
+#main,
+.BeforeList input.SearchList {
+  background-color: rgba(255, 255, 255, 0.88);
+}
+
+#sidebar {
+  background-color: rgba(255, 255, 255, 0.75000024);
+  color: #565656;
+}
+
+body #footer,
+body #footer a,
+.datatile #wrap > .copyright a,
+body.md_showform #footer,
+body.md_showform #footer a,
+body.md_saveform #footer,
+body.md_saveform #footer a {
+  color: #565656;
+}
+
+#footer.moving,
+#footer.moving a {
+  color: transparent !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+.header,
+.heading,
+.hover a.header:focus,
+.hover a.header:hover,
+.hover a.heading:focus,
+.hover a.heading:hover,
+.titlebar,
+.sectionheader,
+.formsection > legend,
+table thead tr {
+  color: #cc0000;
+}
+
+.qnr-container [class*=question] .header,
+.section.questionsContainer .questiongroup > legend.header,
+.section.questionsContainer .question > legend.header,
+#questionnaireform [class*=question] .header,
+.section.questionsContainer .question .question-prompt-header {
+  color: inherit;
+}
+
+.section.questionsContainer .question.questionSlider .slider,
+.slider-answer .slidersection.HORIZSLIDER .slider,
+.slider-answer .slidersection.VERTSLIDER .slider {
+  box-shadow: rgba(0, 0, 0, 0.2) 0 2px 4px -1px inset, 0 1px 0 0 rgba(255, 255, 255, 0.5);
+  background: rgba(204, 0, 0, 0.4);
+}
+
+.section.questionsContainer .question.HORIZSLIDER .slider.higherbetter,
+.slider-answer .slidersection.HORIZSLIDER .slider.higherbetter {
+  background-image: linear-gradient(to right, rgba(255, 76, 95, 0.85), rgba(255, 255, 135, 0.85), rgba(27, 212, 77, 0.85));
+}
+.section.questionsContainer .question.HORIZSLIDER .slider.lowerbetter,
+.slider-answer .slidersection.HORIZSLIDER .slider.lowerbetter {
+  background-image: linear-gradient(to left, rgba(255, 76, 95, 0.85), rgba(255, 255, 135, 0.85), rgba(27, 212, 77, 0.85));
+}
+.section.questionsContainer .question.VERTSLIDER .slider.higherbetter,
+.slider-answer .slidersection.VERTSLIDER .slider.higherbetter {
+  background-image: linear-gradient(to top, rgba(255, 76, 95, 0.85), rgba(255, 255, 135, 0.85), rgba(27, 212, 77, 0.85));
+}
+.section.questionsContainer .question.VERTSLIDER .slider.lowerbetter,
+.slider-answer .slidersection.VERTSLIDER .slider.lowerbetter {
+  background-image: linear-gradient(to bottom, rgba(255, 76, 95, 0.85), rgba(255, 255, 135, 0.85), rgba(27, 212, 77, 0.85));
+}
+
+.section.questionsContainer .question.questionSlider .noresponse {
+  background: #dbdbdb;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 2px 4px -1px inset, 0 1px 0 0 rgba(255, 255, 255, 0.5);
+}
+
+.slider-answer .slidersection.HORIZSLIDER .sliderball,
+.slider-answer .slidersection.VERTSLIDER .sliderball {
+  border-color: transparent #363636 transparent;
+}
+
+.section.questionsContainer .question.questionSlider .sliderball {
+  border-color: #cc0000;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.section.questionsContainer .question.questionSlider .sliderball:not(.pressed) {
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.4);
+}
+
+.section.questionsContainer .question.questionSlider .slidersection .minmax .min,
+.section.questionsContainer .question.questionSlider .slidersection .minmax .max,
+.slider-answer .slidersection.HORIZSLIDER .minmax,
+.slider-answer .slidersection.VERTSLIDER .minmax,
+.section.questionsContainer .question.questionSlider .noresponselabel,
+.section.questionsContainer .question.questionSlider .slidertools.showall > .slidersection > .minmax > .option .togglebuttontext,
+.section.questionsContainer .question.questionSlider .slidertools > .currentlyselected .answertext {
+  color: #565656;
+}
+
+.slider-answer .slidersection.HORIZSLIDER .minmax > .min.active,
+.slider-answer .slidersection.VERTSLIDER .minmax > .max.active {
+  color: #363636;
+}
+
+body [class*=question] .header {
+  color: inherit;
+}
+
+#divAcpQuestionnaire .qnr-container .questiongroup .group-prompt,
+#divAcpQuestionnaire .qnr-container .questionGroupRulerStyle > .question-prompt-header {
+  color: #cc0000;
+}
+
+.qnr-container .text-error {
+  color: #d80000;
+}
+
+.popupiconcontainer > .popupInstructions > span.header {
+  color: #cc0000;
+}
+
+.md_mychartquestionnaire_questionnaires .qnr_list_table .assignedqnrs span.qnr_completed {
+  color: #363636;
+}
+
+.md_mychartquestionnaire_questionnaires .qnr_list_table .assignedqnrs .qnr_icon_status_complete {
+  fill: #0f784a;
+}
+
+.md_questionnairelist .header,
+.md_mychartquestionnaire_questionnaires .header {
+  color: #cc0000;
+}
+
+.md_mychartquestionnaire_questionnaires .assigned_qnr_description,
+.md_mychartquestionnaire_questionnaires .optional_qnr_description,
+.md_mychartquestionnaire_questionnaires .qnr_status {
+  color: #767676;
+}
+
+.section.questionsContainer .cardlist .card > .group-yes-no-answers > legend.heading {
+  color: inherit;
+}
+
+.mobile .section.questionsContainer .question .answers .tbContainer label[for], .echeckinqnrmobile .section.questionsContainer .question .answers .tbContainer label[for] {
+  border-color: #dbdbdb;
+}
+
+.section.questionsContainer .questionGroupWithFollowUps .accordion.checkboxAccordion .accordion-heading .answers input.buttoncheck + label.buttoncheck {
+  background-color: transparent;
+}
+
+.qnr-scoring-container > .qnr-scoring-numeric {
+  border-color: #eaeaea;
+}
+
+.section tr .qnr-summary-follow-up-question-container {
+  border-left-color: #eaeaea;
+}
+.section tr div.qnr-summary-child-question-prompt,
+.section tr div.qnr-summary-group-question-answer {
+  border-top-color: #eaeaea;
+}
+.section tr:hover .qnr-summary-follow-up-question-container {
+  border-left-color: #cccccc;
+}
+
+.whiteBG {
+  background-color: #ffffff;
+}
+
+.lightGrayBG {
+  background-color: #eaeaea;
+}
+
+body.md_showform .questiongroup > .row > [class*=col-] > legend,
+body.md_saveform .questiongroup > .row > [class*=col-] > legend {
+  color: #cc0000;
+}
+
+.subheader {
+  color: #cc0000;
+}
+
+.highlight {
+  background-color: #d80000;
+}
+
+.formsection.withSeparator {
+  border-color: #cccccc;
+}
+
+table tr.hover,
+table tr td.selected,
+table.hoverable tr:hover,
+.section .content .hover:not(.button):not(.card),
+.list.hoverable:not(.collapsible) a:not(.button):focus,
+.list.hoverable:not(.collapsible) a:not(.button):hover,
+.list.hoverable:not(.collapsible) li:focus,
+.list.hoverable:not(.collapsible) li:hover,
+.list.hoverable.collapsible a.collapsed:focus,
+.list.hoverable.collapsible a.collapsed:hover,
+.list.hoverable.collapsible li.collapsed:focus,
+.list.hoverable.collapsible li.collapsed:focus a,
+.list.hoverable.collapsible li.collapsed:hover,
+.list.hoverable.collapsible li.collapsed:hover a,
+.list.hoverable.collapsible li.collapsed a:focus,
+.list.hoverable.collapsible li.collapsed a:hover,
+.MessageList .SingleMessage.collapsed .inlinedelete:focus,
+.SingleIndicator.collapsed.hover,
+.listHolder > .listRow.hover,
+.listHolder > .listRow.selected,
+.clickable:hover,
+.clickable:focus,
+.clickable a:focus {
+  background: #fbebeb;
+}
+
+.list.hoverable:not(.collapsible) a:not(.button),
+.list.hoverable:not(.collapsible) a:not(.button):focus,
+.list.hoverable:not(.collapsible) a:not(.button):hover,
+.list.hoverable.collapsible a:not(.linkcolor).collapsed:focus,
+.list.hoverable.collapsible a:not(.linkcolor).collapsed:hover,
+.list.hoverable.collapsible li.collapsed:focus a:not(.linkcolor),
+.list.hoverable.collapsible li.collapsed:hover a:not(.linkcolor),
+.list.hoverable.collapsible li.collapsed a:not(.linkcolor):focus,
+.list.hoverable.collapsible li.collapsed a:not(.linkcolor):hover,
+.clickable:hover,
+.clickable:hover a,
+.clickable:focus,
+.clickable a:focus {
+  color: #363636;
+}
+
+.list.hoverable:not(.collapsible) li > a:not(.button):focus, .list.hoverable:not(.collapsible) li > a:not(.button):hover,
+.list.hoverable.collapsible li > a.collapsed:focus,
+.list.hoverable.collapsible li > a.collapsed:hover,
+.list.hoverable:not(.collapsible) li li:focus,
+.list.hoverable:not(.collapsible) li li:hover,
+.list.hoverable.collapsible li.collapsed li:focus,
+.list.hoverable.collapsible li.collapsed li:hover {
+  background: none;
+}
+
+.list.hoverable .nohover {
+  background: inherit !important;
+}
+
+.listRow,
+.embedded .card,
+.department_map,
+#filterControls {
+  border-color: #dbdbdb;
+}
+
+a,
+.linkcolor,
+.subtle.linkcolor {
+  color: #cc0000;
+}
+
+.linkcolorOverride, .linkcolorOverride:visited {
+  color: #cc0000 !important;
+}
+.linkcolorOverride:focus, .linkcolorOverride:hover {
+  color: #b30000 !important;
+}
+
+a:focus,
+a:hover,
+.linkcolor:focus,
+.linkcolor:hover,
+#calendar table td.ctrl a:hover {
+  color: #b30000;
+}
+
+.statusClosed,
+.subtle,
+.subtlecolor {
+  color: #767676;
+}
+
+#sidebar .subtle,
+#sidebar .subtlecolor {
+  color: #565656;
+}
+
+.helptext {
+  color: #565656;
+}
+
+.messagedisplay {
+  color: #565656;
+}
+
+.emphasis {
+  color: #000000;
+}
+
+label,
+.label,
+.inlinelabel,
+.formsection fieldset legend {
+  color: #565656;
+}
+
+legend .qnr-prompt-text {
+  color: inherit;
+}
+
+.qnr-container .answers input.invalid:not(:focus),
+.qnr-container .answers textarea.invalid:not(:focus) {
+  border-color: #d80000;
+}
+
+.ghostInput label {
+  color: #565656;
+}
+
+.verticalDate {
+  color: #41a0ff;
+}
+
+input::-moz-placeholder {
+  color: #565656;
+  opacity: 1;
+}
+
+input:-ms-input-placeholder {
+  color: #565656;
+}
+
+input::-webkit-input-placeholder {
+  color: #565656;
+}
+
+input::placeholder {
+  color: #565656;
+}
+
+body.md_showform .section .question > legend,
+body.md_saveform .section .question > legend {
+  color: #565656;
+}
+
+.alert,
+.alertHeader,
+.abnormal {
+  color: #d80000;
+}
+
+.abnormal svg.icon {
+  fill: currentColor;
+}
+
+.overdue {
+  color: #d80000;
+}
+
+.warning {
+  color: #d80000;
+}
+
+.softwarning {
+  background-color: #ffffa1;
+}
+
+.warningbgcolor {
+  background-color: #ffe8e8;
+}
+
+.informationalWarning {
+  background-color: #e0f1ff;
+}
+
+.attention,
+ul.MessageList .actionButtons .inlinedelete span {
+  color: #d80000;
+}
+
+.required:before {
+  border-color: #d80000 transparent transparent;
+}
+
+.statusAuthorized,
+.statusOpen,
+.positiveValue {
+  color: #0f784a;
+}
+
+:not(tr):not(td).nodata:not(:empty) {
+  background-color: rgba(204, 204, 204, 0.25);
+  color: #565656;
+}
+
+#sidebar .nodata:not(:empty) {
+  background-color: rgba(204, 204, 204, 0.45);
+}
+
+a.link.cancel {
+  color: #d80000;
+}
+
+label.togglebutton[for],
+input.buttoncheck + label.buttoncheck {
+  background-color: #ffffff;
+}
+
+input:checked + label.togglebutton[for],
+input.buttoncheck:checked + label.buttoncheck {
+  background-color: #bfe1ff;
+  color: #000000;
+}
+
+label.buttoncheck[for]:hover,
+label.togglebutton[for]:hover,
+input:focus + label.buttoncheck,
+input:focus + label.togglebutton[for] {
+  color: #000000;
+}
+
+.buttoncheck,
+.buttoncheck:focus,
+.buttoncheck:hover {
+  background: none;
+}
+
+input.prettycheck + label:before,
+input.buttoncheck + label.buttoncheck:before,
+input.prettyradio + label:before {
+  background-color: #ffffff;
+}
+
+input.prettycheck:checked + label:before,
+input.buttoncheck:checked + label.buttoncheck:before {
+  background-color: #003348;
+  border-color: #003348;
+}
+
+input.prettyradio:checked + label:before {
+  background-color: #003348;
+}
+
+input.buttoncheck:disabled + label,
+input.prettycheck:disabled + label:before,
+input.prettyradio:disabled + label:before,
+input.buttoncheck:disabled + label.buttoncheck:before {
+  background-color: #eaeaea;
+  border-color: #dbdbdb;
+}
+
+input.buttoncheck:disabled:checked + label,
+input.prettycheck:disabled:checked + label:before,
+input.buttoncheck:disabled:checked + label.buttoncheck:before {
+  background-color: #f2f2f2;
+}
+
+input.prettyradio:disabled:checked + label:before {
+  background-color: #539cba;
+}
+
+input.buttoncheck:disabled + label {
+  color: #000000;
+}
+
+input,
+select,
+textarea {
+  background-color: #ffffff;
+}
+
+input.readonly,
+input.disabled,
+input[disabled]:not(.omitdisablestyling),
+select.readonly,
+select.disabled,
+select[disabled],
+textarea.readonly,
+textarea.disabled,
+textarea[disabled] {
+  background-color: #f2f2f2;
+  color: #565656;
+}
+
+input.invalid:not(:focus),
+textarea.invalid:not(:focus),
+select.invalid:not(:focus) {
+  border-color: #d80000;
+}
+
+select.selected {
+  border-left-color: #cc0000;
+}
+
+.messageOverlay {
+  background-color: rgba(118, 118, 118, 0.9);
+  color: #cccccc;
+}
+.messageOverlay .alert {
+  color: #ffffff;
+}
+
+.subway,
+.subway a,
+.subway a:focus,
+.subway a:hover {
+  color: #cc0000;
+}
+
+.line .trainrail {
+  background-color: #cc0000;
+}
+.line .trainrail.future:not(.visited) {
+  background-color: rgba(204, 0, 0, 0.5);
+}
+
+.stops .future:not(.visited) {
+  color: #767676;
+}
+.stops .trainstation {
+  background: #e68080;
+  border-color: #cc0000;
+}
+.stops .now .trainstation {
+  background-color: #cc0000;
+}
+.stops .future:not(.visited) .trainstation {
+  background: #ffffff;
+  border-color: rgba(204, 0, 0, 0.5);
+}
+
+.subway.scrollable .nav .scrollleft,
+.subway.scrollable .nav .scrollright {
+  border-color: #dbdbdb;
+}
+
+.subwaycontentbody {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+table th a, table th a:focus, table th a:hover {
+  color: inherit;
+}
+
+.card {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+}
+.card.popupInstructions.hover {
+  background-color: #ffffff !important;
+  cursor: default !important;
+}
+.card.helptip.success:not(.moreToDo) {
+  background-color: #f9d5d5;
+}
+.card.helptip.success:not(.moreToDo) .header.medium {
+  color: #0d663f;
+}
+.card.helptip.success.moreToDo {
+  background-color: #ffffff;
+}
+.card.helptip.success.moreToDo .header.medium {
+  color: #cc0000;
+}
+
+.verticalSubwayStop:before {
+  background-color: #cc0000;
+}
+
+.verticalSubwayStopContents:before {
+  border-color: #cc0000;
+  background-color: #ffffff;
+}
+
+#calendar table,
+ul.MessageList,
+.HPcell.component > .content,
+.component.pocdefault > a.viewmore,
+.lightShadow {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.Popup .card.addItem.noprint {
+  background: #f8f8f8;
+}
+.Popup .card.addItem.noprint.hover {
+  background: #ffffff;
+}
+
+.component.Popup > .titlebar {
+  background-color: #fbebeb;
+}
+body:not(.graphicHeader) .component.Popup > .titlebar {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.noinfo.component > .content {
+  background: transparent !important;
+  box-shadow: 0 0 0 !important;
+  border-radius: 0 !important;
+}
+
+.addbuttonlabel {
+  color: #767676;
+}
+
+.navparent .membertab a,
+.tabcontainer .sectiontabs a,
+.externalorganizations .orgname,
+.calendar table td a,
+.calendar table td,
+.calendar table thead td[colspan="5"].hdr,
+tfoot tr.amount.header {
+  color: #363636;
+}
+
+.popupiconcontainer .popupInstructions {
+  background-color: #ffffff;
+  color: #363636;
+}
+
+.infoBubbleWrapper .infoBubblePopup {
+  background-color: #ffffff;
+}
+.infoBubbleWrapper .infoBubblePopup .infoBubbleBody {
+  color: #363636;
+}
+
+.list.hoverable:not(.collapsable) a.addItem, .list.hoverable:not(.collapsable) a.addItem:hover {
+  color: #cc0000;
+}
+.list.hoverable:not(.collapsable) a.addItem:hover {
+  background-color: #ffffff;
+}
+
+#calendar table td,
+.lb_content.template,
+.component.Popup,
+.HProw .component,
+.component > a.viewmore,
+.todotiles,
+.todotooltip .arrow:after,
+.HPcell.component > .content,
+#calendar table,
+.medicationslist.component .filteredwarningtooltip,
+.component.pocdefaultpopup.careteam ul.careteam li.listelement.careteam.selected,
+.goalslarge .goalsleft .goalslist.list .goalslistelement.selected,
+.todotooltip, .weekcalendartooltip,
+.loginalert.tab > a,
+.loginalert .body,
+.component.news .newscard,
+.loginalert .contentbody .apptoffer,
+#calendar table thead td.hi,
+#calendar table td#calcancel.hi,
+.externalorganizations .badge.orglink {
+  background-color: #ffffff;
+}
+
+.HPcell.component.pocdefault .titlebar ul a.selected,
+.ToDoEventsPopup.container .titlebar ul.buttons li a.selected,
+.todoweekcalendarcontent .event,
+.todoweekcalendarcontent .haevent,
+.todoweekcalendarcontent .haevent a,
+.HPcell.pocdefault.component .todolistelement .rightsection .overdue.requestappointment,
+.todotiles .actionButton a.overdue.requestappointment,
+.HPcell.pocdefault.component .todolistelement .rightsection .echeckin,
+.todoweekcalendarcontent .event a,
+.goalsvb6 .buttons li.selected,
+.calendar table td.hasevents a,
+.calendar table tbody td.hi a,
+.calendar table tbody td.hi button,
+.loginalert .contentbody a,
+.externalorganizations .alertscount,
+.highlighttext,
+.highlighttext a {
+  color: #ffffff;
+}
+
+.goalsleft .goalslistelement,
+.component.pocdefaultpopup.careteam ul li.listelement {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.menudetailstable.leftmenu .leftcolumn {
+  background-color: #fbebeb;
+}
+body:not(.graphicHeader) .menudetailstable.leftmenu .leftcolumn {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.todotiles.appointment .eventdetails::after,
+.todotiles .providerimage,
+.visittype .providerimage,
+.fullscreen li.careteam .col1 .providerimage,
+.fullscreen.careteam div.column2 .providerimage {
+  background-color: #dbdbdb;
+}
+
+.Alerts .loginalert a::after,
+.component.quickLinks.vertical a::after,
+.component ul li.listelement:after,
+.Alerts .loginalert .loginalert.tab::after,
+.Alerts .loginalert.h2gAlert::after {
+  background-color: #dbdbdb;
+}
+
+.subdued.component.quickLinks.vertical a::after,
+.subdued.component ul li.listelement:after {
+  background-color: rgba(118, 118, 118, 0.25);
+}
+
+.subdued.component.quickLinks a:hover,
+.component.subdued ul li.listelement:hover {
+  color: initial;
+}
+
+.calendar table td.today a,
+.calendar table td.today button {
+  border-color: #cc0000;
+}
+
+.ReviewMessages .BeforeList .tabs a[data-checked=checked] {
+  border-bottom-color: #cc0000;
+}
+
+#calendar table td.ctrln,
+.urgent,
+.PickOrganization .content > p {
+  color: #cc0000;
+}
+
+.calendar table tbody td.hi a,
+.calendar table tbody td.hi button,
+.calendar .selectableevent {
+  background-color: #cc0000;
+}
+
+.fullscreen ul.careteam li.selected:before,
+.goalslarge li.goalslistelement.selected:before {
+  background-color: #cc0000;
+}
+
+.multiMonthCalendar.fullscreen .calendar table td.ctrl a,
+.todolistelement .title a,
+.todotiles .titleholder .title a,
+.todoweekcalendarcontent .nextweekbuttons li a,
+.weekcalendar table td,
+.weekcalendar table th {
+  color: #000000;
+}
+
+.Popup.component,
+.todotiles:not(.healthadvisory) .knowmore a,
+.goalssmall .goalslist .noncompliant,
+.goalslarge .goalslist .noncompliant,
+.goalslarge .chartgraph .noncompliant,
+.goalssmall .goaltitlerow,
+.goalsleft .goaltitlerow,
+.goalsvb6 .goaltitle,
+.goalsdetails .noteslabel,
+.careteam .fullscreen .providerTitle a,
+.softwarningtext,
+.softwarningtext a,
+.informationalWarningText,
+.informationalWarningText a {
+  color: #363636;
+}
+
+.goalssmall .goaldatarow,
+.goalsleft .goaldatarow,
+.goalsvb6 .goalrecentvalue {
+  color: #565656;
+}
+
+#calendar table td.n,
+#calendar table td.n button,
+#calendar table td.ctrln,
+#calendar table td.wkndn,
+#calendar table td.wkndn button,
+.calendar table td.past {
+  color: #767676;
+}
+
+.todoweekcalendarcontent .weekcalendar th {
+  background-color: #f2f2f2;
+}
+
+/* #region Plan of Care Widget Styles */
+.HPcell.component.pocdefault ul li.listelement:after {
+  background: #eaeaea;
+}
+
+.component.pocdefaultpopup.careteam .fullscreen ul.careteam li:hover,
+.goalslarge .goalsleft .goalslist.list .goalslistelement:hover {
+  background: #ffffff;
+}
+
+.component .todolistelement .echeckinstatus,
+.todotiles .echeckinstatus {
+  color: #0f784a;
+}
+
+.component .medicationlistelement .refilldisabledstatus {
+  color: #d80000;
+}
+
+.goalssmall .goalslist .compliant {
+  color: #cc0000;
+}
+
+.goalslarge .goalslist .compliant,
+.goalslarge .chartgraph .compliant {
+  color: #0079b7;
+}
+
+.medicationspopup .medcard.selected {
+  box-shadow: 0 8px 9px 1px #cc0000;
+}
+
+.medicationslist.component .filteredwarningtooltip {
+  box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.2);
+}
+
+ul.MessageList .MessageSummary .Preview,
+ul.MessageList .ExpandedSummary .Viewers .label,
+ul.MessageList .SenderDetails .Date {
+  color: #767676;
+}
+
+.multiMonthCalendar .calendarBtns a,
+.multiMonthCalendar .calendarBtns a:hover,
+.multiMonthCalendar .calendarBtns a:focus,
+.multiMonthCalendar li.calendarBackEventBtn:before,
+.multiMonthCalendar li.calendarNextEventBtn:after,
+.loginalert .body .apptDateDetails,
+.BeforeList .top a,
+.messagefooter .loadall,
+.calendar table td#calcancel a,
+.ToDolist li.healthadvisory a.requestappointment:not(.button) {
+  color: #cc0000;
+}
+
+.ToDoEventsPopup.container .titlebar ul.buttons li a.selected,
+.goalsvb6 .buttons li.selected {
+  background: #767676;
+}
+
+.todolistspopup .todotiles {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
+}
+.todotiles.healthadvisory:after {
+  background-color: #c786bc;
+}
+.todotiles.appointment:after {
+  background-color: #1180ff;
+}
+.todotiles.order:after {
+  background-color: #9657ff;
+}
+.todotiles.appointment.selected {
+  box-shadow: 0 9px 18px 2px #a0ccff;
+}
+.todotiles.healthadvisory.selected {
+  box-shadow: 0 9px 18px 2px #edcae7;
+}
+.todotiles.order.selected {
+  box-shadow: 0 9px 18px 2px #d5bcff;
+}
+
+.todotiles .providerimage,
+.todoweekcalendarcontent #weekcalendar tr.fullhour td,
+.todoweekcalendarcontent .weekcalendar th {
+  border-color: #dbdbdb;
+}
+
+.ToDoEventsPopup.container .titlebar ul.buttons li a,
+.HPcell.component.pocdefault .titlebar ul a,
+.goalsvb6 .buttons li {
+  color: #767676;
+}
+
+.todoweekcalendarcontent .event.showtime,
+.todoweekcalendarcontent .event.notime .eventinner:before,
+.todoweekcalendarcontent .event.notime .eventinner {
+  background: #4e9cc8;
+}
+.todoweekcalendarcontent .nextweekbuttons ul li {
+  background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+  color: #363636;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.2);
+  border-color: #eaeaea;
+}
+.todoweekcalendarcontent .nextweekbuttons ul li:hover {
+  background: linear-gradient(to bottom, #f2f2f2 0, #eeeeee 8%, #e6e6e6 46%, #e6e6e6 100%);
+}
+
+table.weekcalendar td {
+  border-color: #eaeaea;
+}
+
+.goalsleft .goalslistelement.selected,
+.goalsleft .goalslistelement.selected:hover {
+  background: #ffffff;
+}
+
+.arrow:after {
+  box-shadow: 6px 5px 9px -9px #000000, 5px 6px 9px -9px #000000;
+}
+
+.tooltip {
+  background: #ffffff;
+  border-color: #cccccc;
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+}
+
+.todotooltip .arrow:after,
+.todotooltip, .weekcalendartooltip,
+ul.MessageList > li .head img.photo,
+ul.MessageList > li .head span.photo,
+.roundedimage {
+  border-color: #cccccc;
+}
+
+#todotooltip .todotiles {
+  border-bottom-color: #dbdbdb;
+}
+
+.todotooltip, .weekcalendartooltip {
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.1);
+}
+
+.todotooltip .more {
+  border-top-color: #cccccc;
+}
+
+.goalsdetails .noteslabel:before {
+  border-top-color: #eaeaea;
+}
+
+.patientActions a.button.message::before {
+  background-color: transparent;
+}
+.patientActions a.button.schedule::before {
+  background-color: transparent;
+}
+
+.visittypecontainer a.visitlink.request {
+  color: #cc0000;
+  background-color: #ffffff;
+}
+
+.visittype .providerimage {
+  border-color: #dbdbdb;
+}
+
+.visittypecontainer a.visitlink {
+  box-shadow: 0 1px 5px -1px rgba(0, 0, 0, 0.75);
+}
+
+ul.careteam li.careteam .col1 .providerimage,
+.todotiles .providerimage {
+  border-color: #cccccc;
+}
+
+.loginalert .body .offertitle {
+  background: #f8dbdb;
+}
+
+/* #endregion Plan of Care Widget Styles */
+/* #region Billing - Account Summary */
+.ba_card_header,
+.ba_card_status,
+.ba_recent_activity_row {
+  border-color: #eaeaea;
+}
+
+.ba_card_header_paperless {
+  border-top-color: #cc0000;
+  border-right-color: transparent;
+  border-left-color: #cc0000;
+  border-bottom-color: transparent;
+}
+
+.ba_card_status .ba_up_to_date,
+.ba_card_status .ba_up_to_date_until,
+.ba_details_payment_plan_status .positive,
+.ba_details_plan_up_to_date {
+  color: #0f784a;
+}
+
+/* #endregion Billing - Account Summary */
+/* #region Billing - account details */
+div.ChargeGroupContainer {
+  border-left-color: #cc0000;
+}
+
+/* #endregion Billing - account details */
+/* #region Billing - Payment Pages */
+.moneyColor,
+.essMoneyColor,
+.HARSAutopay {
+  color: #0f784a;
+}
+
+.pmtEmphasis {
+  color: #363636;
+}
+
+.payplanoverdue .paymentplanautocontainer .payplanamount {
+  color: #d80000;
+}
+
+/* #endregion */
+/* #region Billing - Estimates */
+/* #region Billing - Estimates - General */
+.essLtrBtn,
+.essDocBtn {
+  color: #ffffff !important;
+}
+.essLtrBtn:not(.nextstep),
+.essDocBtn:not(.nextstep) {
+  background-image: none !important;
+  background-color: #003348 !important;
+}
+
+/* #endregion */
+/* #region Billing - Estimates - Saved Estimates */
+div.essSuccessAlert {
+  border-left-color: #0f784a;
+}
+
+div.essEstimateCardFooter {
+  border-top-color: #dbdbdb;
+}
+
+li.essJustSaved, li.essNew {
+  border-color: #bddeff;
+}
+
+div.essEstimateCardButtons a:hover span,
+div.essEstimateCardButtons a:focus span {
+  color: #d80000;
+}
+
+.essPageSelectorLink.selected {
+  box-shadow: 0px 4px 4px -1px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  color: #000000;
+}
+.essPageSelectorLink.disabled {
+  color: #565656;
+}
+.essPageSelectorLink:not(.selected):not(.disabled):hover {
+  background-color: #fbebeb;
+}
+
+/* #endregion */
+/* #region Billing - Estimates - Service Selection */
+span.essSearchHighlight {
+  background-color: #ffff00;
+}
+
+.essSearchResultsMsg {
+  color: #cc0000;
+}
+
+span.essCategoryListLabel,
+.essServiceDesc p:first-of-type {
+  color: #767676;
+}
+
+div.essNoResults {
+  background-color: #dbdbdb;
+  color: #363636;
+  border-color: #eaeaea;
+}
+
+/* #endregion */
+/* #region Billing - Estimates - Estimate Details */
+div.essEstimateLoader {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+div.essEstimateLoader > div {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#essProgressBar {
+  border-color: #ffffff;
+}
+
+#essProgressBarFill {
+  background-color: #ffffff;
+}
+
+div.essEstimateLoader .loadingmessage {
+  color: #ffffff;
+  text-shadow: 1px 1px 1px #000000;
+}
+div.essEstimateLoader p {
+  color: #ffffff;
+  text-align: center;
+}
+
+.mobile #essSpecificBenefitsContainer .essBenefitLineHeader li {
+  color: #832121;
+  background: #fcecec none repeat scroll 0 0;
+}
+
+#essSectionContainer hr {
+  border-bottom-color: #cccccc !important;
+}
+
+div.essDropdown a.essCardTitle {
+  color: #363636;
+}
+
+div.essDrilldownRange {
+  border-bottom-color: #eaeaea;
+}
+
+line.essRangeMidpoint {
+  stroke: #0f784a;
+  fill: #0f784a;
+}
+
+circle.essRangeEndpoint {
+  stroke: #565656;
+  fill: #565656;
+}
+
+line.essRangeLine {
+  stroke: #c8c8c8;
+}
+
+.line-label--avg {
+  color: #0f784a;
+}
+
+.subtext p {
+  border-color: #dbdbdb;
+}
+
+.essMOOPHit {
+  color: #ed9200;
+}
+
+div.essWarningCard {
+  border-left-color: #d80000;
+}
+
+@keyframes redFlash {
+  from {
+    background-color: #d80000;
+  }
+  to {
+    background-color: #ffffff;
+  }
+}
+div.essInfoCard {
+  border-left-color: #003348;
+}
+
+div.detailHeader {
+  border-top-color: #dbdbdb;
+}
+
+p.subtext {
+  border-color: #dbdbdb;
+}
+
+div.estimateFailed h2 {
+  color: #363636;
+}
+
+input.essInvalidEntry {
+  border-color: #d80000;
+  background-color: #ffe8e8;
+}
+input.essInvalidEntry:focus {
+  border-color: #d80000;
+}
+
+html:not(.mobile) .hoverable div.essSlideshowCard p.essCardTitle {
+  color: #ffffff;
+  text-shadow: 1px 1px 3px #000000, 1px 1px 3px #000000;
+}
+
+.list.hoverable a.essCardTitle:focus {
+  color: #ffffff;
+  background-color: transparent;
+}
+
+div.essSlideshowCard p.essSlideshowCardMuted {
+  background-color: #f2f2f2;
+  border-bottom-color: #dbdbdb;
+}
+.hoverable div.essSlideshowCard p.essSlideshowCardMuted a {
+  color: #cc0000;
+}
+
+/* #endregion */
+.timeLine:before {
+  background: #dbdbdb;
+}
+
+.timeLine .timeLineSection:before {
+  background: #ffffff;
+}
+
+.ReviewMessages .messageheader .filters select {
+  background-color: #ffffff;
+}
+.ReviewMessages .messageheader .filters {
+  background-color: rgba(204, 0, 0, 0.05);
+  border-top-color: #cccccc;
+}
+
+li.SingleMessage .indeterminateLinkWarning {
+  background-color: #f8f8f8;
+}
+
+/* #region BedsideMessages */
+.messagebackgrounduser {
+  background: #d3ecaf;
+  border-color: #b8e07c;
+}
+
+.messagebackgroundprovider {
+  background: #dfdfdf;
+  border-color: #cccccc;
+}
+
+/* #endregion BedsideMessages */
+.membertab {
+  border-color: transparent transparent #cccccc;
+}
+.membertab.selected {
+  border-color: #cc0000 #cccccc transparent;
+}
+.membertab a {
+  color: #565656;
+}
+.membertab.selected a {
+  color: #363636;
+}
+.membertab.hover:not(.selected) {
+  border-color: #cccccc;
+}
+.membertab a img.tabimg {
+  border-color: #cccccc;
+}
+
+/* #region Jp Player */
+.jplayer-controlbar,
+.jp-video,
+.jp-audio,
+.jp-jplayer {
+  background-color: #000000;
+}
+
+.jp-current-time {
+  color: #ffffff;
+}
+
+.jp-volume-bar {
+  background-color: #cccccc;
+}
+
+.jp-volume-bar-value {
+  background-color: #ffffff;
+}
+
+.jplayer-progress-container {
+  background-color: #333333;
+}
+
+.jp-play-bar {
+  background-color: #049be7;
+}
+
+/* #endregion */
+.SingleIndicator {
+  border-bottom-color: #dbdbdb;
+}
+
+.flyout {
+  box-shadow: 0px 4px 4px -1px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+}
+
+/* #region Scheduling */
+.button[data-type=workflow]:hover,
+.button[data-type=workflow]:focus {
+  background-color: #002b3d;
+}
+
+.slot {
+  background-color: #cc0000;
+  color: #ffffff;
+}
+
+.slot.selected,
+.slotgroup.preview .slot,
+html:not(.mobile) .slot:hover,
+html:not(.mobile) .slot:focus {
+  background-color: #ad0000;
+  color: #ffffff;
+}
+
+.solutionpreview, .slotwarning {
+  border-top-color: #ad0000;
+  border-bottom-color: #ad0000;
+}
+
+.slotsData.card :not(tr):not(td).nodata:not(:empty) {
+  background-color: transparent;
+}
+
+.requestheader {
+  background-color: rgba(204, 0, 0, 0.05);
+}
+
+.card .photo.nondefault {
+  background-color: #ffffff;
+}
+
+.mobile .quickschedule.loadingoverlay {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.loadingoverlay .loadingmessage, .defaultajaxoverlay .loadingmessage,
+.translucentBG {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.apptDeptInstructions .section.flat {
+  background-color: #fbebeb;
+}
+
+.summary .titlebar,
+.sidebarlinks .titlebar {
+  background-color: #cc0000;
+}
+.summary .titlebar .title,
+.sidebarlinks .titlebar .title {
+  color: #ffffff;
+}
+
+a.summaryInfo {
+  color: #000000;
+}
+a.summaryInfo:hover, a.summaryInfo.summaryActive {
+  background-color: rgba(204, 0, 0, 0.1);
+}
+
+.summaryInfo.summaryActive .subtle.edit, .summaryInfo.summaryComplete .subtle, .summaryInfo.summaryIncomplete .subtle {
+  color: #cc0000;
+}
+.summaryInfo .subtle.editText {
+  color: #ad0000;
+}
+.summaryInfo:before {
+  background-color: #cc0000;
+}
+
+.mobile .summary, .sidebarlinks {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.customstep .custombody {
+  background-color: #ffffff;
+}
+
+.timepreferencecontainer .daytimetable thead th {
+  color: #000000;
+}
+
+#scheduling-workflow .banner::before {
+  background-color: rgba(204, 0, 0, 0.05);
+}
+
+#standardworkflowselector > .separator > p {
+  color: #cc0000;
+}
+#standardworkflowselector > .separator > .line {
+  background-color: #dbdbdb;
+}
+
+#scheduling-workflow .extrasContainer {
+  background-color: #fbebeb;
+}
+
+.headerwrapper.selected {
+  background-color: #eaeaea;
+}
+
+.mobile .summary.clearfix {
+  background-color: #ffffff;
+}
+
+.mobile .summaryInfo.summaryComplete:not(.summaryActive) .mobileedittext,
+.mobile .summaryInfo.summaryIncomplete:not(.summaryActive) .mobileedittext {
+  color: #ad0000;
+}
+
+.mobile .verificationContent {
+  background-color: transparent;
+}
+
+.slotsstep .schedulinginstructions .helptip {
+  border-color: #dbdbdb;
+}
+
+.summary {
+  border-top: 0.2rem solid rgba(204, 0, 0, 0.2);
+}
+
+.mobile .summary.clearfix {
+  box-shadow: 0 1px 5px -1px rgba(0, 0, 0, 0.4);
+}
+
+.slotFilterToggle h3.filtertext {
+  color: #565656;
+}
+
+html:not(.mobile) .nodays.nodata.jqHidden.request.requestheader,
+html:not(.mobile) .slotsData.card .nodays.nodata.jqHidden.expandable {
+  border-color: #dbdbdb;
+}
+
+/* #endregion */
+/* #region On My Way */
+#onMyWayPopup .walkInButton:hover:not([disabled]),
+#onMyWayPopup .walkInButton:focus:not([disabled]) {
+  background-color: #002b3d;
+}
+
+/* #endregion */
+/* #region Self Triage */
+.selfTriage .landingPage .inProgressStatus .status {
+  background: #ffa020;
+  color: #ffffff;
+}
+.selfTriage .helperSection.narrowSymptoms:after,
+.selfTriage .helperSection.nextSteps:after {
+  border-color: rgba(204, 0, 0, 0.5);
+}
+.selfTriage .actionNode .instruction.collapsed .expandInstructionLink, .selfTriage .actionNode .instruction.expanded .collapseInstructionLink {
+  background: #ffffff;
+  border-top-color: #dbdbdb;
+}
+.selfTriage .actionNode .instruction.collapsed .expandInstructionLink::before {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.8) 100%);
+}
+.selfTriage .actionNodeWorkflow .actionNode .successStatus .successMessage {
+  color: #0f784a;
+}
+.selfTriage .actionNodeWorkflow .actionNode .noSecurityMessage {
+  border-top-color: #dbdbdb;
+}
+.selfTriage .actionNodeWorkflow .visitWorkflow {
+  border-top-color: #cccccc;
+}
+.selfTriage .collapsableInstructionSection .expandableLinkSection:before {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.8) 100%);
+}
+.selfTriage .pastTriage .date {
+  color: #41a0ff;
+}
+.selfTriage .actionNode.reviewMode .incomplete .nodeTitle,
+.selfTriage .actionNode.reviewMode .incomplete .order .name,
+.selfTriage .actionNode.reviewMode .incomplete .orderBucketTitle,
+.selfTriage .actionNode.reviewMode .expiredNodeMessage {
+  color: #767676;
+}
+
+/* #endregion */
+/* #region Decision Trees */
+#dt-container .dtbanner {
+  background-color: #ffffd0;
+  border-color: #cccccc;
+}
+
+/* #endregion */
+/* #region upload widget */
+.upload--limit-reached {
+  color: #d80000;
+}
+
+/* #endregion */
+/* #region Campaigns */
+.buttonReplacementText {
+  color: #0f784a;
+}
+
+/* #endregion */
+/* #region Medications */
+#MedicationForm .formbuttons {
+  background-color: rgba(255, 255, 255, 0.88);
+}
+
+#MedicationForm.refill-workflow .formbuttons.not-sticky,
+.mobile #MedicationForm.refill-workflow .formbuttons,
+html.datatile #MedicationForm.refill-workflow .formbuttons {
+  background-color: transparent;
+}
+
+#MedicationForm .formbuttons .selected-count {
+  color: #767676;
+}
+
+.refill-workflow .medcard.refill-disabled,
+.refill-workflow .medcard.refill-disabled .medbottom {
+  background-color: #eaeaea;
+}
+.refill-workflow .card.refill-disabled .medmessage {
+  background-color: #767676;
+  color: #eaeaea;
+}
+.refill-workflow .card.refill-disabled .medmessage span {
+  color: #eaeaea;
+}
+.refill-workflow .medcard.refill-disabled * {
+  color: #767676;
+}
+
+.medcard .selection-disabled .cardline.medmessage {
+  background-color: #767676;
+}
+
+.refill-step .prescription-list .see-more-banner .text-layer {
+  background-color: #ffffff;
+}
+
+.section .rxholder .rx .rxsig.temporary {
+  background-color: #ffffa1;
+}
+
+.medcard .selection-enabled input[type=checkbox] + label svg {
+  fill: #767676;
+}
+.medcard .selection-enabled input[type=checkbox] + label svg:hover {
+  fill: #003348;
+}
+
+.med-selection-box input[type=checkbox]:focus + label svg {
+  box-shadow: 0 0 10px rgba(0, 51, 72, 0.5);
+}
+
+.medcard .selection-enabled input[type=checkbox]:checked + label svg {
+  fill: #003348;
+}
+
+.medcard .med-selection-box .selection-disabled svg {
+  fill: #767676;
+}
+
+.refill-workflow .medcard.refill-disabled .medmessage svg {
+  fill: #eaeaea;
+}
+
+.confirmationMessage h2 {
+  color: #363636;
+}
+
+.medbottom .buttonList,
+.pendingUpdatesSection .buttonList {
+  background: #ffffff;
+  border-color: #eaeaea;
+}
+.medbottom .buttonList .button.inlinesave,
+.medbottom .buttonList .button.inlinedelete,
+.pendingUpdatesSection .buttonList .button.inlinesave,
+.pendingUpdatesSection .buttonList .button.inlinedelete {
+  color: #cc0000;
+  background: #ffffff;
+  border-color: #eaeaea;
+}
+.medbottom .buttonList .button.inlinesave:hover,
+.medbottom .buttonList .button.inlinedelete:hover,
+.pendingUpdatesSection .buttonList .button.inlinesave:hover,
+.pendingUpdatesSection .buttonList .button.inlinedelete:hover {
+  background-color: #fbebeb;
+}
+
+.mobile .medbottom .buttonList .button.inlinesave:hover,
+.mobile .medbottom .buttonList .button.inlinedelete:hover,
+.mobile .pendingUpdatesSection .buttonList .button.inlinesave:hover,
+.mobile .pendingUpdatesSection .buttonList .button.inlinedelete:hover {
+  background-color: #ffffff;
+}
+
+.card.medcard .medmessage {
+  background-color: #f8f8f8;
+  border-color: #000000;
+}
+.card.medcard .medwarning {
+  background-color: #ffffa1;
+}
+.card.medcard .warning {
+  background-color: #f8f8f8;
+}
+
+.mobile .card.phrcard .header,
+.mobile .card.medcard .header,
+.mobile .card.medcard .medtitle,
+.mobile .card.clinicalcard .header,
+.mobile .banner-notifications .card .header,
+.mobile .rxReviewDetailsCardList .card .header {
+  color: #363636;
+}
+
+/* #endregion */
+/* #region colors for small screens */
+@media only screen and (max-width: 768px) {
+  .smallWhiteBG.translucentBG {
+    background: #ffffff;
+  }
+}
+/* #endregion */
+/* #region status badge colors */
+.statusBadge.neutral {
+  background-color: #f2bfbf;
+  border-color: #cc0000;
+  color: #363636;
+}
+
+.statusBadge.positive {
+  background-color: #f2aaaa;
+  border-color: #cc0000;
+  color: #651010;
+}
+
+.statusBadge.negative {
+  background-color: #dbdbdb;
+  border-color: #767676;
+  color: #363636;
+}
+
+.statusBadge.pending {
+  background-color: #ffe8c9;
+  border-color: #ffa020;
+  color: #935d15;
+}
+
+/* #endregion */
+/* #region Questionnaires */
+.section.questionsContainer .questiongroup .grouptable .grouptablerow[data-zebrastripeon=true] {
+  background-color: rgba(204, 0, 0, 0.05);
+}
+.section.questionsContainer .questiongroup .grouptable .grouptablerow .grouptablecolumn:not(.responseheader) .groupresponsecolumn:hover {
+  background-color: #f5cccc;
+}
+.mobile .section.questionsContainer .groupRulerCard.card, .mobile .section.questionsContainer > .question.accordion.accordion-show, .mobile .section.questionsContainer > .question.accordion.accordion-expanding, .mobile .section.questionsContainer .questionGroupRulerStyle.promptlessgroup.nohelptext .question.accordion.accordion-show, .mobile .section.questionsContainer .questionGroupRulerStyle.promptlessgroup.nohelptext .question.accordion.accordion-expanding {
+  background-color: rgba(255, 255, 255, 0.95);
+}
+.echeckinqnrmobile .section.questionsContainer > .question.accordion.accordion-show, .echeckinqnrmobile .section.questionsContainer > .question.accordion.accordion-expanding, .echeckinqnrmobile .section.questionsContainer .questionGroupRulerStyle.promptlessgroup.nohelptext .question.accordion.accordion-show, .echeckinqnrmobile .section.questionsContainer .questionGroupRulerStyle.promptlessgroup.nohelptext .question.accordion.accordion-expanding {
+  background-color: rgba(255, 255, 255, 0.95);
+}
+.section.questionsContainer .questionGroupRulerStyle {
+  border-color: #cccccc;
+}
+.section.questionsContainer .questionGroupRulerStyle .flatradiogrouper {
+  background-color: transparent;
+}
+.section.questionsContainer .questionGroupRulerStyle .flatradiogrouper .question.questiongroupitem:after,
+.section.questionsContainer .questionGroupRulerStyle .flatradiogrouper .flatradio.container:after {
+  border-bottom: 1px solid #cccccc;
+}
+.section.questionsContainer .questionGroupRulerStyle.promptlessgroup.nohelptext .question.accordion.firstRow:before {
+  border-top-color: #cccccc;
+}
+
+/* #endregion */
+/* #region Appointments and Visits */
+.Visits .date div,
+.visitdetails .date div {
+  color: #41a0ff;
+}
+
+.pastvisit.card .unviewed-indicator {
+  background-color: #41a0ff;
+}
+
+.md_visitdetails_index .telemedicine,
+.md_visitdetails_index .visitactionbanner {
+  background-color: #f9d5d5;
+}
+.md_visitdetails_index .telemedicine.monochrome,
+.md_visitdetails_index .visitactionbanner.monochrome {
+  background-color: rgba(118, 118, 118, 0.02);
+}
+
+/* #endregion */
+/* #region Billing related */
+#letters tbody tr.new td a:before,
+#statements tbody tr.new td a:before,
+.ba_details_statement_indicator .unreaddot:before,
+.ba_details_letter_indicator .unreaddot:before {
+  background-color: #41a0ff;
+  border-color: #ffffff;
+}
+
+.pmtStep p.separator {
+  color: #832121;
+}
+
+.mobile #letters tbody tr.new td a:before,
+.mobile #statements tbody tr.new td a:before {
+  background-color: #d80000;
+}
+
+/* #endregion */
+/* #region Content Linking related */
+.mobile .md_docdisp h1.header {
+  color: #363636;
+}
+
+/* #endregion */
+/* #region COVID-19 Status activity */
+#CovidStatusContainer .statusDetected,
+#CovidStatusContainer .statusHighRisk, #CovidBarcodesContainer .statusDetected,
+#CovidBarcodesContainer .statusHighRisk {
+  color: #d80000;
+}
+#CovidStatusContainer .statusComplete, #CovidBarcodesContainer .statusComplete {
+  color: #0f784a;
+}
+#CovidStatusContainer .iconStatus, #CovidBarcodesContainer .iconStatus {
+  fill: #363636;
+}
+#CovidStatusContainer .iconStatusDetected,
+#CovidStatusContainer .iconStatusHighRisk, #CovidBarcodesContainer .iconStatusDetected,
+#CovidBarcodesContainer .iconStatusHighRisk {
+  fill: #d80000;
+}
+#CovidStatusContainer .iconStatusComplete, #CovidBarcodesContainer .iconStatusComplete {
+  fill: #0f784a;
+}
+#CovidStatusContainer .iconArrow, #CovidBarcodesContainer .iconArrow {
+  fill: #999999;
+}
+#CovidStatusContainer .iconLink, #CovidBarcodesContainer .iconLink {
+  fill: #cc0000;
+}
+#CovidStatusContainer .questionnaireContainer .printLink, #CovidBarcodesContainer .questionnaireContainer .printLink {
+  background: #ffffff;
+}
+#CovidStatusContainer .covidQuestionnaireLinkContainer .covidQuestionnaireLink, #CovidBarcodesContainer .covidQuestionnaireLinkContainer .covidQuestionnaireLink {
+  color: #cc0000;
+}
+#CovidStatusContainer .factorContainer:after, #CovidBarcodesContainer .factorContainer:after {
+  border-bottom-color: #cccccc;
+}
+
+.covidbarcodecontainer .barcodeCardIcon {
+  fill: #cc0000;
+}
+
+.covidExportContainer .exportOptionIcon {
+  fill: #cc0000;
+}
+.covidExportContainer .covidExportHeader .headerIcon {
+  fill: #cc0000;
+}
+
+/* #endregion */
